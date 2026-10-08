@@ -1387,3 +1387,189 @@
   source_version: cluster1-2027-v2
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
+
+- id: luciano-potena--care-02
+  researcher_id: luciano-potena
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Heart-failure polypharmacy and deprescribing
+  contribution: Heart-failure polypharmacy, deprescribing and medication-reconciliation research in inpatient and outpatient pathways.
+  assets:
+    - Active protocol development
+    - Cardiovascular clinical cohorts
+  possible_contribution: Cardiovascular clinical work package and intervention validation
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: giorgia-comai--care-02
+  researcher_id: giorgia-comai
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Kidney transplant medication review
+  contribution: Structured medication review for kidney-transplant recipients exposed to polypharmacy narrow-therapeutic-index immunosuppressants and drug-drug interactions.
+  assets:
+    - Nephrology pathways
+    - Kidney-transplant expertise
+  possible_contribution: Transplant cohort medication review and clinical validation
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: marina-tadolini--care-02
+  researcher_id: marina-tadolini
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Complex multidrug regimens
+  contribution: Infectious-disease expertise in patients receiving complex multidrug regimens.
+  assets:
+    - Drug-drug interaction expertise
+    - Adverse-reaction management
+  possible_contribution: Clinical validation site for complex polypharmacy
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: emanuel-raschi--care-02
+  researcher_id: emanuel-raschi
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Pharmacoepidemiology and prescribing appropriateness
+  contribution: Medication-review interventions prescribing appropriateness adherence and pharmacoepidemiological studies.
+  assets:
+    - Clinical pharmacology
+    - Real-world drug-safety research
+  possible_contribution: Pharmacoepidemiology and implementation evaluation
+  contribution_types:
+    - data
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: michele-protti--care-02
+  researcher_id: michele-protti
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Pharmaco-exposomics and ADR biomarkers
+  contribution: Pharmaco-exposomics and profiling of drugs metabolites and candidate ADR biomarkers.
+  assets:
+    - Advanced mass spectrometry
+    - Analytical validation
+  possible_contribution: Molecular profiling and biomarker validation
+  contribution_types:
+    - method
+    - data
+  capability_ids:
+    - omics
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: alessandra-stancari--care-02
+  researcher_id: alessandra-stancari
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Clinical pharmacy medication review
+  contribution: Clinical-pharmacy medication review across nephrology infectious disease and cardiovascular care.
+  assets:
+    - Multidisciplinary medication-review pathways
+  possible_contribution: Clinical pharmacy and implementation
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: maria-trapanese--care-02
+  researcher_id: maria-trapanese
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Medication reconciliation
+  contribution: Clinical-pharmacy expertise supporting medication reconciliation prescribing appropriateness and risk prevention.
+  assets:
+    - Hospital clinical pharmacy platform
+  possible_contribution: Medication review and implementation support
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: giulia-fiorini--care-02
+  researcher_id: giulia-fiorini
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Heart-failure deprescribing pathway
+  contribution: Heart-failure polypharmacy and deprescribing pathway with prospective collaboration potential.
+  assets:
+    - Cardiovascular medicine
+    - Clinical-study development
+  possible_contribution: Heart-failure cohort and intervention delivery
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: valeria-corradetti--care-02
+  researcher_id: valeria-corradetti
+  topic_id: horizon-hlth-2027-01-care-02
+  title: Transplant polypharmacy safety
+  contribution: High-risk transplant polypharmacy and structured pharmacist-nephrologist medication review.
+  assets:
+    - Kidney-transplant care
+    - Narrow-therapeutic-index drug management
+  possible_contribution: Transplant medication-safety pathway
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
