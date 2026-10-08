@@ -1,4 +1,3 @@
-[]
 - id: milena-raffi--stayhlth-01
   researcher_id: milena-raffi
   topic_id: horizon-hlth-2027-01-stayhlth-01
@@ -24,7 +23,7 @@
   assets:
     - Medical technology
     - Real-world monitoring methods
-    - Digital-health integration
+    - Digital-health and data-integration expertise
   possible_contribution: Digital monitoring and data-interoperability work package
   contribution_types:
     - data
@@ -54,3 +53,76 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+
+- id: maria-giulia-bacalini--stayhlth-01
+  researcher_id: maria-giulia-bacalini
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Down syndrome longitudinal cohort research
+  contribution: Clinical, neuropsychological and biological characterisation in Down syndrome across the life course.
+  assets:
+    - Cohort-based clinical research
+    - Molecular research in Down syndrome
+  possible_contribution: Clinical phenotyping and longitudinal cohort contribution
+  contribution_types:
+    - cohort
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: francesca-ingravallo--stayhlth-01
+  researcher_id: francesca-ingravallo
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Disability assessment ethics and rights
+  contribution: ICF-based disability assessment, rights and legal frameworks, quality of life, ethics and patient and public involvement.
+  assets:
+    - Disability assessment
+    - Bioethics
+    - Health law
+    - Outcome assessment
+  possible_contribution: SSH, ethics, co-design and outcome framework
+  contribution_types:
+    - ssh
+    - ethics-regulation
+  capability_ids:
+    - ssh
+    - ethics-regulation
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: maria-chiara-pelleri--stayhlth-01
+  researcher_id: maria-chiara-pelleri
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Down syndrome clinical networks
+  contribution: Down-syndrome clinical networks and integration of clinical and molecular data.
+  assets:
+    - Clinical expertise
+    - Paediatric expertise
+    - FAIR-oriented data contribution
+  possible_contribution: Clinical network, phenotyping and data work package
+  contribution_types:
+    - cohort
+    - data
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: giulia-balboni--stayhlth-01
+  researcher_id: giulia-balboni
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Intellectual disability outcome assessment
+  contribution: Validated measurement of adaptive behaviour, support needs, self-determination and quality of life in intellectual disability.
+  assets:
+    - Psychometric instruments
+    - Intellectual-disability outcome research
+  possible_contribution: Patient-centred outcomes and intervention evaluation
+  contribution_types:
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure
