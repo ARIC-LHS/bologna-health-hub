@@ -1,1 +1,56 @@
 []
+- id: milena-raffi--stayhlth-01
+  researcher_id: milena-raffi
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Inclusive and adapted physical-activity approaches
+  contribution: Inclusive and adapted physical-activity approaches supporting autonomy, participation and community engagement.
+  assets:
+    - Experience in motor and physiological assessment
+    - Community-based activity programmes
+  possible_contribution: Intervention design, functional outcomes and community implementation
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: sabato-mellone--stayhlth-01
+  researcher_id: sabato-mellone
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Digital monitoring for independent living
+  contribution: Wearable sensing, digital biomarkers and interoperable data pathways for monitoring function in everyday settings.
+  assets:
+    - Medical technology
+    - Real-world monitoring methods
+    - Digital-health integration
+  possible_contribution: Digital monitoring and data-interoperability work package
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - digital-biomarkers
+    - interoperability
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: laura-mercolini--stayhlth-01
+  researcher_id: laura-mercolini
+  topic_id: horizon-hlth-2027-01-stayhlth-01
+  title: Decentralised monitoring
+  contribution: Accessible home microsampling and longitudinal therapeutic monitoring suitable for decentralised care pathways.
+  assets:
+    - Bioanalytical methods
+    - Microsampling
+    - Analytical validation
+  possible_contribution: Decentralised monitoring and analytical validation
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
