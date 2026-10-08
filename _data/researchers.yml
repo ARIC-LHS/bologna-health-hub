@@ -1,5 +1,5 @@
-- id: sabato-mellone
-  name: Sabato Mellone
+- id: milena-raffi
+  name: Milena Raffi
   institution_id: unibo
   capability_ids: []
   infrastructure_ids: []
@@ -9,8 +9,8 @@
   public_email: ""
   status: expression-of-interest
 
-- id: milena-raffi
-  name: Milena Raffi
+- id: sabato-mellone
+  name: Sabato Mellone
   institution_id: unibo
   capability_ids: []
   infrastructure_ids: []
@@ -107,3 +107,101 @@
   contact_model: aric-first
   public_email: ""
   status: expression-of-interest
+
+- id: andrea-bedini
+  name: Andrea Bedini
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: sabrina-valente
+  name: Sabrina Valente
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: claudia-zanna
+  name: Claudia Zanna
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: marco-candela
+  name: Marco Candela
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: francesca-maffei
+  name: Francesca Maffei
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: monica-forni
+  name: Monica Forni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: stefano-mattioli
+  name: Stefano Mattioli
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: tullia-gallina-toschi
+  name: Tullia Gallina Toschi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: roberta-spadoni
+  name: Roberta Spadoni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  
