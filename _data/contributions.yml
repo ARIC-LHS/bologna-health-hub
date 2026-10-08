@@ -1215,4 +1215,175 @@
   researcher_id: lidia-strigari
   topic_id: horizon-hlth-2027-02-disease-01-two-stage
   title: AI and predictive modelling
-  contribution: AI and predictive modelling for clinical stratification
+  contribution: AI and predictive modelling for clinical stratification and outcome assessment.
+  assets:
+    - Imaging analytics
+    - Predictive-model development
+  possible_contribution: Quantitative modelling and clinical decision support
+  contribution_types:
+    - method
+    - data
+  capability_ids:
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+  - id: sabato-mellone--disease-14
+  researcher_id: sabato-mellone
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Digital health infrastructure for multicentre trials
+  contribution: Digital-health infrastructure, wearable monitoring and interoperable real-world data for multicentre trials.
+  assets:
+    - Medical technology
+    - Remote monitoring expertise
+  possible_contribution: Digital trial infrastructure and data integration
+  contribution_types:
+    - data
+    - clinical-trial
+  capability_ids:
+    - interoperability
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: rita-stagni--disease-14
+  researcher_id: rita-stagni
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Quantitative motor assessment
+  contribution: Quantitative motor assessment and wearable-derived functional endpoints.
+  assets:
+    - Movement analysis
+    - Digital measurement methods
+  possible_contribution: Digital motor endpoints and assessment protocols
+  contribution_types:
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: maria-cristina-bisi--disease-14
+  researcher_id: maria-cristina-bisi
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Real-world treatment-response monitoring
+  contribution: Adult movement-analysis protocols and real-world digital measures for treatment-response assessment.
+  assets:
+    - Wearables
+    - Gait analysis
+    - Longitudinal monitoring
+  possible_contribution: Digital outcomes and response monitoring
+  contribution_types:
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: francesca-ingravallo--disease-14
+  researcher_id: francesca-ingravallo
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Ethics and patient involvement
+  contribution: Ethics, regulatory governance, patient involvement and patient-reported outcomes for clinical trials.
+  assets:
+    - Bioethics
+    - Health law
+    - Clinical-research governance
+  possible_contribution: Ethics, PPI, consent and PROMs
+  contribution_types:
+    - ssh
+    - ethics-regulation
+  capability_ids:
+    - ssh
+    - ethics-regulation
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: sara-borgomaneri--disease-14
+  researcher_id: sara-borgomaneri
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Non-invasive brain stimulation
+  contribution: Transcranial magnetic-stimulation protocols targeting age-related motor-system plasticity.
+  assets:
+    - Non-invasive brain stimulation
+    - Neurophysiology
+  possible_contribution: Non-pharmacological intervention and neurophysiological endpoints
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-palmerini--disease-14
+  researcher_id: luca-palmerini
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Parkinson digital biomarkers
+  contribution: Parkinson clinical-trial experience, wearable sensors, real-world monitoring and digital biomarkers.
+  assets:
+    - Multicentre movement-data expertise
+    - Digital-endpoint expertise
+  possible_contribution: Parkinson trials, digital biomarkers and RWD
+  contribution_types:
+    - clinical-trial
+    - data
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: caterina-garone--disease-14
+  researcher_id: caterina-garone
+  topic_id: horizon-hlth-2027-02-disease-14-two-stage
+  title: Mitochondrial and neurodegenerative disease translation
+  contribution: Preclinical and clinical research capabilities for mitochondrial and neurodegenerative disorders.
+  assets:
+    - In-vitro models
+    - In-vivo models
+    - Clinical translational expertise
+  possible_contribution: Mechanistic translation and clinical-study contribution
+  contribution_types:
+    - model
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
