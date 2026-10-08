@@ -30,3 +30,80 @@
   contact_model: aric-first
   public_email: ""
   status: expression-of-interest
+
+- id: maria-giulia-bacalini
+  name: Maria Giulia Bacalini
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: francesca-ingravallo
+  name: Francesca Ingravallo
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: maria-chiara-pelleri
+  name: Maria Chiara Pelleri
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: giulia-balboni
+  name: Giulia Balboni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: marco-luppi
+  name: Marco Luppi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: angela-montanari
+  name: Angela Montanari
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
+
+- id: monica-baiula
+  name: Monica Baiula
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
