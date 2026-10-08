@@ -784,6 +784,53 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
+- id: maddalena-giannella--disease-08
+  researcher_id: maddalena-giannella
+  topic_id: horizon-hlth-2027-01-disease-08
+  title: Clinical research on multidrug-resistant infections
+  contribution: >-
+    Clinical research on multidrug-resistant Gram-negative infections, including
+    multicentre studies and PK/PD integration.
+  assets:
+    - Clinical AMR cohorts
+    - Infectious-disease trial capability
+  possible_contribution: Clinical validation, patient cohorts and PK/PD
+  contribution_types:
+    - cohort
+    - clinical-trial
+  capability_ids:
+    - clinical-cohorts
+    - clinical-trials
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: alessandra-bolotta--disease-08
+  researcher_id: alessandra-bolotta
+  topic_id: horizon-hlth-2027-01-disease-08
+  title: Antimicrobial-peptide research and testing
+  contribution: >-
+    Antimicrobial-peptide research and biological testing relevant to novel
+    anti-infective strategies.
+  assets:
+    - Peptide-based antimicrobial expertise
+    - Laboratory expertise
+  possible_contribution: Candidate testing and biological validation
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
   - id: milena-raffi--disease-10
   researcher_id: milena-raffi
   topic_id: horizon-hlth-2027-01-disease-10
