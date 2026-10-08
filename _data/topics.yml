@@ -1,1 +1,77 @@
+- id: horizon-hlth-2027-01-stayhlth-01
+  code: HORIZON-HLTH-2027-01-STAYHLTH-01
+  destination: 1
+  title: Addressing disabilities through the life course to support independent living and inclusion
+  action_type: RIA
 
+- id: horizon-hlth-2027-01-envhlth-02
+  code: HORIZON-HLTH-2027-01-ENVHLTH-02
+  destination: 2
+  title: Integrating climate-related exposures into the human exposome and characterising its changes in response to climate change
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-disease-05
+  code: HORIZON-HLTH-2027-01-DISEASE-05
+  destination: 3
+  title: Development of novel small molecule antiviral therapeutics for pathogens with epidemic potential
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-disease-06
+  code: HORIZON-HLTH-2027-01-DISEASE-06
+  destination: 3
+  title: Development of monoclonal antibodies to prevent and treat infections from Flaviviruses
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-disease-07
+  code: HORIZON-HLTH-2027-01-DISEASE-07
+  destination: 3
+  title: Development of monoclonal antibodies to prevent and treat infections from Filo-, Nairo-, Phenui-, Picorna- and Toga viruses
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-disease-08
+  code: HORIZON-HLTH-2027-01-DISEASE-08
+  destination: 3
+  title: Development of innovative antimicrobials against pathogens resistant to antimicrobials
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-disease-10
+  code: HORIZON-HLTH-2027-01-DISEASE-10
+  destination: 3
+  title: Prevention and management of chronic non-communicable diseases in children and young people (GACD)
+  action_type: RIA
+
+- id: horizon-hlth-2027-02-disease-01-two-stage
+  code: HORIZON-HLTH-2027-02-DISEASE-01-two-stage
+  destination: 3
+  title: Innovative healthcare interventions for non-communicable diseases
+  action_type: RIA
+
+- id: horizon-hlth-2027-02-disease-14-two-stage
+  code: HORIZON-HLTH-2027-02-DISEASE-14-two-stage
+  destination: 3
+  title: Clinical trials for advancing innovative interventions for neurodegenerative diseases
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-care-02
+  code: HORIZON-HLTH-2027-01-CARE-02
+  destination: 4
+  title: Personalised approaches to reduce risks from Adverse Drug Reactions due to administration of multiple medications
+  action_type: RIA
+
+- id: horizon-hlth-2027-02-tool-01-two-stage
+  code: HORIZON-HLTH-2027-02-TOOL-01-two-stage
+  destination: 5
+  title: Development of predictive biomarkers of disease progression and treatment response by using AI methodologies for chronic non-communicable diseases
+  action_type: RIA
+
+- id: horizon-hlth-2027-01-ind-01
+  code: HORIZON-HLTH-2027-01-IND-01
+  destination: 6
+  title: Development of cell-free protein synthesis platforms for discovery and/or production of biologicals
+  action_type: RIA
+
+- id: horizon-hlth-2027-02-ind-02-two-stage
+  code: HORIZON-HLTH-2027-02-IND-02-two-stage
+  destination: 6
+  title: Portable and versatile Point-of-care diagnostics
+  action_type: IA
