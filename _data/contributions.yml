@@ -1620,3 +1620,352 @@
   source_version: cluster1-2027-v2
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
+
+- id: luciano-potena--tool-01
+  researcher_id: luciano-potena
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: BIOTOOL-CHF biomarker platform
+  contribution: BIOTOOL-CHF prospective cohort, biobanked samples and biomarker-guided heart-failure therapy as a platform for AI-based follow-on research.
+  assets:
+    - BIOTOOL-CHF cohort
+    - Biobanked samples
+  possible_contribution: Heart-failure cohort biomarker programme and coordination
+  contribution_types:
+    - cohort
+    - data
+  capability_ids:
+    - clinical-cohorts
+    - biobanking
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: olivia-manfrini--tool-01
+  researcher_id: olivia-manfrini
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Sex-sensitive cardiovascular phenotyping
+  contribution: Sex-sensitive cardiovascular phenotyping and outcomes for personalised prediction models.
+  assets:
+    - Cardiovascular clinical research
+    - Sex and gender analysis
+  possible_contribution: Clinical phenotyping and stratified analysis
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: lidia-strigari--tool-01
+  researcher_id: lidia-strigari
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Imaging biomarkers and AI
+  contribution: Imaging analytics AI and predictive modelling for patient stratification and outcomes.
+  assets:
+    - Quantitative imaging
+    - Model-development expertise
+  possible_contribution: AI modelling and imaging biomarkers
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: cristian-martignani--tool-01
+  researcher_id: cristian-martignani
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Spatial multiomics and biomechanics
+  contribution: Atrial-fibrillation concept integrating spatial multi-omics biomechanics and AI.
+  assets:
+    - Cardiac electrophysiology
+    - Translational AF research
+  possible_contribution: AF clinical programme and multimodal biomarker integration
+  contribution_types:
+    - data
+  capability_ids:
+    - omics
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: igor-diemberger--tool-01
+  researcher_id: igor-diemberger
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: AF and HF cohorts
+  contribution: Atrial-fibrillation and heart-failure cohorts implanted devices remote monitoring and real-world data.
+  assets:
+    - Cardiovascular clinical-trial infrastructure
+    - Digital monitoring infrastructure
+  possible_contribution: Clinical cohorts RWD and prospective validation
+  contribution_types:
+    - cohort
+    - data
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: sabato-mellone--tool-01
+  researcher_id: sabato-mellone
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: FAIR data and trustworthy AI
+  contribution: FAIR data interoperability trustworthy AI and digital biomarkers supported by health-data infrastructure.
+  assets:
+    - Digital-health platforms
+    - Longitudinal data integration
+  possible_contribution: Data architecture digital biomarkers and trustworthy AI
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - interoperability
+    - digital-biomarkers
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+  - id: sabrina-valente--tool-01
+  researcher_id: sabrina-valente
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Cellular and tissue validation models
+  contribution: Cellular and tissue models for biological validation of candidate biomarkers.
+  assets:
+    - Human-relevant experimental platforms
+  possible_contribution: Mechanistic and experimental validation
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: marco-montevecchi--tool-01
+  researcher_id: marco-montevecchi
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Oral disease biomarkers
+  contribution: MMP-8 and microbiological peri-implant markers supported by clinical phenotyping.
+  assets:
+    - Oral clinical studies
+    - Peri-implant clinical studies
+  possible_contribution: Oral-disease biomarker cohort and clinical validation
+  contribution_types:
+    - cohort
+    - data
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: antonella-carbonaro--tool-01
+  researcher_id: antonella-carbonaro
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Knowledge graphs and clinical digital twins
+  contribution: Knowledge graphs, FHIR harmonisation, clinical digital twins and longitudinal prevention services.
+  assets:
+    - Health informatics
+    - Interoperable AI pipelines
+  possible_contribution: Data harmonisation knowledge representation and decision support
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - interoperability
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: rita-fioresi--tool-01
+  researcher_id: rita-fioresi
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Mathematical predictive modelling
+  contribution: Mathematical and algorithmic methods for predictive modelling.
+  assets:
+    - Quantitative modelling expertise
+  possible_contribution: Algorithm development and methodological support
+  contribution_types:
+    - method
+  capability_ids:
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: rita-stagni--tool-01
+  researcher_id: rita-stagni
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Wearable-derived motor biomarkers
+  contribution: Wearable-derived motor biomarkers and interoperable movement-data infrastructure.
+  assets:
+    - Biomechanics
+    - Sensor data
+    - Movement analysis
+  possible_contribution: Digital biomarker development and validation
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: maria-cristina-bisi--tool-01
+  researcher_id: maria-cristina-bisi
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Longitudinal movement biomarkers
+  contribution: Longitudinal real-world movement data and treatment-response markers for multimodal models.
+  assets:
+    - Wearable sensing
+    - Clinical movement assessment
+  possible_contribution: Digital outcomes and multimodal validation
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: antonello-lorenzini--tool-01
+  researcher_id: antonello-lorenzini
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Benchmark models and evidence synthesis
+  contribution: Classical-statistical benchmarks and evidence synthesis for nutrition and chronic-disease risk models.
+  assets:
+    - Quantitative evidence integration
+  possible_contribution: Benchmark modelling and evidence synthesis
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: michele-protti--tool-01
+  researcher_id: michele-protti
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Metabolomics and exposomics validation
+  contribution: Metabolomics and exposomics from discovery through targeted independent validation.
+  assets:
+    - Mass spectrometry
+    - Feature generation
+    - Analytical validation
+  possible_contribution: Molecular biomarker discovery and validation
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - omics
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-palmerini--tool-01
+  researcher_id: luca-palmerini
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Parkinson digital biomarkers and AI
+  contribution: Parkinson digital biomarkers AI and machine learning movement analysis and multicentre real-world monitoring.
+  assets:
+    - Wearable sensor datasets
+    - Clinical-trial experience
+  possible_contribution: Neurological digital biomarkers and external validation
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - digital-biomarkers
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: federico-ravaioli--tool-01
+  researcher_id: federico-ravaioli
+  topic_id: horizon-hlth-2027-02-tool-01-two-stage
+  title: Longitudinal MASLD validation cohorts
+  contribution: Longitudinal MASLD cohorts with multimodal imaging laboratory data histology biobanked samples and clinical outcomes.
+  assets:
+    - Structured follow-up
+    - Independent validation capacity
+  possible_contribution: Metabolic-liver-disease cohort and prospective validation
+  contribution_types:
+    - cohort
+    - data
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
