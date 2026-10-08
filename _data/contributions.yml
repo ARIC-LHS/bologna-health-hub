@@ -473,3 +473,203 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+
+# HORIZON-HLTH-2027-01-DISEASE-05
+
+- id: barbara-zambelli--disease-05
+  researcher_id: barbara-zambelli
+  topic_id: horizon-hlth-2027-01-disease-05
+  title: Antiviral target validation and lead optimisation
+  contribution: >-
+    Protein-ligand interaction and mechanistic characterisation supporting
+    antiviral target validation and lead optimisation.
+  assets:
+    - Biochemistry
+    - Metalloenzyme research
+    - Molecular interaction methods
+  possible_contribution: Target validation and mode-of-action studies
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-mazzei--disease-05
+  researcher_id: luca-mazzei
+  topic_id: horizon-hlth-2027-01-disease-05
+  title: Structural analysis and candidate optimisation
+  contribution: >-
+    Structural and biochemical analysis supporting structure-activity
+    relationships and candidate optimisation.
+  assets:
+    - Protein structure-function methods
+    - Molecular characterisation
+  possible_contribution: Structural biology and SAR support
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+
+# HORIZON-HLTH-2027-01-DISEASE-06
+
+- id: barbara-zambelli--disease-06
+  researcher_id: barbara-zambelli
+  topic_id: horizon-hlth-2027-01-disease-06
+  title: Recombinant antigen and antibody-fragment characterisation
+  contribution: >-
+    Recombinant antigen, nanobody and Fab production with quantitative
+    interaction and mechanism studies.
+  assets:
+    - Protein production
+    - Biophysical characterisation
+    - Biochemical characterisation
+  possible_contribution: Antigen-antibody interaction and candidate characterisation
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-mazzei--disease-06
+  researcher_id: luca-mazzei
+  topic_id: horizon-hlth-2027-01-disease-06
+  title: Structural analysis of antigen-antibody recognition
+  contribution: >-
+    Structural analysis of antigen-antibody recognition to support candidate
+    selection and optimisation.
+  assets:
+    - Protein structure-function methods
+    - Molecular interaction expertise
+  possible_contribution: Structural characterisation and mechanism support
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+
+# HORIZON-HLTH-2027-01-DISEASE-07
+
+- id: barbara-zambelli--disease-07
+  researcher_id: barbara-zambelli
+  topic_id: horizon-hlth-2027-01-disease-07
+  title: Recombinant proteins and antibody fragments
+  contribution: >-
+    Recombinant proteins, nanobodies and Fab fragments for antigen recognition
+    and mechanistic characterisation.
+  assets:
+    - Protein-expression platforms
+    - Molecular-interaction platforms
+  possible_contribution: Candidate characterisation and mechanism studies
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-mazzei--disease-07
+  researcher_id: luca-mazzei
+  topic_id: horizon-hlth-2027-01-disease-07
+  title: Structural analysis of antigen-antibody complexes
+  contribution: >-
+    Structural and biochemical analysis of antigen-antibody complexes supporting
+    candidate optimisation.
+  assets:
+    - Structure-function analysis
+    - Interaction analysis
+  possible_contribution: Structural biology and optimisation support
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+
+# HORIZON-HLTH-2027-01-DISEASE-08
+
+- id: marco-rinaldo-oggioni--disease-08
+  researcher_id: marco-rinaldo-oggioni
+  topic_id: horizon-hlth-2027-01-disease-08
+  title: Human-organ perfusion models for antimicrobial research
+  contribution: >-
+    Human-organ perfusion models for antimicrobial research, including a
+    Klebsiella-focused intervention concept.
+  assets:
+    - Human-relevant infection models
+    - Bacterial pathogenesis expertise
+  possible_contribution: Human-model validation and translational antimicrobial studies
+  contribution_types:
+    - model
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: barbara-zambelli--disease-08
+  researcher_id: barbara-zambelli
+  topic_id: horizon-hlth-2027-01-disease-08
+  title: Microbial target validation
+  contribution: >-
+    Metalloenzyme and virulence-target validation with molecular mode-of-action
+    studies.
+  assets:
+    - Biochemical characterisation of microbial targets
+    - Structural characterisation of microbial targets
+  possible_contribution: Target validation and mechanism work package
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: luca-mazzei--disease-08
+  researcher_id: luca-mazzei
+  topic_id: horizon-hlth-2027-01-disease-08
+  title: Antimicrobial lead optimisation
+  contribution: >-
+    Structural biology and structure-activity analysis supporting antimicrobial
+    lead optimisation.
+  assets:
+    - Protein structure-function methods
+    - Molecular 
