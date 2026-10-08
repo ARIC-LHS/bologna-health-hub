@@ -126,3 +126,350 @@
   capability_ids:
     - ssh
   infrastructure
+
+- id: marco-luppi--envhlth-02
+  researcher_id: marco-luppi
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Temperature-sensitive biological pathways
+  contribution: Mechanistic investigation of temperature-sensitive biological pathways, including tau-related responses.
+  assets:
+    - Experimental molecular-neuroscience methods
+  possible_contribution: Mechanistic hypothesis testing within a broader exposome design
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: milena-raffi--envhlth-02
+  researcher_id: milena-raffi
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Climate vulnerability phenotyping
+  contribution: Multimodal physiological phenotyping of climate-related vulnerability and resilience integrating lifestyle and functional responses.
+  assets:
+    - Human physiological assessment
+    - Motor assessment methods
+  possible_contribution: Human phenotyping and exposure-response outcomes
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: angela-montanari--envhlth-02
+  researcher_id: angela-montanari
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Multi-view exposome data integration
+  contribution: Advanced integration of multi-view, compositional and microbiome data for complex exposome analyses.
+  assets:
+    - Unsupervised learning
+    - Statistical methods for heterogeneous biological data
+  possible_contribution: Data integration and statistical methodology
+  contribution_types: [data, method]
+  capability_ids:
+    - ai-data
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: monica-baiula--envhlth-02
+  researcher_id: monica-baiula
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Exposure-related biomarker assessment
+  contribution: Cellular mechanisms and biomarker assessment of exposure-related biological effects.
+  assets:
+    - In-vitro pharmacological models
+    - Cellular models
+  possible_contribution: Mechanistic and biomarker studies
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: andrea-bedini--envhlth-02
+  researcher_id: andrea-bedini
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Environmental stressor response pathways
+  contribution: Experimental characterisation of cellular responses and molecular pathways linked to environmental stressors.
+  assets:
+    - Cell-based methods
+    - Pharmacological methods
+  possible_contribution: Mechanistic experimental contribution
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: sabrina-valente--envhlth-02
+  researcher_id: sabrina-valente
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Human-relevant exposure-response models
+  contribution: Human-relevant experimental platforms for assessing biological responses to environmental exposures.
+  assets:
+    - Cellular models
+    - Tissue models
+    - Translational laboratory methods
+  possible_contribution: Experimental model and validation contribution
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: claudia-zanna--envhlth-02
+  researcher_id: claudia-zanna
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Mitochondrial exposure biomarkers
+  contribution: Exposure-responsive RNA and mitochondrial biomarkers supported by advanced human-relevant models.
+  assets:
+    - Molecular biomarker expertise
+    - Mitochondrial-function expertise
+  possible_contribution: Mechanistic biomarkers and experimental validation
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: marco-candela--envhlth-02
+  researcher_id: marco-candela
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Microbiome and One Health pathways
+  contribution: Microbiome and multi-omics analysis linking environmental change, host biology and One Health pathways.
+  assets:
+    - Microbiome profiling
+    - Systems biology
+    - Multi-omics integration
+  possible_contribution: Microbiome and host-environment interaction work package
+  contribution_types: [data]
+  capability_ids:
+    - omics
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: francesca-maffei--envhlth-02
+  researcher_id: francesca-maffei
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Human biomonitoring and ethics
+  contribution: Integrated biomarkers and multi-omics in human exposure contexts, with ethics, SSH and communication expertise.
+  assets:
+    - Human biomonitoring
+    - Molecular epidemiology
+  possible_contribution: Human biomonitoring, ethics and communication
+  contribution_types:
+    - data
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: monica-forni--envhlth-02
+  researcher_id: monica-forni
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Biobanking quality workflows
+  contribution: Quality-assured biospecimen and microbiome workflows aligned with biobanking standards.
+  assets:
+    - BBMRI-oriented biobanking
+    - Metadata expertise
+    - Sample-quality expertise
+  possible_contribution: Biobanking, SOPs, quality assurance and metadata
+  contribution_types:
+    - infrastructure
+  capability_ids:
+    - biobanking
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: stefano-mattioli--envhlth-02
+  researcher_id: stefano-mattioli
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Contaminant biomonitoring
+  contribution: Targeted and untargeted biomonitoring of contaminants and exposure/effect biomarkers.
+  assets:
+    - Occupational health
+    - Environmental health
+    - Analytical biomonitoring
+  possible_contribution: Exposure assessment and human biomonitoring
+  contribution_types:
+    - data
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: tullia-gallina-toschi--envhlth-02
+  researcher_id: tullia-gallina-toschi
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Climate-food-health pathways
+  contribution: Analysis of climate-food-quality-health pathways including chemical and sensory dimensions.
+  assets:
+    - Food-quality analytics
+    - Food-system research
+  possible_contribution: Food-related exposure pathways and analytical characterisation
+  contribution_types: [method]
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: roberta-spadoni--envhlth-02
+  researcher_id: roberta-spadoni
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Climate resilient food behaviour
+  contribution: Consumer behaviour, vulnerability and adoption of climate-resilient food choices.
+  assets:
+    - Food economics
+    - Consumer studies
+    - Sustainability
+  possible_contribution: SSH behavioural research and uptake
+  contribution_types:
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: cristiana-caliceti--envhlth-02
+  researcher_id: cristiana-caliceti
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Exposure-response biosensors
+  contribution: Scalable biosensors for repeated measurement of exposure-response relationships and early biological effects.
+  assets:
+    - Biosensor development
+    - Biological validation
+  possible_contribution: Sensor technology and repeated-measures monitoring
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: antonello-lorenzini--envhlth-02
+  researcher_id: antonello-lorenzini
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Diet and chronic disease benchmarks
+  contribution: Evidence synthesis and benchmark models linking diet exposures and chronic-disease risk.
+  assets:
+    - Nutrition research
+    - Ageing research
+    - Quantitative evidence synthesis
+  possible_contribution: Evidence synthesis and risk modelling
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: enrico-valli--envhlth-02
+  researcher_id: enrico-valli
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Food quality analytics
+  contribution: Analytical characterisation of food quality and authenticity relevant to climate-sensitive exposure pathways.
+  assets:
+    - Advanced food-analysis methods
+  possible_contribution: Food-exposure analytics
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: luca-mulazzani--envhlth-02
+  researcher_id: luca-mulazzani
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Climate-food economics
+  contribution: Econometric analysis of climate-driven food prices, consumption patterns and differentiated vulnerability.
+  assets:
+    - Agricultural economics
+    - Food economics
+  possible_contribution: Socioeconomic pathways inequalities and policy analysis
+  contribution_types:
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: francesco-decataldo--envhlth-02
+  researcher_id: francesco-decataldo
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Contaminant detection
+  contribution: Detection of contaminants and laboratory assessment of associated cytotoxic effects.
+  assets:
+    - Spectroscopic sensing
+    - Electrical sensing
+    - Cellular assays
+  possible_contribution: Contaminant detection and effect validation
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: giulia-maesano--envhlth-02
+  researcher_id: giulia-maesano
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Exposure perception and adaptation
+  contribution: Discrete-choice and econometric analysis of exposure perception inequalities and adaptation behaviours.
+  assets:
+    - Health economics
+    - Food economics
+    - Stated-preference methods
+  possible_contribution: SSH behavioural response and inequality analysis
+  contribution_types:
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+
+- id: ohad-zivan--envhlth-02
+  researcher_id: ohad-zivan
+  topic_id: horizon-hlth-2027-01-envhlth-02
+  title: Weather pollution and exposure assessment
+  contribution: Local weather air-pollution and human-exposure assessment linked to epidemiological analysis.
+  assets:
+    - Atmospheric modelling
+    - Exposure modelling
+    - Environmental epidemiology
+  possible_contribution: Climate-exposure modelling and epidemiological linkage
+  contribution_types:
+    - data
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
