@@ -1,1 +1,54 @@
+institutions:
+  - unibo
+  - aoubo
+  - ior
+  - isnb
 
+action_types:
+  - RIA
+  - IA
+  - CSA
+
+capability_ids:
+  - ai-data
+  - digital-biomarkers
+  - interoperability
+  - clinical-cohorts
+  - clinical-trials
+  - omics
+  - biobanking
+  - implementation-science
+  - ssh
+  - ethics-regulation
+
+contribution_types:
+  - cohort
+  - clinical-trial
+  - data
+  - method
+  - model
+  - infrastructure
+  - implementation
+  - ssh
+  - ethics-regulation
+
+evidence_basis:
+  - direct-source
+  - editorial-summary
+  - institutional-context
+
+access_status:
+  - institutional-only
+  - collaborative-access-possible
+  - external-access-possible
+  - to-be-confirmed
+
+contact_models:
+  - aric
+  - direct
+  - aric-first
+
+availability_status:
+  - expression-of-interest
+  - to-be-confirmed
+  - inactive
