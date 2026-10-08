@@ -19,3 +19,14 @@
   contact_model: aric-first
   public_email: ""
   status: expression-of-interest
+
+- id: laura-mercolini
+  name: Laura Mercolini
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
