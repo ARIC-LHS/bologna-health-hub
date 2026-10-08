@@ -1,1 +1,15 @@
+- id: unibo
+  short_name: UNIBO
+  name: Alma Mater Studiorum - University of Bologna
 
+- id: aoubo
+  short_name: AOUBO
+  name: IRCCS Azienda Ospedaliero-Universitaria di Bologna
+
+- id: ior
+  short_name: IOR
+  name: IRCCS Istituto Ortopedico Rizzoli
+
+- id: isnb
+  short_name: ISNB
+  name: Istituto Scienze Neurologiche di Bologna
