@@ -1,0 +1,32 @@
+title: "Bologna Metropolitan Health Research Hub"
+
+short_title: "Bologna Health Research Hub"
+
+description: >-
+  Scientific matchmaking portal for Horizon Europe
+  Cluster 1 Health.
+
+url: "https://aric-lhs.github.io"
+
+baseurl: "/bologna-health-hub"
+
+lang: "en"
+
+timezone: "Europe/Rome"
+
+markdown: kramdown
+
+permalink: pretty
+
+include:
+  - _pages
+
+contact:
+  unit: "ARIC - Research Development, Life and Health Sciences"
+  email: "lhs@unibo.it"
+
+disclaimer: >-
+  Profiles indicate possible scientific contributions.
+  Participation, availability, access to data or infrastructures,
+  and consortium responsibilities require direct verification
+  and project-specific agreement.
