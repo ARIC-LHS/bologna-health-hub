@@ -1,1 +1,29 @@
+- id: ai-data
+  name: AI and data science
 
+- id: digital-biomarkers
+  name: Digital biomarkers
+
+- id: interoperability
+  name: FAIR data and interoperability
+
+- id: clinical-cohorts
+  name: Clinical cohorts
+
+- id: clinical-trials
+  name: Clinical trials
+
+- id: omics
+  name: Omics technologies
+
+- id: biobanking
+  name: Biobanking
+
+- id: implementation-science
+  name: Implementation science
+
+- id: ssh
+  name: Social sciences and humanities
+
+- id: ethics-regulation
+  name: Ethics and regulation
