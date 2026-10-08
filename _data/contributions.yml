@@ -929,3 +929,290 @@
   source_version: cluster1-2027-v2
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
+
+- id: igor-diemberger--disease-01
+  researcher_id: igor-diemberger
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Cardiovascular trials and remote monitoring
+  contribution: Cardiovascular clinical trials, real-world data, remote monitoring and wearable technologies.
+  assets:
+    - Cardiology cohorts
+    - Clinical-research infrastructure
+  possible_contribution: Clinical trial, RWD and digital monitoring
+  contribution_types:
+    - clinical-trial
+    - cohort
+    - data
+  capability_ids:
+    - clinical-cohorts
+    - clinical-trials
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: gaetano-la-manna--disease-01
+  researcher_id: gaetano-la-manna
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Chronic kidney disease intervention pathway
+  contribution: A pragmatic chronic-kidney-disease workplace pathway designed for clinical evaluation.
+  assets:
+    - Nephrology expertise
+    - CKD care pathways
+    - Clinical recruitment
+  possible_contribution: CKD intervention and pragmatic trial leadership
+  contribution_types:
+    - clinical-trial
+  capability_ids:
+    - clinical-trials
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: paolo-boffetta--disease-01
+  researcher_id: paolo-boffetta
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Population prevention and epidemiology
+  contribution: Population prevention, epidemiology and international consortium experience supporting CKD intervention research.
+  assets:
+    - Epidemiological methods
+    - Collaborative research networks
+  possible_contribution: Epidemiology prevention and consortium contribution
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: olivia-manfrini--disease-01
+  researcher_id: olivia-manfrini
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Sex-sensitive cardiovascular phenotyping
+  contribution: Sex- and gender-sensitive cardiovascular phenotyping and clinical outcome research.
+  assets:
+    - Cardiovascular clinical research
+  possible_contribution: Sex and gender analysis and cardiovascular outcomes
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: katia-mattarozzi--disease-01
+  researcher_id: katia-mattarozzi
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Behavioural intervention research
+  contribution: Behavioural intervention research on treatment expectations and nocebo effects in diabetes and cardiometabolic care.
+  assets:
+    - Health psychology
+    - Patient-centred intervention methods
+  possible_contribution: Behavioural intervention and patient-reported outcomes
+  contribution_types:
+    - ssh
+  capability_ids:
+    - ssh
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: elena-biagini--disease-01
+  researcher_id: elena-biagini
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Cardiomyopathy clinical expertise
+  contribution: Clinical leadership in cardiomyopathies and European rare-cardiac-disease networks.
+  assets:
+    - Specialist cohorts
+    - ERN-linked clinical expertise
+  possible_contribution: Clinical site phenotyping and network contribution
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: sabato-mellone--disease-01
+  researcher_id: sabato-mellone
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Digital monitoring and interoperable data
+  contribution: Digital monitoring interoperable data and regulatory-aware technology deployment.
+  assets:
+    - Medical technology
+    - RWD infrastructure
+    - Digital-health infrastructure
+  possible_contribution: Digital endpoints data platform and implementation
+  contribution_types:
+    - data
+    - implementation
+  capability_ids:
+    - interoperability
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: arrigo-francesco-giuseppe-cicero--disease-01
+  researcher_id: arrigo-francesco-giuseppe-cicero
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Cardiovascular prevention
+  contribution: Cardiovascular prevention early detection and intervention research.
+  assets:
+    - Cardiometabolic clinical research
+  possible_contribution: Prevention intervention and clinical assessment
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: antonella-carbonaro--disease-01
+  researcher_id: antonella-carbonaro
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: FHIR interoperability and knowledge graphs
+  contribution: FHIR-based interoperability knowledge graphs and digital prevention services.
+  assets:
+    - Health informatics
+    - Clinical digital-twin methods
+  possible_contribution: Data architecture and decision-support integration
+  contribution_types:
+    - data
+    - method
+  capability_ids:
+    - interoperability
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: roberto-mandrioli--disease-01
+  researcher_id: roberto-mandrioli
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: PKPD and adherence support
+  contribution: PKPD adherence safety and bioanalytical support for intervention studies.
+  assets:
+    - Therapeutic monitoring
+    - Validated analytical methods
+  possible_contribution: Trial bioanalysis adherence and safety endpoints
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: francesca-ingravallo--disease-01
+  researcher_id: francesca-ingravallo
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Clinical research ethics and PPI
+  contribution: Clinical-research ethics regulation informed consent PPI and patient-reported outcomes.
+  assets:
+    - Bioethics
+    - Health law
+    - Trial governance
+  possible_contribution: Ethics regulatory and patient-involvement work package
+  contribution_types:
+    - ssh
+    - ethics-regulation
+  capability_ids:
+    - ssh
+    - ethics-regulation
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: antonello-lorenzini--disease-01
+  researcher_id: antonello-lorenzini
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Nutrition risk modelling
+  contribution: Diet-related risk modelling and quantitative evidence synthesis for prevention interventions.
+  assets:
+    - Nutrition research
+    - Chronic-disease risk research
+  possible_contribution: Evidence synthesis and nutrition component
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: federico-ravaioli--disease-01
+  researcher_id: federico-ravaioli
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: Longitudinal metabolic liver cohorts
+  contribution: Longitudinal metabolic-liver-disease cohorts multimodal phenotyping and nutritional management relevant to cardiometabolic comorbidity.
+  assets:
+    - Structured clinical follow-up
+    - Imaging
+    - Histology
+    - Biobanked samples
+  possible_contribution: Metabolic comorbidity clinical validation and nutrition
+  contribution_types:
+    - cohort
+  capability_ids:
+    - clinical-cohorts
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: lidia-strigari--disease-01
+  researcher_id: lidia-strigari
+  topic_id: horizon-hlth-2027-02-disease-01-two-stage
+  title: AI and predictive modelling
+  contribution: AI and predictive modelling for clinical stratification
