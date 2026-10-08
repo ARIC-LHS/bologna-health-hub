@@ -783,3 +783,149 @@
   source_version: cluster1-2027-v2
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
+
+  - id: milena-raffi--disease-10
+  researcher_id: milena-raffi
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: School-based diabetes prevention
+  contribution: School-based diabetes-prevention approaches integrating physical activity, nutrition and digital education.
+  assets:
+    - Intervention experience with children and young people
+  possible_contribution: Implementation intervention, functional outcomes and education
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: sabato-mellone--disease-10
+  researcher_id: sabato-mellone
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Digital implementation infrastructure
+  contribution: Interoperable digital-health and real-world-data infrastructure for scalable implementation and monitoring.
+  assets:
+    - Digital-health platforms
+    - Data integration
+    - Remote monitoring
+  possible_contribution: Digital implementation infrastructure and evaluation
+  contribution_types:
+    - data
+    - implementation
+  capability_ids:
+    - interoperability
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: arrigo-francesco-giuseppe-cicero--disease-10
+  researcher_id: arrigo-francesco-giuseppe-cicero
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Paediatric cardiovascular prevention
+  contribution: Paediatric cardiovascular prevention and intervention research.
+  assets:
+    - Cardiometabolic prevention expertise
+    - Clinical research expertise
+  possible_contribution: Clinical prevention and intervention adaptation
+  contribution_types:
+    - implementation
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: roberto-mandrioli--disease-10
+  researcher_id: roberto-mandrioli
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Adherence measurement and QA
+  contribution: Objective adherence and exposure endpoints with cross-site analytical quality assurance.
+  assets:
+    - Bioanalysis
+    - Therapeutic monitoring
+    - Method validation
+  possible_contribution: Adherence measurement and analytical QA
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: rita-stagni--disease-10
+  researcher_id: rita-stagni
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Child-friendly motor monitoring
+  contribution: Child-friendly motor monitoring for scalable assessment of physical-activity interventions.
+  assets:
+    - Wearable methods
+    - Movement-analysis methods
+  possible_contribution: Digital endpoints and implementation monitoring
+  contribution_types:
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: maria-cristina-bisi--disease-10
+  researcher_id: maria-cristina-bisi
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Real-world digital outcomes
+  contribution: Adaptable low-resource protocols and real-world digital outcomes for motor and activity interventions.
+  assets:
+    - Wearable sensing
+    - Gait analysis
+    - Movement analysis
+  possible_contribution: Real-world outcome assessment and protocol adaptation
+  contribution_types:
+    - method
+  capability_ids:
+    - digital-biomarkers
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+- id: antonello-lorenzini--disease-10
+  researcher_id: antonello-lorenzini
+  topic_id: horizon-hlth-2027-01-disease-10
+  title: Nutrition evidence synthesis
+  contribution: Nutrition evidence synthesis and quantitative tools for risk-oriented intervention design.
+  assets:
+    - Nutrition expertise
+    - Evidence integration
+  possible_contribution: Nutrition evidence base and decision-support methods
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
