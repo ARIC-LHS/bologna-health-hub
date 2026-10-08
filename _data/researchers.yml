@@ -1,1 +1,39 @@
+- id: milena-raffi
+  name: Milena Raffi
+  institution_id: unibo
 
+- id: sabato-mellone
+  name: Sabato Mellone
+  institution_id: unibo
+
+- id: laura-mercolini
+  name: Laura Mercolini
+  institution_id: unibo
+
+- id: maria-giulia-bacalini
+  name: Maria Giulia Bacalini
+  institution_id: unibo
+
+- id: francesca-ingravallo
+  name: Francesca Ingravallo
+  institution_id: unibo
+
+- id: maria-chiara-pelleri
+  name: Maria Chiara Pelleri
+  institution_id: unibo
+
+- id: giulia-balboni
+  name: Giulia Balboni
+  institution_id: unibo
+
+- id: marco-luppi
+  name: Marco Luppi
+  institution_id: unibo
+
+- id: angela-montanari
+  name: Angela Montanari
+  institution_id: unibo
+
+- id: monica-baiula
+  name: Monica Baiula
+  institution_id: unibo
