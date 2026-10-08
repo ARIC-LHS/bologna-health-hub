@@ -1,3 +1,5 @@
+# HORIZON-HLTH-2027-01-STAYHLTH-01
+
 - id: milena-raffi--stayhlth-01
   researcher_id: milena-raffi
   topic_id: horizon-hlth-2027-01-stayhlth-01
@@ -14,6 +16,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: sabato-mellone--stayhlth-01
   researcher_id: sabato-mellone
@@ -35,6 +40,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: laura-mercolini--stayhlth-01
   researcher_id: laura-mercolini
@@ -53,6 +61,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: maria-giulia-bacalini--stayhlth-01
   researcher_id: maria-giulia-bacalini
@@ -70,6 +81,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: francesca-ingravallo--stayhlth-01
   researcher_id: francesca-ingravallo
@@ -92,6 +106,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: maria-chiara-pelleri--stayhlth-01
   researcher_id: maria-chiara-pelleri
@@ -111,6 +128,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: giulia-balboni--stayhlth-01
   researcher_id: giulia-balboni
@@ -125,7 +145,16 @@
     - ssh
   capability_ids:
     - ssh
-  infrastructure
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
+
+
+# HORIZON-HLTH-2027-01-ENVHLTH-02
 
 - id: marco-luppi--envhlth-02
   researcher_id: marco-luppi
@@ -135,12 +164,16 @@
   assets:
     - Experimental molecular-neuroscience methods
   possible_contribution: Mechanistic hypothesis testing within a broader exposome design
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: milena-raffi--envhlth-02
   researcher_id: milena-raffi
@@ -151,12 +184,16 @@
     - Human physiological assessment
     - Motor assessment methods
   possible_contribution: Human phenotyping and exposure-response outcomes
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: angela-montanari--envhlth-02
   researcher_id: angela-montanari
@@ -167,13 +204,18 @@
     - Unsupervised learning
     - Statistical methods for heterogeneous biological data
   possible_contribution: Data integration and statistical methodology
-  contribution_types: [data, method]
+  contribution_types:
+    - data
+    - method
   capability_ids:
     - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: monica-baiula--envhlth-02
   researcher_id: monica-baiula
@@ -184,12 +226,16 @@
     - In-vitro pharmacological models
     - Cellular models
   possible_contribution: Mechanistic and biomarker studies
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: andrea-bedini--envhlth-02
   researcher_id: andrea-bedini
@@ -200,12 +246,16 @@
     - Cell-based methods
     - Pharmacological methods
   possible_contribution: Mechanistic experimental contribution
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: sabrina-valente--envhlth-02
   researcher_id: sabrina-valente
@@ -217,12 +267,16 @@
     - Tissue models
     - Translational laboratory methods
   possible_contribution: Experimental model and validation contribution
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: claudia-zanna--envhlth-02
   researcher_id: claudia-zanna
@@ -233,12 +287,16 @@
     - Molecular biomarker expertise
     - Mitochondrial-function expertise
   possible_contribution: Mechanistic biomarkers and experimental validation
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: marco-candela--envhlth-02
   researcher_id: marco-candela
@@ -250,13 +308,17 @@
     - Systems biology
     - Multi-omics integration
   possible_contribution: Microbiome and host-environment interaction work package
-  contribution_types: [data]
+  contribution_types:
+    - data
   capability_ids:
     - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: francesca-maffei--envhlth-02
   researcher_id: francesca-maffei
@@ -276,6 +338,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: monica-forni--envhlth-02
   researcher_id: monica-forni
@@ -295,6 +360,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: stefano-mattioli--envhlth-02
   researcher_id: stefano-mattioli
@@ -313,6 +381,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: tullia-gallina-toschi--envhlth-02
   researcher_id: tullia-gallina-toschi
@@ -323,12 +394,16 @@
     - Food-quality analytics
     - Food-system research
   possible_contribution: Food-related exposure pathways and analytical characterisation
-  contribution_types: [method]
+  contribution_types:
+    - method
   capability_ids: []
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: roberta-spadoni--envhlth-02
   researcher_id: roberta-spadoni
@@ -348,6 +423,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: cristiana-caliceti--envhlth-02
   researcher_id: cristiana-caliceti
@@ -365,6 +443,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: antonello-lorenzini--envhlth-02
   researcher_id: antonello-lorenzini
@@ -383,6 +464,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: enrico-valli--envhlth-02
   researcher_id: enrico-valli
@@ -399,6 +483,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: luca-mulazzani--envhlth-02
   researcher_id: luca-mulazzani
@@ -417,6 +504,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: francesco-decataldo--envhlth-02
   researcher_id: francesco-decataldo
@@ -435,6 +525,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: giulia-maesano--envhlth-02
   researcher_id: giulia-maesano
@@ -454,6 +547,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 - id: ohad-zivan--envhlth-02
   researcher_id: ohad-zivan
@@ -473,6 +569,9 @@
   network_ids: []
   evidence_basis: direct-source
   availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
 
 # HORIZON-HLTH-2027-01-DISEASE-05
 
