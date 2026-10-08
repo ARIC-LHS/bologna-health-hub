@@ -771,4 +771,15 @@
     lead optimisation.
   assets:
     - Protein structure-function methods
-    - Molecular 
+    - Molecular characterisation
+  possible_contribution: Structural and SAR support
+  contribution_types:
+    - method
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  evidence_basis: direct-source
+  availability_status: to-be-confirmed
+  source_version: cluster1-2027-v2
+  source_date: "2026-10-07"
+  last_reviewed: "2026-10-07"
