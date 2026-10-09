@@ -12,7 +12,12 @@ permalink: /researchers/
 
   <article class="card">
 
-    <h2>{{ researcher.name }}</h2>
+<h2>
+  {{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}
+    {{ researcher.name }}
+  </a>
+</h2>
+    </h2>
 
     <p>{{ researcher.institution_id }}</p>
 

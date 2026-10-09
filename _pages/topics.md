@@ -12,7 +12,11 @@ permalink: /topics/
 
   <article class="card">
 
-    <h2>{{ topic.code }}</h2>
+   <h2>
+  {{ '/topics/' | append: topic.id | append: '/' | relative_url }}
+    {{ topic.code }}
+  </a>
+</h2>
 
     <p>{{ topic.title }}</p>
 
