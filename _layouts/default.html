@@ -1,22 +1,36 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
+
   {{ '/assets/css/main.css' | relative_url }}
 </head>
 
 <body>
 
+  <a class="skip-link" href="#main">
+    Skip to main content
+  </a>
+
   {% include header.html %}
 
-  <main>
+  <main id="main" class="site-main">
     {{ content }}
   </main>
 
   {% include footer.html %}
+
+  {{ '/assets/js/filter.js' | relative_url }}script>
 
 </body>
 
