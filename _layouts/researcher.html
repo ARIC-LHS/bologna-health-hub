@@ -6,23 +6,62 @@ layout: default
   | where: "id", page.researcher_id
   | first %}
 
-<h1>{{ researcher.name }}</h1>
-
-<p>
-  Institution:
-  {{ researcher.institution_id }}
-</p>
-
-<h2>Contributions</h2>
-
-<ul>
 {% assign contributions = site.data.contributions
   | where: "researcher_id", researcher.id %}
 
-{% for contribution in contributions %}
-  <li>
-    <strong>{{ contribution.title }}</strong><br>
-    {{ contribution.contribution }}
-  </li>
-{% endfor %}
-</ul>
+<article class="profile">
+
+  <header>
+    <h1>{{ researcher.name }}</h1>
+
+    <p>
+      Institution:
+      {{ researcher.institution_id }}
+    </p>
+
+    {% if researcher.tags.size > 0 %}
+    <ul>
+      {% for tag in researcher.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <section>
+    <h2>Topic Contributions</h2>
+
+    {% for contribution in contributions %}
+
+      {% assign topic = site.data.topics
+        | where: "id", contribution.topic_id
+        | first %}
+
+      <article>
+
+        <h3>
+          {% if topic %}
+            {{ topic.code }}
+          {% else %}
+            {{ contribution.topic_id }}
+          {% endif %}
+        </h3>
+
+        <strong>{{ contribution.title }}</strong>
+
+        <p>
+          {{ contribution.contribution }}
+        </p>
+
+        <p>
+          <em>
+            {{ contribution.possible_contribution }}
+          </em>
+        </p>
+
+      </article>
+
+    {% endfor %}
+  </section>
+
+</article>
