@@ -1,1 +1,28 @@
+---
+layout: default
+---
 
+{% assign researcher = site.data.researchers
+  | where: "id", page.researcher_id
+  | first %}
+
+<h1>{{ researcher.name }}</h1>
+
+<p>
+  Institution:
+  {{ researcher.institution_id }}
+</p>
+
+<h2>Contributions</h2>
+
+<ul>
+{% assign contributions = site.data.contributions
+  | where: "researcher_id", researcher.id %}
+
+{% for contribution in contributions %}
+  <li>
+    <strong>{{ contribution.title }}</strong><br>
+    {{ contribution.contribution }}
+  </li>
+{% endfor %}
+</ul>
