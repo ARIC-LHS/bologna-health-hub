@@ -657,3 +657,18 @@
   contact_model: aric-first
   public_email: ""
   status: expression-of-interest
+
+- id: marco-montevecchi
+  name: Marco Montevecchi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags:
+    - oral-disease
+    - biomarkers
+    - peri-implant-disease
+    - clinical-phenotyping
+  contact_model: aric-first
+  public_email: ""
+  status: expression-of-interest
