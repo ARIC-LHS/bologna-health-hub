@@ -4,24 +4,13 @@ title: Topics
 permalink: /topics/
 ---
 
-<h1>Topics</h1>
+# Topics
 
-<div class="card-grid">
-
+<ul>
 {% for topic in site.data.topics %}
-
-  <article class="card">
-
-   <h2>
-  {{ '/topics/' | append: topic.id | append: '/' | relative_url }}
-    {{ topic.code }}
-  </a>
-</h2>
-
-    <p>{{ topic.title }}</p>
-
-  </article>
-
+  <li>
+    <strong>{{ topic.code }}</strong><br>
+    {{ topic.title }}
+  </li>
 {% endfor %}
-
-</div>
+</ul>

@@ -1,27 +1,17 @@
 <header class="site-header">
-
   <div class="container">
 
     {{ '/' | relative_url }}
       Bologna Metropolitan Health Research Hub
     </a>
 
-    <nav>
-
-      {{ '/' | relative_url }}
-        Home
-      </a>
-
-      <a href="{{ '/topics/' | relative_url }}">
-ics
-      </a>
-
-      {{ '/researchers/' | relative_url }}
-        Researchers
-      </a>
-
+    <nav aria-label="Primary navigation">
+      {{ '/topics/' | relative_url }}Topics</a>
+      {{ '/capabilities/' | relative_url }}Capabilities</a>
+      {{ '/researchers/' | relative_url }}Researchers</a>
+      {{ '/infrastructures/' | relative_url }}Infrastructures</a>
+      {{ '/about/' | relative_url }}About</a>
     </nav>
 
   </div>
-
 </header>
