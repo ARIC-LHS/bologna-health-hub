@@ -831,7 +831,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: milena-raffi--disease-10
+- id: milena-raffi--disease-10
   researcher_id: milena-raffi
   topic_id: horizon-hlth-2027-01-disease-10
   title: School-based diabetes prevention
