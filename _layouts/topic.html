@@ -1,1 +1,65 @@
+---
+layout: default
+---
 
+{% assign topic = site.data.topics
+  | where: "id", page.topic_id
+  | first %}
+
+<article class="container">
+
+  <header class="topic-header">
+    <p class="eyebrow">
+      Destination {{ topic.destination }} · {{ topic.action_type }}
+    </p>
+
+    <h1>{{ topic.code }}</h1>
+
+    <p class="lede">
+      {{ topic.title }}
+    </p>
+  </header>
+
+  <section>
+    <h2>Matchmaking focus</h2>
+    <p>{{ topic.focus }}</p>
+  </section>
+
+  {% if topic.contribution_at_glance.size > 0 %}
+  <section class="at-a-glance">
+    <h2>Bologna contribution at a glance</h2>
+
+    <ul class="tag-list">
+      {% for item in topic.contribution_at_glance %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section>
+    <h2>Relevant profiles</h2>
+
+    {% assign matches = site.data.contributions
+      | where: "topic_id", topic.id %}
+
+    <div class="card-grid">
+      {% for contribution in matches %}
+
+        {% assign researcher = site.data.researchers
+          | where: "id", contribution.researcher_id
+          | first %}
+
+        {% if researcher %}
+          {% include researcher-card.html
+            researcher=researcher
+            contribution=contribution %}
+        {% endif %}
+
+      {% endfor %}
+    </div>
+  </section>
+
+  {% include caveat.html text=site.disclaimer %}
+
+</article>

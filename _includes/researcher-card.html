@@ -1,1 +1,27 @@
+{% assign r = include.researcher %}
 
+<article class="card researcher-card">
+
+  <h3>
+    {{ r.name }}
+  </h3>
+
+  {% if include.contribution %}
+    <p>
+      <strong>{{ include.contribution.title }}</strong>
+    </p>
+
+    <p>
+      {{ include.contribution.contribution }}
+    </p>
+  {% endif %}
+
+  {% if r.tags.size > 0 %}
+  <ul class="tag-list">
+    {% for tag in r.tags limit: 5 %}
+      <li>{{ tag }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+</article>
