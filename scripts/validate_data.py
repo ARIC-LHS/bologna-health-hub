@@ -5,7 +5,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "_data"
 
-ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+ID_RE = re.compile(r"^[a-z0-9]+(?:-+[a-z0-9]+)*$")
 
 def load(name):
     with open(DATA / name, encoding="utf-8") as f:
