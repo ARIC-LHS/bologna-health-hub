@@ -1280,7 +1280,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: sabato-mellone--disease-14
+- id: sabato-mellone--disease-14
   researcher_id: sabato-mellone
   topic_id: horizon-hlth-2027-02-disease-14-two-stage
   title: Digital health infrastructure for multicentre trials
@@ -1754,7 +1754,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: sabrina-valente--tool-01
+- id: sabrina-valente--tool-01
   researcher_id: sabrina-valente
   topic_id: horizon-hlth-2027-02-tool-01-two-stage
   title: Cellular and tissue validation models
@@ -2010,7 +2010,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: mauro-comes-franchini--ind-02
+- id: mauro-comes-franchini--ind-02
   researcher_id: mauro-comes-franchini
   topic_id: horizon-hlth-2027-02-ind-02-two-stage
   title: Integrated point-of-care platform
@@ -2092,7 +2092,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: sabrina-valente--ind-01
+- id: sabrina-valente--ind-01
   researcher_id: sabrina-valente
   topic_id: horizon-hlth-2027-01-ind-01
   title: Biological validation of cell-free products
@@ -2132,7 +2132,7 @@
   source_date: "2026-10-07"
   last_reviewed: "2026-10-07"
 
-  - id: mauro-comes-franchini--ind-02
+- id: mauro-comes-franchini--ind-02
   researcher_id: mauro-comes-franchini
   topic_id: horizon-hlth-2027-02-ind-02-two-stage
   title: Integrated point-of-care platform
