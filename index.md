@@ -4,26 +4,59 @@ title: Bologna Metropolitan Health Research Hub
 permalink: /
 ---
 
-# Bologna Metropolitan Health Research Hub
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Horizon Europe · Cluster 1 Health</p>
 
-Scientific matchmaking portal supporting Horizon Europe Cluster 1 Health collaborations.
+    <h1>Bologna Metropolitan Health Research Hub</h1>
 
-## Explore the portal
+    <p class="lede">
+      Scientific matchmaking portal connecting Horizon Europe Cluster 1 Health topics
+      with research expertise, capabilities and infrastructures across the Bologna
+      metropolitan research ecosystem.
+    </p>
 
-### Topics
+    <div class="button-row">
+      <a class="button" href="{{ '/topics/' | relative_url }}">Explore Topics</a>
+      <a class="button button-secondary" href="{{ '/researchers/' | relative_url }}">Explore Researchers</a>
+    </div>
+  </div>
+</section>
 
-Browse Horizon Europe Cluster 1 Health topics and identify relevant scientific expertise, capabilities and infrastructures.
+<section class="container section">
+  <h2>Explore the portal</h2>
 
-[Explore Topics]({{ '/topics/' | relative_url }})
+  <div class="card-grid">
 
-### Researchers
+    <article class="card">
+      <h3>Topics</h3>
+      <p>
+        Browse Horizon Europe Cluster 1 Health topics and explore relevant
+        scientific contributions.
+      </p>
+      <a href="{{ '/topics/' | relative_url }}">Browse Topics</a>
+    </article>
 
-Discover researchers and research groups that may contribute to Horizon Europe Cluster 1 Health proposals and collaborations.
+    <article class="card">
+      <h3>Researchers</h3>
+      <p>
+        Explore scientific profiles and their possible contributions to
+        Cluster 1 Health topics.
+      </p>
+      <a href="{{ '/researchers/' | relative_url }}">Browse Researchers</a>
+    </article>
 
-[Explore Researchers]({{ '/researchers/' | relative_url }})
+    <article class="card">
+      <h3>Capabilities</h3>
+      <p>
+        Explore scientific capabilities represented across the research ecosystem.
+      </p>
+      <a href="{{ '/capabilities/' | relative_url }}">Browse Capabilities</a>
+    </article>
 
-## About
+  </div>
+</section>
 
-The Bologna Metropolitan Health Research Hub is a scientific matchmaking portal designed to facilitate connections between Horizon Europe Cluster 1 Health topics and the research expertise available across the Bologna metropolitan ecosystem.
-
-The portal organizes topic-specific contributions, research capabilities, infrastructures and institutional context to support consortium building and proposal development.
+<section class="container section">
+  {% include caveat.html text=site.disclaimer %}
+</section>
