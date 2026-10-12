@@ -15,6 +15,12 @@ layout: default
 
 <article class="profile">
 
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/researchers/' | relative_url }}">Researchers</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{{ researcher.name }}</span>
+  </nav>
+
   <header>
     <h1>{{ researcher.name }}</h1>
 
