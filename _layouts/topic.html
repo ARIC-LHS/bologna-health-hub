@@ -20,10 +20,13 @@ layout: default
     </p>
   </header>
 
+  {% assign focus = topic.focus | strip %}
+  {% if focus != empty %}
   <section>
     <h2>Matchmaking focus</h2>
-    <p>{{ topic.focus }}</p>
+    <p>{{ focus }}</p>
   </section>
+  {% endif %}
 
   {% if topic.contribution_at_glance.size > 0 %}
   <section class="at-a-glance">
