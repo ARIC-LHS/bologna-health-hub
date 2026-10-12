@@ -3,7 +3,9 @@
 <article class="card researcher-card">
 
   <h3>
-    {{ r.name }}
+    <a href="{{ '/researchers/' | append: r.id | append: '/' | relative_url }}">
+      {{ r.name }}
+    </a>
   </h3>
 
   {% if include.contribution %}
