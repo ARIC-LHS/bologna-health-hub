@@ -4,7 +4,8 @@ title: Researchers
 permalink: /researchers/
 ---
 
-<div class="container">
+<section class="container section">
+  <p class="eyebrow">Scientific profiles</p>
   <h1>Researchers</h1>
 
   {% assign researchers = site.data.researchers | sort: "name" %}
@@ -13,7 +14,7 @@ permalink: /researchers/
     {% for researcher in researchers %}
       <article class="card researcher-card">
         <h2>
-          {{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}
+          <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
             {{ researcher.name }}
           </a>
         </h2>
@@ -24,4 +25,4 @@ permalink: /researchers/
       </article>
     {% endfor %}
   </div>
-</div>
+</section>
