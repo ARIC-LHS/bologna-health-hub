@@ -1,10 +1,11 @@
 :root {
   --unibo-red: #A70F08;
-  --unibo-red-dark: #7A0A05;
+  --unibo-red-dark: #780C06;
   --ink: #2E2E2E;
   --paper: #FFFFFF;
   --surface: #F7F5F3;
-  --line: #D6CEC9;
+  --line: #D9D2CC;
+  --max-width: 1200px;
 }
 
 * {
@@ -16,45 +17,132 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--ink);
   background: var(--paper);
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--unibo-red);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
-  width: min(1180px, 92%);
+  width: min(var(--max-width), 92%);
   margin-inline: auto;
 }
 
+/* HEADER */
+
 .site-header {
-  border-bottom: 4px solid var(--unibo-red);
   background: white;
-  padding: 1rem 0;
+  border-bottom: 4px solid var(--unibo-red);
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
 }
 
 .site-title {
-  text-decoration: none;
-  color: var(--ink);
+  font-size: 1.35rem;
   font-weight: 700;
-  font-size: 1.2rem;
+  color: var(--ink);
 }
 
 .site-header nav {
-  margin-top: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .site-header nav a {
-  margin-right: 1rem;
-  text-decoration: none;
   color: var(--unibo-red);
   font-weight: 700;
 }
 
+/* MAIN */
+
 main {
-  padding: 2rem 0;
+  padding: 2rem 0 4rem;
 }
 
-footer {
-  border-top: 1px solid var(--line);
-  margin-top: 3rem;
-  padding: 2rem 0;
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+h2 {
+  color: var(--unibo-red);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* CARDS */
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.25rem;
+  background: white;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--unibo-red);
+}
+
+/* TAGS */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: .75rem;
+}
+
+.tag {
   background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .25rem .6rem;
+  font-size: .8rem;
+}
+
+/* FOOTER */
+
+footer {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  padding: 2rem 0;
+  font-size: .9rem;
+}
+.branding {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-subtitle {
+  font-size: .85rem;
+  color: #666;
+  margin-top: .2rem;
 }
