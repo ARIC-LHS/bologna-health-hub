@@ -1,28 +1,20 @@
-{% assign matches = site.data.contributions
-  | where: "topic_id", topic.id %}
+---
+layout: default
+---
 
-{% assign sorted_researchers = site.data.researchers | sort: "name" %}
+{% assign topic = site.data.topics
+  | where: "id", page.topic_id
+  | first %}
 
-<div class="card-grid">
-  {% for researcher in sorted_researchers %}
+<article class="container">
 
-    {% assign contribution = matches
-      | where: "researcher_id", researcher.id
-      | first %}
-
-    {% if contribution %}
-      {% include researcher-card.html
-        researcher=researcher
-        contribution=contribution %}
-    {% endif %}
-
-  {% endfor %}
-</div>
-      {{ topic.title }}
-    </p>
+  <header class="topic-header">
+    <p class="eyebrow">Destination {{ topic.destination }} · {{ topic.action_type }}</p>
+    <h1>{{ topic.code }}</h1>
+    <p class="lede">{{ topic.title }}</p>
   </header>
 
-  {% assign focus = topic.focus | strip %}
+  {% assign focus = topic.focus | default: "" | strip %}
   {% if focus != empty %}
   <section>
     <h2>Matchmaking focus</h2>
@@ -30,10 +22,9 @@
   </section>
   {% endif %}
 
-  {% if topic.contribution_at_glance.size > 0 %}
+  {% if topic.contribution_at_glance and topic.contribution_at_glance.size > 0 %}
   <section class="at-a-glance">
     <h2>Bologna contribution at a glance</h2>
-
     <ul class="tag-list">
       {% for item in topic.contribution_at_glance %}
       <li>{{ item }}</li>
@@ -47,20 +38,16 @@
 
     {% assign matches = site.data.contributions
       | where: "topic_id", topic.id %}
+    {% assign sorted_researchers = site.data.researchers | sort: "name" %}
 
     <div class="card-grid">
-      {% for contribution in matches %}
-
-        {% assign researcher = site.data.researchers
-          | where: "id", contribution.researcher_id
+      {% for researcher in sorted_researchers %}
+        {% assign contribution = matches
+          | where: "researcher_id", researcher.id
           | first %}
-
-        {% if researcher %}
-          {% include researcher-card.html
-            researcher=researcher
-            contribution=contribution %}
+        {% if contribution %}
+          {% include researcher-card.html researcher=researcher contribution=contribution %}
         {% endif %}
-
       {% endfor %}
     </div>
   </section>
