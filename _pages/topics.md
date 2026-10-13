@@ -4,13 +4,21 @@ title: Topics
 permalink: /topics/
 ---
 
-# Topics
+<section class="container section">
+  <p class="eyebrow">Horizon Europe · Cluster 1 Health</p>
+  <h1>Topics</h1>
 
-<ul>
-{% for topic in site.data.topics %}
-  <li>
-    <strong>{{ topic.code }}</strong><br>
-    {{ topic.title }}
-  </li>
-{% endfor %}
-</ul>
+  <div class="card-grid">
+    {% for topic in site.data.topics %}
+      <article class="card topic-card">
+        <h2>
+          <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+            {{ topic.code }}
+          </a>
+        </h2>
+
+        <p>{{ topic.title }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

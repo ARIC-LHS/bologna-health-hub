@@ -13,7 +13,7 @@
     {% endif %}
   </title>
 
-{{ '/assets/css/main.css' | relative_url }}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
   {% include header.html %}
 
-  <main id="main" class="container">
+  <main id="main" class="site-main">
     {{ content }}
   </main>
 
