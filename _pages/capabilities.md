@@ -14,9 +14,7 @@ permalink: /capabilities/
   {% assign matches = site.data.contributions
     | where_exp: "c", "c.capability_ids contains capability.id" %}
 
-  {% assign researcher_ids = matches
-    | map: "researcher_id"
-    | uniq %}
+ {% assign sorted_researchers = site.data.researchers | sort: "name" %}
 
   <article class="card" id="{{ capability.id }}">
     <h2>{{ capability.name | default: capability.title | default: capability.id }}</h2>
@@ -26,15 +24,15 @@ permalink: /capabilities/
     </p>
 <ul>
 
-{% for researcher_id in researcher_ids %}
+{% for researcher in sorted_researchers %}
 
-  {% assign researcher = site.data.researchers
-    | where: "id", researcher_id
+  {% assign researcher_match = matches
+    | where: "researcher_id", researcher.id
     | first %}
 
-  {% if researcher %}
+  {% if researcher_match %}
     <li>
-      <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
+      {{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}
         {{ researcher.name }}
       </a>
     </li>
