@@ -13,7 +13,7 @@ layout: default
 {% assign contributions = site.data.contributions
   | where: "researcher_id", researcher.id %}
 
-<article class="profile">
+<article class="container">
 
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="{{ '/researchers/' | relative_url }}">Researchers</a>
@@ -21,81 +21,109 @@ layout: default
     <span aria-current="page">{{ researcher.name }}</span>
   </nav>
 
-  <header>
+  <header class="profile-header">
+
     <h1>{{ researcher.name }}</h1>
 
     {% assign institution_name = institution.name
       | default: institution.short_name
       | default: researcher.institution_id %}
 
-    <p>
-      Institution: {{ institution_name }}
+    <p class="profile-meta">
+      {{ institution_name }}
     </p>
 
-    {% if researcher.tags.size > 0 %}
-    <ul>
-      {% for tag in researcher.tags %}
-      <li>{{ tag }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
   </header>
 
   <section>
+
     <h2>Topic Contributions</h2>
 
-    {% for contribution in contributions %}
+    <div class="contribution-grid">
 
-      {% assign topic = site.data.topics
-        | where: "id", contribution.topic_id
-        | first %}
+      {% for contribution in contributions %}
 
-      <article>
+        {% assign topic = site.data.topics
+          | where: "id", contribution.topic_id
+          | first %}
 
-        <h3>
+        <article class="card contribution-card">
+
+          <p class="contribution-card__topic">
+
+            {% if topic %}
+              <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+                {{ topic.code }}
+              </a>
+            {% else %}
+              {{ contribution.topic_id }}
+            {% endif %}
+
+          </p>
+
           {% if topic %}
-            <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
-              {{ topic.code }}
-            </a>
-          {% else %}
-            {{ contribution.topic_id }}
+            <h3 class="contribution-card__title">
+              {{ topic.title }}
+            </h3>
           {% endif %}
-        </h3>
 
-        <strong>{{ contribution.title }}</strong>
+          <p>
+            <strong>{{ contribution.title }}</strong>
+          </p>
 
-        <p>
-          {{ contribution.contribution }}
-        </p>
+          <p>
+            {{ contribution.contribution }}
+          </p>
 
-        <p>
-          <em>
-            {{ contribution.possible_contribution }}
-          </em>
-        </p>
+          {% if contribution.assets and contribution.assets.size > 0 %}
+            <p><strong>Assets</strong></p>
 
-        {% if contribution.capability_ids.size > 0 %}
-          <p><strong>Capabilities:</strong></p>
-          <ul class="tag-list">
-            {% for capability_id in contribution.capability_ids %}
-              {% assign capability = site.data.capabilities
-                | where: "id", capability_id
-                | first %}
+            <ul>
+              {% for asset in contribution.assets %}
+                <li>{{ asset }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
 
-              {% if capability %}
-                <li>
-                  <a href="{{ '/capabilities/#' | append: capability.id | relative_url }}">
-                    {{ capability.name }}
-                  </a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endif %}
+          {% if contribution.possible_contribution %}
+            <p>
+              <strong>Possible contribution:</strong><br>
+              {{ contribution.possible_contribution }}
+            </p>
+          {% endif %}
 
-      </article>
+          {% if contribution.capability_ids.size > 0 %}
 
-    {% endfor %}
+            <ul class="tag-list">
+
+              {% for capability_id in contribution.capability_ids %}
+
+                {% assign capability = site.data.capabilities
+                  | where: "id", capability_id
+                  | first %}
+
+                {% if capability %}
+                  <li>
+                    <a href="{{ '/capabilities/#' | append: capability.id | relative_url }}">
+                      {{ capability.name }}
+                    </a>
+                  </li>
+                {% endif %}
+
+              {% endfor %}
+
+            </ul>
+
+          {% endif %}
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
   </section>
+
+  {% include caveat.html text=site.disclaimer %}
 
 </article>

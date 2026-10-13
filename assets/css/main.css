@@ -302,3 +302,59 @@ textarea:focus-visible {
   outline: 3px solid var(--unibo-red);
   outline-offset: 3px;
 }
+/* RESEARCHER PROFILES */
+
+.breadcrumb {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.profile-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.profile-meta {
+  font-size: 1.05rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.contribution-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contribution-card {
+  padding: 1.5rem;
+}
+
+.contribution-card__topic {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--unibo-red);
+}
+
+.contribution-card__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.contribution-card ul {
+  margin-top: 0.5rem;
+}
+
+.contribution-card li {
+  margin-bottom: 0.25rem;
+}
+
+.profile-header h1 {
+  margin-bottom: 0.5rem;
+}
+``
