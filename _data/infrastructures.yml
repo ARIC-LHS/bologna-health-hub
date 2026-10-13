@@ -1,1 +1,39 @@
-[]
+- id: biobanks-registries
+  name: Biobanks, biospecimens and registries
+  description: Cohort discovery, retrospective studies, biomarker development and FAIR sample/data workflows.
+  availability: UNIBO, AOUBO, IOR, ISNB
+
+- id: clinical-cohorts-trials
+  name: Clinical cohorts and trial settings
+  description: Recruitment, prospective validation, pragmatic trials, complex-care pathways and real-world implementation.
+  availability: UNIBO, AOUBO, IOR, ISNB
+
+- id: omics-platforms
+  name: Omics and molecular platforms
+  description: Discovery-to-validation pipelines, multimodal biomarkers, mechanisms and personalised medicine.
+  availability: UNIBO, AOUBO, ISNB
+
+- id: advanced-imaging
+  name: Advanced imaging
+  description: Imaging biomarkers, AI model development, stratification, treatment planning and multicentre validation.
+  availability: AOUBO, IOR, ISNB
+
+- id: ai-data-digital-health
+  name: AI, data and digital health
+  description: FAIR data architecture, predictive models, digital biomarkers, remote monitoring and clinical decision support.
+  availability: UNIBO, AOUBO, IOR, ISNB
+
+- id: regeneration-models
+  name: Organ perfusion, regeneration and advanced models
+  description: Mechanistic research, intervention testing, translational de-risking and validation before clinical studies.
+  availability: UNIBO, AOUBO, IOR, ISNB
+
+- id: rehabilitation-tech
+  name: Rehabilitation, biomechanics and assistive technology
+  description: Functional outcomes, inclusive technologies, real-world monitoring and independent-living interventions.
+  availability: UNIBO, IOR, ISNB
+
+- id: clinical-pharmacology
+  name: Clinical pharmacology and medication safety
+  description: Dose optimisation, ADR prevention, PK/PD, adherence, safety monitoring and trial bioanalysis.
+  availability: UNIBO, AOUBO

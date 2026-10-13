@@ -5,24 +5,38 @@ permalink: /infrastructures/
 ---
 
 <section class="container section">
-  <p class="eyebrow">Research ecosystem</p>
-  <h1>Infrastructures</h1>
 
-  {% if site.data.infrastructures.size > 0 %}
-    <div class="card-grid">
-      {% for infrastructure in site.data.infrastructures %}
-        <article class="card">
-          <h2>{{ infrastructure.name | default: infrastructure.title | default: infrastructure.id }}</h2>
+  <p class="eyebrow">
+    Research ecosystem
+  </p>
 
-          {% if infrastructure.description %}
-            <p>{{ infrastructure.description }}</p>
-          {% endif %}
-        </article>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p>
-      Infrastructure information is not yet available in the portal dataset.
-    </p>
-  {% endif %}
+  <h1>Research Infrastructures</h1>
+
+  <p>
+    Research infrastructures and technology platforms that can support collaborative Horizon Europe Cluster 1 Health projects.
+  </p>
+
+  <div class="card-grid">
+
+    {% for infrastructure in site.data.infrastructures %}
+
+    <article class="card" id="{{ infrastructure.id }}">
+
+      <h2>{{ infrastructure.name }}</h2>
+
+      <p>
+        <strong>Available across:</strong>
+        {{ infrastructure.availability }}
+      </p>
+
+      <p>
+        {{ infrastructure.description }}
+      </p>
+
+    </article>
+
+    {% endfor %}
+
+  </div>
+
 </section>
