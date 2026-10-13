@@ -8,7 +8,7 @@ permalink: /
   <div class="container">
 
     <p class="eyebrow">
-      Horizon Europe · Cluster 1 Health
+      Horizon Europe · Cluster 1 Health · Calls 2027
     </p>
 
     <h1>Bologna Metropolitan Health Research Hub</h1>
@@ -18,27 +18,16 @@ permalink: /
     </p>
 
     <p>
-      Explore research expertise, scientific capabilities and potential contributions from the Bologna metropolitan research ecosystem.
+      Explore research expertise, scientific capabilities, research infrastructures
+      and potential contributions from the Bologna metropolitan research ecosystem.
     </p>
-
-    <div class="button-row">
-      <a class="button" href="{{ '/topics/' | relative_url }}">
-        Explore Topics
-      </a>
-
-      <a class="button button-secondary" href="{{ '/capabilities/' | relative_url }}">
-        Explore Capabilities
-      </a>
-
-      <a class="button button-secondary" href="{{ '/researchers/' | relative_url }}">
-        Explore Researchers
-      </a>
-    </div>
 
   </div>
 </section>
 
 <section class="container section">
+
+  <h2>Explore the portal</h2>
 
   <div class="card-grid">
 
@@ -46,28 +35,65 @@ permalink: /
       <h3>Topics</h3>
 
       <p>
-        Browse selected Horizon Europe Cluster 1 Health 2027 topics and discover relevant expertise from the Bologna metropolitan research ecosystem.
+        Browse selected Horizon Europe Cluster 1 Health 2027 topics and identify
+        relevant research contributions from the Bologna ecosystem.
       </p>
 
-      <a href="{{ '/topics/' | relative_url }}">
-        Browse Topics
-      </a>
+      <p>
+        <a href="{{ '/topics/' | relative_url }}">
+          Browse Topics
+        </a>
+      </p>
     </article>
 
     <article class="card">
       <h3>Capabilities</h3>
 
       <p>
-        Explore scientific capabilities, associated researchers and related Horizon Europe topics.
+        Explore scientific capabilities, associated researchers and the Horizon
+        Europe topics to which they may contribute.
       </p>
 
-      <a href="{{ '/capabilities/' | relative_url }}">
-        Browse Capabilities
-      </a>
+      <p>
+        <a href="{{ '/capabilities/' | relative_url }}">
+          Browse Capabilities
+        </a>
+      </p>
     </article>
 
     <article class="card">
       <h3>Researchers</h3>
 
       <p>
-  
+        Discover researcher profiles, institutional affiliations and potential
+        contributions to selected Horizon Europe Cluster 1 Health topics.
+      </p>
+
+      <p>
+        <a href="{{ '/researchers/' | relative_url }}">
+          Browse Researchers
+        </a>
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Infrastructures</h3>
+
+      <p>
+        Explore research infrastructures and technology   collaborative health research and consortium development.
+      </p>
+
+      <p>
+        {{ '/infrastructures/' | relative_url }}
+          Browse Infrastructures
+        </a>
+      </p>
+    </article>
+
+  </div>
+
+</section>
+
+<section class="container section">
+  {% include caveat.html text=site.disclaimer %}
+</section>
