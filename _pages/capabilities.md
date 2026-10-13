@@ -24,6 +24,53 @@ permalink: /capabilities/
     <p>
       {{ researcher_ids.size }} researchers
     </p>
+<ul>
+
+{% for researcher_id in researcher_ids %}
+
+  {% assign researcher = site.data.researchers
+    | where: "id", researcher_id
+    | first %}
+
+  {% if researcher %}
+    <li>
+      <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
+        {{ researcher.name }}
+      </a>
+    </li>
+  {% endif %}
+
+{% endfor %}
+
+</ul>
+
+{% assign topic_ids = matches
+  | map: "topic_id"
+  | uniq %}
+
+{% if topic_ids.size > 0 %}
+
+<p><strong>Related topics</strong></p>
+
+<ul>
+{% for topic_id in topic_ids %}
+
+  {% assign topic = site.data.topics
+    | where: "id", topic_id
+    | first %}
+
+  {% if topic %}
+    <li>
+      <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+        {{ topic.code }}
+      </a>
+    </li>
+  {% endif %}
+
+{% endfor %}
+</ul>
+
+{% endif %}
 
     {% if capability.description %}
       <p>{{ capability.description }}</p>
