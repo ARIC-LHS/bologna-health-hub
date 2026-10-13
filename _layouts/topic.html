@@ -1,21 +1,23 @@
----
-layout: default
----
+{% assign matches = site.data.contributions
+  | where: "topic_id", topic.id %}
 
-{% assign topic = site.data.topics
-  | where: "id", page.topic_id
-  | first %}
+{% assign sorted_researchers = site.data.researchers | sort: "name" %}
 
-<article class="container">
+<div class="card-grid">
+  {% for researcher in sorted_researchers %}
 
-  <header class="topic-header">
-    <p class="eyebrow">
-      Destination {{ topic.destination }} · {{ topic.action_type }}
-    </p>
+    {% assign contribution = matches
+      | where: "researcher_id", researcher.id
+      | first %}
 
-    <h1>{{ topic.code }}</h1>
+    {% if contribution %}
+      {% include researcher-card.html
+        researcher=researcher
+        contribution=contribution %}
+    {% endif %}
 
-    <p class="lede">
+  {% endfor %}
+</div>
       {{ topic.title }}
     </p>
   </header>
