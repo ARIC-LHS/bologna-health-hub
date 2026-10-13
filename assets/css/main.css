@@ -291,3 +291,14 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+/* KEYBOARD FOCUS */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--unibo-red);
+  outline-offset: 3px;
+}
