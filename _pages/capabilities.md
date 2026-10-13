@@ -24,6 +24,8 @@ permalink: /capabilities/
     </p>
 <ul>
 
+{% assign sorted_researchers = site.data.researchers | sort: "name" %}
+
 {% for researcher in sorted_researchers %}
 
   {% assign researcher_match = matches
@@ -40,7 +42,7 @@ permalink: /capabilities/
 
 {% endfor %}
 
-</ul>
+ </ul>
 
 {% assign topic_ids = matches
   | map: "topic_id"
