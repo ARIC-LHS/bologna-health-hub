@@ -74,6 +74,25 @@ layout: default
           </em>
         </p>
 
+        {% if contribution.capability_ids.size > 0 %}
+          <p><strong>Capabilities:</strong></p>
+          <ul class="tag-list">
+            {% for capability_id in contribution.capability_ids %}
+              {% assign capability = site.data.capabilities
+                | where: "id", capability_id
+                | first %}
+
+              {% if capability %}
+                <li>
+                  <a href="{{ '/capabilities/#' | append: capability.id | relative_url }}">
+                    {{ capability.name }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+
       </article>
 
     {% endfor %}
