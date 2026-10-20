@@ -1,164 +1,119 @@
-# HORIZON-HLTH-2027-01-STAYHLTH-01
+milena-raffi--stayhlth-01
+capability_ids:
+  - implementation-science
 
-- id: milena-raffi--stayhlth-01
-  researcher_id: milena-raffi
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Inclusive and adapted physical-activity approaches
-  contribution: Inclusive and adapted physical-activity approaches supporting autonomy, participation and community engagement.
-  assets:
-    - Experience in motor and physiological assessment
-    - Community-based activity programmes
-  possible_contribution: Intervention design, functional outcomes and community implementation
-  contribution_types:
-    - implementation
-  capability_ids:
-    - implementation-science
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+laura-mercolini--stayhlth-01
+capability_ids:
+  - clinical-trials
 
-- id: sabato-mellone--stayhlth-01
-  researcher_id: sabato-mellone
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Digital monitoring for independent living
-  contribution: Wearable sensing, digital biomarkers and interoperable data pathways for monitoring function in everyday settings.
-  assets:
-    - Medical technology
-    - Real-world monitoring methods
-    - Digital-health and data-integration expertise
-  possible_contribution: Digital monitoring and data-interoperability work package
-  contribution_types:
-    - data
-    - method
-  capability_ids:
-    - digital-biomarkers
-    - interoperability
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+maria-giulia-bacalini--stayhlth-01
+capability_ids:
+  - clinical-cohorts
+  - omics
 
-- id: laura-mercolini--stayhlth-01
-  researcher_id: laura-mercolini
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Decentralised monitoring
-  contribution: Accessible home microsampling and longitudinal therapeutic monitoring suitable for decentralised care pathways.
-  assets:
-    - Bioanalytical methods
-    - Microsampling
-    - Analytical validation
-  possible_contribution: Decentralised monitoring and analytical validation
-  contribution_types:
-    - method
-  capability_ids:
-    - clinical-trials
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+maria-chiara-pelleri--stayhlth-01
+capability_ids:
+  - clinical-cohorts
+  - interoperability
 
-- id: maria-giulia-bacalini--stayhlth-01
-  researcher_id: maria-giulia-bacalini
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Down syndrome longitudinal cohort research
-  contribution: Clinical, neuropsychological and biological characterisation in Down syndrome across the life course.
-  assets:
-    - Cohort-based clinical research
-    - Molecular research in Down syndrome
-  possible_contribution: Clinical phenotyping and longitudinal cohort contribution
-  contribution_types:
-    - cohort
-  capability_ids:
-    - clinical-cohorts
-    - omics
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+marco-luppi--envhlth-02
+capability_ids:
+  - omics
 
-- id: francesca-ingravallo--stayhlth-01
-  researcher_id: francesca-ingravallo
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Disability assessment ethics and rights
-  contribution: ICF-based disability assessment, rights and legal frameworks, quality of life, ethics and patient and public involvement.
-  assets:
-    - Disability assessment
-    - Bioethics
-    - Health law
-    - Outcome assessment
-  possible_contribution: SSH, ethics, co-design and outcome framework
-  contribution_types:
-    - ssh
-    - ethics-regulation
-  capability_ids:
-    - ssh
-    - ethics-regulation
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+milena-raffi--envhlth-02
+capability_ids:
+  - clinical-cohorts
 
-- id: maria-chiara-pelleri--stayhlth-01
-  researcher_id: maria-chiara-pelleri
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Down syndrome clinical networks
-  contribution: Down-syndrome clinical networks and integration of clinical and molecular data.
-  assets:
-    - Clinical expertise
-    - Paediatric expertise
-    - FAIR-oriented data contribution
-  possible_contribution: Clinical network, phenotyping and data work package
-  contribution_types:
-    - cohort
-    - data
-  capability_ids:
-    - clinical-cohorts
-    - interoperability
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+monica-baiula--envhlth-02
+capability_ids:
+  - omics
 
-- id: giulia-balboni--stayhlth-01
-  researcher_id: giulia-balboni
-  topic_id: horizon-hlth-2027-01-stayhlth-01
-  title: Intellectual disability outcome assessment
-  contribution: Validated measurement of adaptive behaviour, support needs, self-determination and quality of life in intellectual disability.
-  assets:
-    - Psychometric instruments
-    - Intellectual-disability outcome research
-  possible_contribution: Patient-centred outcomes and intervention evaluation
-  contribution_types:
-    - ssh
-  capability_ids:
-    - ssh
-  infrastructure_ids: []
-  network_ids: []
-  evidence_basis: direct-source
-  availability_status: to-be-confirmed
-  source_version: cluster1-2027-v2
-  source_date: "2026-10-07"
-  last_reviewed: "2026-10-07"
+andrea-bedini--envhlth-02
+capability_ids:
+  - omics
 
+sabrina-valente--envhlth-02
+capability_ids:
+  - omics
+
+claudia-zanna--envhlth-02
+capability_ids:
+  - omics
+  - digital-biomarkers
+
+stefano-mattioli--envhlth-02
+capability_ids:
+  - clinical-cohorts
+  - digital-biomarkers
+
+tullia-gallina-toschi--envhlth-02
+capability_ids:
+  - ssh
+
+cristiana-caliceti--envhlth-02
+capability_ids:
+  - digital-biomarkers
+
+antonello-lorenzini--envhlth-02
+capability_ids:
+  - ssh
+  - clinical-cohorts
+
+enrico-valli--envhlth-02
+capability_ids:
+  - ssh
+
+francesco-decataldo--envhlth-02
+capability_ids:
+  - omics
+  - digital-biomarkers
+
+ohad-zivan--envhlth-02
+capability_ids:
+  - ai-data
+  - clinical-cohorts
+
+barbara-zambelli--disease-05
+capability_ids:
+  - omics
+
+luca-mazzei--disease-05
+capability_ids:
+  - omics
+
+barbara-zambelli--disease-06
+capability_ids:
+  - omics
+
+luca-mazzei--disease-06
+capability_ids:
+  - omics
+
+barbara-zambelli--disease-07
+capability_ids:
+  - omics
+
+luca-mazzei--disease-07
+capability_ids:
+  - omics
+
+marco-rinaldo-oggioni--disease-08
+capability_ids:
+  - clinical-trials
+
+barbara-zambelli--disease-08
+capability_ids:
+  - omics
+
+luca-mazzei--disease-08
+capability_ids:
+  - omics
+
+alessandra-bolotta--disease-08
+capability_ids:
+  - omics
+
+milena-raffi--
 
 # HORIZON-HLTH-2027-01-ENVHLTH-02
 
@@ -1423,7 +1378,8 @@
   possible_contribution: Non-pharmacological intervention and neurophysiological endpoints
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
