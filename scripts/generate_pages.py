@@ -4,13 +4,16 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "_data"
 
+
 def load(name):
     with open(DATA / name, encoding="utf-8") as f:
         return yaml.safe_load(f) or []
 
+
 def write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
 
 for topic in load("topics.yml"):
     tid = topic["id"]
@@ -25,6 +28,7 @@ permalink: /topics/{tid}/
 """
     )
 
+
 for researcher in load("researchers.yml"):
     rid = researcher["id"]
 
@@ -37,5 +41,20 @@ permalink: /researchers/{rid}/
 ---
 """
     )
+
+
+for capability in load("capabilities.yml"):
+    cid = capability["id"]
+
+    write(
+        ROOT / "capabilities" / f"{cid}.md",
+        f"""---
+layout: capability
+capability_id: {cid}
+permalink: /capabilities/{cid}/
+---
+"""
+    )
+
 
 print("Wrapper pages generated")
