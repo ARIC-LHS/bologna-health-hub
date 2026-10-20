@@ -11,7 +11,8 @@
   possible_contribution: Intervention design, functional outcomes and community implementation
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -56,7 +57,8 @@
   possible_contribution: Decentralised monitoring and analytical validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -76,7 +78,9 @@
   possible_contribution: Clinical phenotyping and longitudinal cohort contribution
   contribution_types:
     - cohort
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -123,7 +127,9 @@
   contribution_types:
     - cohort
     - data
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
+    - interoperability
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -166,7 +172,8 @@
   possible_contribution: Mechanistic hypothesis testing within a broader exposome design
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -186,7 +193,8 @@
   possible_contribution: Human phenotyping and exposure-response outcomes
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -228,7 +236,8 @@
   possible_contribution: Mechanistic and biomarker studies
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -248,7 +257,8 @@
   possible_contribution: Mechanistic experimental contribution
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -269,7 +279,8 @@
   possible_contribution: Experimental model and validation contribution
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -289,7 +300,9 @@
   possible_contribution: Mechanistic biomarkers and experimental validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
+    - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -376,7 +389,9 @@
   possible_contribution: Exposure assessment and human biomonitoring
   contribution_types:
     - data
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
+    - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -396,7 +411,8 @@
   possible_contribution: Food-related exposure pathways and analytical characterisation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -438,7 +454,8 @@
   possible_contribution: Sensor technology and repeated-measures monitoring
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -459,7 +476,9 @@
   possible_contribution: Evidence synthesis and risk modelling
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -478,7 +497,8 @@
   possible_contribution: Food-exposure analytics
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -520,7 +540,9 @@
   possible_contribution: Contaminant detection and effect validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
+    - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -564,7 +586,9 @@
   contribution_types:
     - data
     - method
-  capability_ids: []
+  capability_ids:
+    - ai-data
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -589,7 +613,8 @@
   possible_contribution: Target validation and mode-of-action studies
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -611,7 +636,8 @@
   possible_contribution: Structural biology and SAR support
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -637,7 +663,8 @@
   possible_contribution: Antigen-antibody interaction and candidate characterisation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -659,7 +686,8 @@
   possible_contribution: Structural characterisation and mechanism support
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -684,7 +712,8 @@
   possible_contribution: Candidate characterisation and mechanism studies
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -706,7 +735,8 @@
   possible_contribution: Structural biology and optimisation support
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -731,7 +761,8 @@
   possible_contribution: Human-model validation and translational antimicrobial studies
   contribution_types:
     - model
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -753,7 +784,8 @@
   possible_contribution: Target validation and mechanism work package
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -775,7 +807,8 @@
   possible_contribution: Structural and SAR support
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -822,7 +855,8 @@
   possible_contribution: Candidate testing and biological validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -841,7 +875,8 @@
   possible_contribution: Implementation intervention, functional outcomes and education
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -884,7 +919,8 @@
   possible_contribution: Clinical prevention and intervention adaptation
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -905,7 +941,8 @@
   possible_contribution: Adherence measurement and analytical QA
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -968,7 +1005,8 @@
   possible_contribution: Nutrition evidence base and decision-support methods
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1035,7 +1073,8 @@
   possible_contribution: Epidemiology prevention and consortium contribution
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1140,7 +1179,8 @@
   possible_contribution: Prevention intervention and clinical assessment
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1182,7 +1222,8 @@
   possible_contribution: Trial bioanalysis adherence and safety endpoints
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1226,7 +1267,8 @@
   possible_contribution: Evidence synthesis and nutrition component
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1510,7 +1552,8 @@
   contribution_types:
     - data
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1551,7 +1594,8 @@
   possible_contribution: Clinical pharmacy and implementation
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1570,7 +1614,8 @@
   possible_contribution: Medication review and implementation support
   contribution_types:
     - implementation
-  capability_ids: []
+  capability_ids:
+    - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1764,7 +1809,8 @@
   possible_contribution: Mechanistic and experimental validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1893,7 +1939,8 @@
   possible_contribution: Benchmark modelling and evidence synthesis
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1981,7 +2028,8 @@
   possible_contribution: Downstream process integration and product characterisation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2003,7 +2051,9 @@
   contribution_types:
     - method
     - infrastructure
-  capability_ids: []
+  capability_ids:
+    - digital-biomarkers
+    - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2023,7 +2073,8 @@
   possible_contribution: Sensing module and analytical feasibility
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2043,7 +2094,8 @@
   possible_contribution: Biological performance and validation studies
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2063,7 +2115,8 @@
   possible_contribution: Analytical performance reference methods and clinical validation
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2083,7 +2136,8 @@
   possible_contribution: Biological validation and benchmarking
   contribution_types:
     - method
-  capability_ids: []
+  capability_ids:
+    - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
