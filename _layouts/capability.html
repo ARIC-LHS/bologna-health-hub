@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{% assign capability = site.data.capabilities
+  | where: "id", page.capability_id
+  | first %}
+
+{% assign contributions = site.data.contributions %}
+
+<article class="container">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/capabilities/' | relative_url }}">Capabilities</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{{ capability.name }}</span>
+  </nav>
+
+  <header>
+    <h1>{{ capability.name }}</h1>
+  </header>
+
+  <section>
+
+    <h2>Relevant contributions</h2>
+
+    <div class="contribution-grid">
+
+      {% for contribution in contributions %}
+
+        {% if contribution.capability_ids contains capability.id %}
+
+          {% assign researcher = site.data.researchers
+            | where: "id", contribution.researcher_id
+            | first %}
+
+          {% include researcher-card.html
+            researcher=researcher
+            contribution=contribution %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+  {% include caveat.html text=site.disclaimer %}
+
+</article>
