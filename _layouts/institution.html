@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign institution = site.data.institutions
+  | where: "id", page.institution_id
+  | first %}
+
+<article class="container">
+
+  <header>
+    <h1>{{ institution.name }}</h1>
+  </header>
+
+  <section>
+
+    <h2>Researchers</h2>
+
+    <div class="card-grid">
+
+      {% for researcher in site.data.researchers %}
+
+        {% if researcher.institution_id == institution.id %}
+
+          {% assign contribution =
+            site.data.contributions
+            | where: "researcher_id", researcher.id
+            | first %}
+
+          {% include researcher-card.html
+            researcher=researcher
+            contribution=contribution %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+  {% include caveat.html text=site.disclaimer %}
+
+</article>

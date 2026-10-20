@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% assign infrastructure = site.data.infrastructures
+  | where: "id", page.infrastructure_id
+  | first %}
+
+<article class="container">
+
+  <header>
+    <h1>{{ infrastructure.name }}</h1>
+  </header>
+
+  {% if infrastructure.description %}
+  <section>
+    <p>{{ infrastructure.description }}</p>
+  </section>
+  {% endif %}
+
+  {% if infrastructure.availability %}
+  <section>
+    <h2>Availability</h2>
+    <p>{{ infrastructure.availability }}</p>
+  </section>
+  {% endif %}
+
+  {% include caveat.html text=site.disclaimer %}
+
+</article>
