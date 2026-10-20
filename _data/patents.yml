@@ -1,1 +1,7 @@
-[]
+- id: example-patent
+  title: Example patent
+  area: Health
+  url: ""
+  institution_ids:
+    - unibo
+  capability_ids: []
