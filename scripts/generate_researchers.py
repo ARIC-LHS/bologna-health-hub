@@ -1,2 +1,1 @@
-# future automated extraction
-# booklet -> researchers.yml
+print("TODO: researcher generation pipeline not implemented yet")

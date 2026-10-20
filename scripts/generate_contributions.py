@@ -1,2 +1,1 @@
-# future automated extraction
-# booklet -> contributions.yml
+print("TODO: contribution generation pipeline not implemented yet")
