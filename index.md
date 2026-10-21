@@ -77,12 +77,16 @@ permalink: /
 
     <article class="card">
       <h3>Patents</h3>
-      <p>
-        Access the official University of Bologna catalogue ofssets.
-      </p>
-      <p>
-        {{ '/patents/' | relative_url }}Explore Patents</a>
-      </p>
+<p>
+  Access the official University of Bologna patent catalogue.
+</p>
+
+<p>
+  <a href="{{ '/patents/' | relative_url }}">
+    Explore Patents
+  </a>
+</p>
+
     </article>
 
     <article class="card">
@@ -91,9 +95,12 @@ permalink: /
         Discover the official University of Bologna catalogues of accredited
         and participated spin-offs.
       </p>
-      <p>
-        {{ '/spinoffs/' | relative_url }}Explore Spin-offs</a>
-      </p>
+<p>
+  <a href="{{ '/spinoffs/' | relative_url }}">
+    Explore Spin-offs
+  </a>
+</p>
+   
     </article>
 
   </div>
