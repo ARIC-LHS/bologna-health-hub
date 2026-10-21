@@ -33,60 +33,66 @@ permalink: /
 
     <article class="card">
       <h3>Topics</h3>
-
       <p>
         Browse selected Horizon Europe Cluster 1 Health 2027 topics and identify
         relevant research contributions from the Bologna ecosystem.
       </p>
-
       <p>
-        <a href="{{ '/topics/' | relative_url }}">
-          Browse Topics
-        </a>
+        <a href="{{ '/topics/' | relative_url }}">Browse Topics</a>
       </p>
     </article>
 
     <article class="card">
       <h3>Capabilities</h3>
-
       <p>
         Explore scientific capabilities, associated researchers and the Horizon
         Europe topics to which they may contribute.
       </p>
-
       <p>
-        <a href="{{ '/capabilities/' | relative_url }}">
-          Browse Capabilities
-        </a>
+        <a href="{{ '/capabilities/' | relative_url }}">Browse Capabilities</a>
       </p>
     </article>
 
     <article class="card">
       <h3>Researchers</h3>
-
       <p>
         Discover researcher profiles, institutional affiliations and potential
         contributions to selected Horizon Europe Cluster 1 Health topics.
       </p>
-
       <p>
-        <a href="{{ '/researchers/' | relative_url }}">
-          Browse Researchers
-        </a>
+        <a href="{{ '/researchers/' | relative_url }}">Browse Researchers</a>
       </p>
     </article>
 
     <article class="card">
       <h3>Infrastructures</h3>
-
       <p>
-        Explore research infrastructures and technology   collaborative health research and consortium development.
+        Explore research infrastructures and technology platforms supporting
+        collaborative health research and consortium development.
       </p>
-
       <p>
-        {{ '/infrastructures/' | relative_url }}
-          Browse Infrastructures
-        </a>
+        <a href="{{ '/infrastructures/' | relative_url }}">Browse Infrastructures</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Patents</h3>
+      <p>
+        Access the official University of Bologna catalogue ofssets.
+      </p>
+      <p>
+        {{ '/patents/' | relative_url }}Explore Patents</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Spin-offs</h3>
+      <p>
+        Discover the official University of Bologna catalogues of accredited
+        and participated spin-offs.
+      </p>
+      <p>
+        {{ '/spinoffs/' | relative_url }}Explore Spin-offs</a>
       </p>
     </article>
 
