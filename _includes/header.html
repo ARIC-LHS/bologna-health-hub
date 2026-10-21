@@ -1,18 +1,21 @@
+cat > _includes/header.html <<'EOF'
 <header class="site-header">
   <div class="container header-inner">
     <a class="site-title" href="{{ '/' | relative_url }}">
       Bologna Metropolitan Health Research Hub
     </a>
 
-<nav aria-label="Primary navigation">
-  {{ '/topics/' | relative_url }}Topics</a>
-  {{ '/capabilities/' | relative_url }}Capabilities</a>
-  {{ '/researchers/' | relative_url }}Researchers</a>
-  {{ '/infrastructures/' | relative_url }}Infrastructures</a>
-  {{ '/patents/' | relative_url }}Patents</a>
-  {{ '/spinoffs/' | relative_url }}Spin-offs</a>
-  {{ '/about/' | relative_url }}About</a>
-</nav>
-
+    <nav aria-label="Primary navigation">
+      <a href="{{ '/topics/' | relative_url }}">Topics</a>
+      <a href="{{ '/capabilities/' | relative_url }}">Capabilities</a>
+      <a href="{{ '/researchers/' | relative_url }}">Researchers</a>
+      <a href="{{ '/infrastructures/' | relative_url }}">Infrastructures</a>
+      <a href="{{ '/patents/' | relative_url }}">Patents</a>
+      <a href="{{ '/spinoffs/' | relative_url }}">Spin-offs</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
   </div>
 </header>
+EOF
+
+./scripts/check_all.sh
