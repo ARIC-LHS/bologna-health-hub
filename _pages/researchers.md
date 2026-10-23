@@ -1,4 +1,3 @@
-cat > _pages/researchers.md <<'EOF'
 ---
 layout: default
 title: Researchers
@@ -84,4 +83,3 @@ permalink: /researchers/
   </div>
 
 </section>
-EOF
