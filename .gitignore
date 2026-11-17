@@ -1,2 +1,5 @@
 _site/
 .bundle/
+# Local booklet update sources
+BOOKLET_Cluster 1_2027.docx
+booklet_contributions_manifest.json
