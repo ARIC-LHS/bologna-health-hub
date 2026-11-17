@@ -1,0 +1,525 @@
+- id: laura-anderlucci
+  name: Laura Anderlucci
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: cristina-angeloni
+  name: Cristina Angeloni
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: maria-giulia-bacalini
+  name: Maria Giulia Bacalini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: monica-baiula
+  name: Monica Baiula
+  institution_id: unibo
+  department: Department of Pharmacy and Biotechnology
+  public_email: monica.baiula@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/monica.baiula/en
+  profile_url_type: individual
+- id: andrea-bedini
+  name: Andrea Bedini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: alessandra-bendini
+  name: Alessandra Bendini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: maria-cristina-bisi
+  name: Maria Cristina Bisi
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: alessandra-bolotta
+  name: Alessandra Bolotta
+  institution_id: aoubo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: silvia-bordoni
+  name: Silvia Bordoni
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: sara-borgomaneri
+  name: Sara Borgomaneri
+  institution_id: unibo
+  department: Department of Psychology
+  public_email: sara.borgomaneri@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/sara.borgomaneri/en
+  profile_url_type: individual
+- id: patrizia-brigidi
+  name: Patrizia Brigidi
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: cristiana-caliceti
+  name: Cristiana Caliceti
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: marco-candela
+  name: Marco Candela
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: silvia-cetrullo
+  name: Silvia Cetrullo
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: arrigo-francesco-giuseppe-cicero
+  name: Arrigo Francesco Giuseppe Cicero
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: giorgia-comai
+  name: Giorgia Comai
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: federica-d-amico
+  name: Federica D'Amico
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: francesco-decataldo
+  name: Francesco Decataldo
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: igor-diemberger
+  name: Igor Diemberger
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: carmela-fimognari
+  name: Carmela Fimognari
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: rita-fioresi
+  name: Rita Fioresi
+  institution_id: unibo
+  department: Department of Pharmacy and Biotechnology
+  public_email: rita.fioresi@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/rita.fioresi/en
+  profile_url_type: individual
+- id: francesca-fornari
+  name: Francesca Fornari
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: monica-forni
+  name: Monica Forni
+  institution_id: unibo
+  department: Department of Medical and Surgical Sciences
+  public_email: monica.forni@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/monica.forni/en
+  profile_url_type: individual
+- id: beatrice-fraboni
+  name: Beatrice Fraboni
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: giuliano-galimberti
+  name: Giuliano Galimberti
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: tullia-gallina-toschi
+  name: Tullia Gallina Toschi
+  institution_id: unibo
+  department: Department of Agricultural and Food Sciences
+  public_email: tullia.gallinatoschi@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/tullia.gallinatoschi/en
+  profile_url_type: individual
+- id: cecilia-garofalo
+  name: Cecilia Garofalo
+  institution_id: isnb
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: maddalena-giannella
+  name: Maddalena Giannella
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: isacco-gualandi
+  name: Isacco Gualandi
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: elisabetta-lalumera
+  name: Elisabetta Lalumera
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: antonello-lorenzini
+  name: Antonello Lorenzini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: giulia-maesano
+  name: Giulia Maesano
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: francesca-maffei
+  name: Francesca Maffei
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: marco-malaguti
+  name: Marco Malaguti
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: roberto-mandrioli
+  name: Roberto Mandrioli
+  institution_id: unibo
+  department: Department of Pharmacy and Biotechnology
+  public_email: roberto.mandrioli@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/roberto.mandrioli/en
+  profile_url_type: individual
+- id: olivia-manfrini
+  name: Olivia Manfrini
+  institution_id: unibo
+  department: Department of Medical and Surgical Sciences
+  public_email: olivia.manfrini@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/olivia.manfrini/en
+  profile_url_type: individual
+- id: francesca-massenzio
+  name: Francesca Massenzio
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: anna-vittoria-mattioli
+  name: Anna Vittoria Mattioli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: stefano-mattioli
+  name: Stefano Mattioli
+  institution_id: unibo
+  department: Department of Medical and Surgical Sciences
+  public_email: s.mattioli@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/s.mattioli/en
+  profile_url_type: individual
+- id: luca-mazzei
+  name: Luca Mazzei
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: laura-mercolini
+  name: Laura Mercolini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: angela-montanari
+  name: Angela Montanari
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: marco-montevecchi
+  name: Marco Montevecchi
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: barbara-monti
+  name: Barbara Monti
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: luca-mulazzani
+  name: Luca Mulazzani
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: francesco-nonino
+  name: Francesco Nonino
+  institution_id: isnb
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: luca-palmerini
+  name: Luca Palmerini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: maria-chiara-pelleri
+  name: Maria Chiara Pelleri
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: alessandro-perin
+  name: Alessandro Perin
+  institution_id: isnb
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: gian-luca-pirazzoli
+  name: Gian Luca Pirazzoli
+  institution_id: isnb
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: luciano-potena
+  name: Luciano Potena
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: michele-protti
+  name: Michele Protti
+  institution_id: unibo
+  department: Department of Pharmacy and Biotechnology
+  public_email: michele.protti2@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/michele.protti2/en
+  profile_url_type: individual
+- id: milena-raffi
+  name: Milena Raffi
+  institution_id: unibo
+  department: Department of Biomedical and Neuromotor Sciences
+  public_email: milena.raffi@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/milena.raffi/en
+  profile_url_type: individual
+- id: simone-rampelli
+  name: Simone Rampelli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: saverio-ranciati
+  name: Saverio Ranciati
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: federico-ravaioli
+  name: Federico Ravaioli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: edoardo-redivo
+  name: Edoardo Redivo
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: valeria-righi
+  name: Valeria Righi
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: tommaso-salzillo
+  name: Tommaso Salzillo
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: luisa-sambati
+  name: Luisa Sambati
+  institution_id: isnb
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: erika-scavetta
+  name: Erika Scavetta
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: roberta-spadoni
+  name: Roberta Spadoni
+  institution_id: unibo
+  department: Department of Agricultural and Food Sciences
+  public_email: roberta.spadoni@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/roberta.spadoni/en
+  profile_url_type: individual
+- id: rita-stagni
+  name: Rita Stagni
+  institution_id: unibo
+  department: Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi"
+  public_email: rita.stagni@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/rita.stagni/en
+  profile_url_type: individual
+- id: alessandra-stancari
+  name: Alessandra Stancari
+  institution_id: aoubo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: marina-tadolini
+  name: Marina Tadolini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: alessandra-tolomelli
+  name: Alessandra Tolomelli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: maria-trapanese
+  name: Maria Trapanese
+  institution_id: aoubo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: matilde-tura
+  name: Matilde Tura
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: eleonora-turrini
+  name: Eleonora Turrini
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: silvia-turroni
+  name: Silvia Turroni
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: sabrina-valente
+  name: Sabrina Valente
+  institution_id: unibo
+  department: Department of Medical and Surgical Sciences
+  public_email: sabrina.valente2@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/sabrina.valente2/en
+  profile_url_type: individual
+- id: enrico-valli
+  name: Enrico Valli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: barbara-zambelli
+  name: Barbara Zambelli
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: claudia-zanna
+  name: Claudia Zanna
+  institution_id: unibo
+  department: ''
+  public_email: ''
+  official_profile_url: ''
+  profile_url_type: ''
+- id: ohad-zivan
+  name: Ohad Zivan
+  institution_id: unibo
+  department: Department of Medical and Surgical Sciences
+  public_email: ohad.zivan@unibo.it
+  official_profile_url: https://www.unibo.it/sitoweb/ohad.zivan/en
+  profile_url_type: individual

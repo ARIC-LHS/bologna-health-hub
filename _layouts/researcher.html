@@ -13,31 +13,164 @@ layout: default
 {% assign contributions = site.data.contributions
   | where: "researcher_id", researcher.id %}
 
+
 <article class="container">
 
   <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="{{ '/researchers/' | relative_url }}">Researchers</a>
+
+    <a href="{{ '/researchers/' | relative_url }}">
+      Researchers
+    </a>
+
     <span aria-hidden="true"> / </span>
-    <span aria-current="page">{{ researcher.name }}</span>
+
+    <span aria-current="page">
+      {{ researcher.name }}
+    </span>
+
   </nav>
+
 
   <header class="profile-header">
 
-    <h1>{{ researcher.name }}</h1>
+    <p class="eyebrow">
+      Research profile
+    </p>
 
-    {% assign institution_name = institution.name
-      | default: institution.short_name
-      | default: researcher.institution_id %}
+    <h1>
+      {{ researcher.name }}
+    </h1>
 
-    <p class="profile-meta">
-      {{ institution_name }}
+
+    {% if institution %}
+
+      <p class="profile-meta">
+        <strong>{{ institution.short_name }}</strong>
+        ·
+        {{ institution.name }}
+      </p>
+
+    {% endif %}
+
+
+    {% if researcher.department %}
+
+      <p class="profile-department">
+        {{ researcher.department }}
+      </p>
+
+    {% endif %}
+
+
+    {% if researcher.official_profile_url %}
+
+      <p class="profile-official-link">
+
+        <a
+          href="{{ researcher.official_profile_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          {% if researcher.profile_url_type == "individual" %}
+            Official institutional profile →
+          {% else %}
+            Institutional website →
+          {% endif %}
+
+        </a>
+
+      </p>
+
+    {% endif %}
+
+
+    <p class="profile-summary">
+
+      <strong>{{ contributions.size }}</strong>
+
+      {% if contributions.size == 1 %}
+        topic contribution
+      {% else %}
+        topic contributions
+      {% endif %}
+
     </p>
 
   </header>
 
-  <section>
 
-    <h2>Topic Contributions</h2>
+  {% assign capability_string = "|" %}
+
+  {% for contribution in contributions %}
+
+    {% for capability_id in contribution.capability_ids %}
+
+      {% capture capability_token %}|{{ capability_id }}|{% endcapture %}
+
+      {% unless capability_string contains capability_token %}
+
+        {% capture capability_string %}{{ capability_string }}{{ capability_id }}|{% endcapture %}
+
+      {% endunless %}
+
+    {% endfor %}
+
+  {% endfor %}
+
+  {% assign researcher_capabilities = capability_string
+    | split: "|" %}
+
+
+  {% if researcher_capabilities.size > 1 %}
+
+    <section class="profile-capabilities">
+
+      <h2>
+        Capabilities across 2027 topics
+      </h2>
+
+      <ul class="tag-list capability-tags">
+
+        {% for capability_id in researcher_capabilities %}
+
+          {% assign capability_id = capability_id | strip %}
+
+          {% if capability_id != empty %}
+
+            {% assign capability = site.data.capabilities
+              | where: "id", capability_id
+              | first %}
+
+            {% if capability %}
+
+              <li class="capability-tag capability-tag--{{ capability.id }}">
+
+                <a href="{{ '/capabilities/' | append: capability.id | append: '/' | relative_url }}">
+                  {{ capability.name }}
+                </a>
+
+              </li>
+
+            {% endif %}
+
+          {% endif %}
+
+        {% endfor %}
+
+      </ul>
+
+    </section>
+
+  {% endif %}
+
+
+  <section class="profile-contributions">
+
+    <h2>
+      Topic-specific contributions
+    </h2>
+
 
     <div class="contribution-grid">
 
@@ -47,54 +180,31 @@ layout: default
           | where: "id", contribution.topic_id
           | first %}
 
+
         <article class="card contribution-card">
 
-          <p class="contribution-card__topic">
+          {% if topic %}
 
-            {% if topic %}
+            <p class="contribution-card__topic">
+
               <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
                 {{ topic.code }}
               </a>
-            {% else %}
-              {{ contribution.topic_id }}
-            {% endif %}
 
-          </p>
+            </p>
 
-          {% if topic %}
-            <h3 class="contribution-card__title">
+
+            <h3 class="contribution-card__topic-title">
               {{ topic.title }}
             </h3>
+
           {% endif %}
 
-          <p>
-            <strong>{{ contribution.title }}</strong>
-          </p>
 
-          <p>
-            {{ contribution.contribution }}
-          </p>
+          {% if contribution.capability_ids
+            and contribution.capability_ids.size > 0 %}
 
-          {% if contribution.assets and contribution.assets.size > 0 %}
-            <p><strong>Assets</strong></p>
-
-            <ul>
-              {% for asset in contribution.assets %}
-                <li>{{ asset }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-
-          {% if contribution.possible_contribution %}
-            <p>
-              <strong>Possible contribution:</strong><br>
-              {{ contribution.possible_contribution }}
-            </p>
-          {% endif %}
-
-          {% if contribution.capability_ids.size > 0 %}
-
-            <ul class="tag-list">
+            <ul class="tag-list capability-tags">
 
               {% for capability_id in contribution.capability_ids %}
 
@@ -103,16 +213,29 @@ layout: default
                   | first %}
 
                 {% if capability %}
-                  <li>
-                    <a href="{{ '/capabilities/#' | append: capability.id | relative_url }}">
+
+                  <li class="capability-tag capability-tag--{{ capability.id }}">
+
+                    <a href="{{ '/capabilities/' | append: capability.id | append: '/' | relative_url }}">
                       {{ capability.name }}
                     </a>
+
                   </li>
+
                 {% endif %}
 
               {% endfor %}
 
             </ul>
+
+          {% endif %}
+
+
+          {% if contribution.contribution %}
+
+            <div class="contribution-card__text">
+              {{ contribution.contribution | newline_to_br }}
+            </div>
 
           {% endif %}
 
@@ -123,6 +246,7 @@ layout: default
     </div>
 
   </section>
+
 
   {% include caveat.html text=site.disclaimer %}
 

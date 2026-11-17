@@ -6,10 +6,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: milena.raffi@unibo.it
   status: expression-of-interest
   surname: Raffi
   sort_name: Raffi, Milena Raffi
+  department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/milena.raffi/en
+  profile_url_type: individual
 - id: laura-mercolini
   name: Laura Mercolini
   institution_id: unibo
@@ -22,6 +25,7 @@
   status: expression-of-interest
   surname: Mercolini
   sort_name: Mercolini, Laura Mercolini
+  department: Department of Pharmacy and Biotechnology
 - id: maria-giulia-bacalini
   name: Maria Giulia Bacalini
   institution_id: unibo
@@ -34,6 +38,7 @@
   status: expression-of-interest
   surname: Bacalini
   sort_name: Bacalini, Maria Giulia Bacalini
+  department: Department of Biomedical and Neuromotor Sciences
 - id: maria-chiara-pelleri
   name: Maria Chiara Pelleri
   institution_id: unibo
@@ -46,6 +51,7 @@
   status: expression-of-interest
   surname: Pelleri
   sort_name: Pelleri, Maria Chiara Pelleri
+  department: Department of Biomedical and Neuromotor Sciences
 - id: angela-montanari
   name: Angela Montanari
   institution_id: unibo
@@ -58,6 +64,7 @@
   status: expression-of-interest
   surname: Montanari
   sort_name: Montanari, Angela Montanari
+  department: Department of Statistical Sciences "Paolo Fortunati"
 - id: monica-baiula
   name: Monica Baiula
   institution_id: unibo
@@ -66,10 +73,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: monica.baiula@unibo.it
   status: expression-of-interest
   surname: Baiula
   sort_name: Baiula, Monica Baiula
+  department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/monica.baiula/en
+  profile_url_type: individual
 - id: andrea-bedini
   name: Andrea Bedini
   institution_id: unibo
@@ -82,6 +92,7 @@
   status: expression-of-interest
   surname: Bedini
   sort_name: Bedini, Andrea Bedini
+  department: Department of Pharmacy and Biotechnology
 - id: sabrina-valente
   name: Sabrina Valente
   institution_id: unibo
@@ -90,10 +101,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: sabrina.valente2@unibo.it
   status: expression-of-interest
   surname: Valente
   sort_name: Valente, Sabrina Valente
+  department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/sabrina.valente2/en
+  profile_url_type: individual
 - id: claudia-zanna
   name: Claudia Zanna
   institution_id: unibo
@@ -106,6 +120,7 @@
   status: expression-of-interest
   surname: Zanna
   sort_name: Zanna, Claudia Zanna
+  department: Department of Biomedical and Neuromotor Sciences
 - id: marco-candela
   name: Marco Candela
   institution_id: unibo
@@ -118,6 +133,7 @@
   status: expression-of-interest
   surname: Candela
   sort_name: Candela, Marco Candela
+  department: Department of Pharmacy and Biotechnology
 - id: francesca-maffei
   name: Francesca Maffei
   institution_id: unibo
@@ -130,6 +146,7 @@
   status: expression-of-interest
   surname: Maffei
   sort_name: Maffei, Francesca Maffei
+  department: Department for Life Quality Studies
 - id: monica-forni
   name: Monica Forni
   institution_id: unibo
@@ -138,10 +155,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: monica.forni@unibo.it
   status: expression-of-interest
   surname: Forni
   sort_name: Forni, Monica Forni
+  department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/monica.forni/en
+  profile_url_type: individual
 - id: stefano-mattioli
   name: Stefano Mattioli
   institution_id: unibo
@@ -150,10 +170,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: s.mattioli@unibo.it
   status: expression-of-interest
   surname: Mattioli
   sort_name: Mattioli, Stefano Mattioli
+  department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/s.mattioli/en
+  profile_url_type: individual
 - id: tullia-gallina-toschi
   name: Tullia Gallina Toschi
   institution_id: unibo
@@ -162,10 +185,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: tullia.gallinatoschi@unibo.it
   status: expression-of-interest
   surname: Gallina Toschi
   sort_name: Gallina Toschi, Tullia Gallina Toschi
+  department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/tullia.gallinatoschi/en
+  profile_url_type: individual
 - id: roberta-spadoni
   name: Roberta Spadoni
   institution_id: unibo
@@ -174,10 +200,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: roberta.spadoni@unibo.it
   status: expression-of-interest
   surname: Spadoni
   sort_name: Spadoni, Roberta Spadoni
+  department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/roberta.spadoni/en
+  profile_url_type: individual
 - id: cristiana-caliceti
   name: Cristiana Caliceti
   institution_id: unibo
@@ -190,6 +219,7 @@
   status: expression-of-interest
   surname: Caliceti
   sort_name: Caliceti, Cristiana Caliceti
+  department: Department of Biomedical and Neuromotor Sciences
 - id: antonello-lorenzini
   name: Antonello Lorenzini
   institution_id: unibo
@@ -202,6 +232,7 @@
   status: expression-of-interest
   surname: Lorenzini
   sort_name: Lorenzini, Antonello Lorenzini
+  department: Department of Biomedical and Neuromotor Sciences
 - id: enrico-valli
   name: Enrico Valli
   institution_id: unibo
@@ -214,6 +245,7 @@
   status: expression-of-interest
   surname: Valli
   sort_name: Valli, Enrico Valli
+  department: Department of Agricultural and Food Sciences
 - id: luca-mulazzani
   name: Luca Mulazzani
   institution_id: unibo
@@ -226,6 +258,7 @@
   status: expression-of-interest
   surname: Mulazzani
   sort_name: Mulazzani, Luca Mulazzani
+  department: Department of Agricultural and Food Sciences
 - id: francesco-decataldo
   name: Francesco Decataldo
   institution_id: unibo
@@ -238,6 +271,7 @@
   status: expression-of-interest
   surname: Decataldo
   sort_name: Decataldo, Francesco Decataldo
+  department: Department of Medical and Surgical Sciences
 - id: giulia-maesano
   name: Giulia Maesano
   institution_id: unibo
@@ -250,6 +284,7 @@
   status: expression-of-interest
   surname: Maesano
   sort_name: Maesano, Giulia Maesano
+  department: Department of Agricultural and Food Sciences
 - id: ohad-zivan
   name: Ohad Zivan
   institution_id: unibo
@@ -258,10 +293,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: ohad.zivan@unibo.it
   status: expression-of-interest
   surname: Zivan
   sort_name: Zivan, Ohad Zivan
+  department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/ohad.zivan/en
+  profile_url_type: individual
 - id: barbara-zambelli
   name: Barbara Zambelli
   institution_id: unibo
@@ -274,6 +312,7 @@
   status: expression-of-interest
   surname: Zambelli
   sort_name: Zambelli, Barbara Zambelli
+  department: Department of Pharmacy and Biotechnology
 - id: luca-mazzei
   name: Luca Mazzei
   institution_id: unibo
@@ -286,6 +325,7 @@
   status: expression-of-interest
   surname: Mazzei
   sort_name: Mazzei, Luca Mazzei
+  department: Department of Pharmacy and Biotechnology
 - id: maddalena-giannella
   name: Maddalena Giannella
   institution_id: unibo
@@ -298,6 +338,7 @@
   status: expression-of-interest
   surname: Giannella
   sort_name: Giannella, Maddalena Giannella
+  department: Department of Medical and Surgical Sciences
 - id: arrigo-francesco-giuseppe-cicero
   name: Arrigo Francesco Giuseppe Cicero
   institution_id: unibo
@@ -310,6 +351,7 @@
   status: expression-of-interest
   surname: Cicero
   sort_name: Cicero, Arrigo Francesco Giuseppe Cicero
+  department: Department of Medical and Surgical Sciences
 - id: roberto-mandrioli
   name: Roberto Mandrioli
   institution_id: unibo
@@ -318,10 +360,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: roberto.mandrioli@unibo.it
   status: expression-of-interest
   surname: Mandrioli
   sort_name: Mandrioli, Roberto Mandrioli
+  department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/roberto.mandrioli/en
+  profile_url_type: individual
 - id: rita-stagni
   name: Rita Stagni
   institution_id: unibo
@@ -330,10 +375,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: rita.stagni@unibo.it
   status: expression-of-interest
   surname: Stagni
   sort_name: Stagni, Rita Stagni
+  department: Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi"
+  official_profile_url: https://www.unibo.it/sitoweb/rita.stagni/en
+  profile_url_type: individual
 - id: maria-cristina-bisi
   name: Maria Cristina Bisi
   institution_id: unibo
@@ -346,6 +394,7 @@
   status: expression-of-interest
   surname: Bisi
   sort_name: Bisi, Maria Cristina Bisi
+  department: Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi"
 - id: igor-diemberger
   name: Igor Diemberger
   institution_id: unibo
@@ -358,6 +407,7 @@
   status: expression-of-interest
   surname: Diemberger
   sort_name: Diemberger, Igor Diemberger
+  department: Department of Medical and Surgical Sciences
 - id: olivia-manfrini
   name: Olivia Manfrini
   institution_id: unibo
@@ -366,10 +416,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: olivia.manfrini@unibo.it
   status: expression-of-interest
   surname: Manfrini
   sort_name: Manfrini, Olivia Manfrini
+  department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/olivia.manfrini/en
+  profile_url_type: individual
 - id: federico-ravaioli
   name: Federico Ravaioli
   institution_id: unibo
@@ -382,6 +435,7 @@
   status: expression-of-interest
   surname: Ravaioli
   sort_name: Ravaioli, Federico Ravaioli
+  department: Department of Medical and Surgical Sciences
 - id: sara-borgomaneri
   name: Sara Borgomaneri
   institution_id: unibo
@@ -390,10 +444,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: sara.borgomaneri@unibo.it
   status: expression-of-interest
   surname: Borgomaneri
   sort_name: Borgomaneri, Sara Borgomaneri
+  department: Department of Psychology "Renzo Canestrari"
+  official_profile_url: https://www.unibo.it/sitoweb/sara.borgomaneri/en
+  profile_url_type: individual
 - id: luca-palmerini
   name: Luca Palmerini
   institution_id: unibo
@@ -406,6 +463,7 @@
   status: expression-of-interest
   surname: Palmerini
   sort_name: Palmerini, Luca Palmerini
+  department: Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi"
 - id: luciano-potena
   name: Luciano Potena
   institution_id: unibo
@@ -418,6 +476,7 @@
   status: expression-of-interest
   surname: Potena
   sort_name: Potena, Luciano Potena
+  department: Department of Medical and Surgical Sciences
 - id: giorgia-comai
   name: Giorgia Comai
   institution_id: unibo
@@ -430,6 +489,7 @@
   status: expression-of-interest
   surname: Comai
   sort_name: Comai, Giorgia Comai
+  department: Department of Medical and Surgical Sciences
 - id: marina-tadolini
   name: Marina Tadolini
   institution_id: unibo
@@ -442,6 +502,7 @@
   status: expression-of-interest
   surname: Tadolini
   sort_name: Tadolini, Marina Tadolini
+  department: Department of Medical and Surgical Sciences
 - id: michele-protti
   name: Michele Protti
   institution_id: unibo
@@ -450,10 +511,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: michele.protti2@unibo.it
   status: expression-of-interest
   surname: Protti
   sort_name: Protti, Michele Protti
+  department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/michele.protti2/en
+  profile_url_type: individual
 - id: rita-fioresi
   name: Rita Fioresi
   institution_id: unibo
@@ -462,10 +526,13 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ''
+  public_email: rita.fioresi@unibo.it
   status: expression-of-interest
   surname: Fioresi
   sort_name: Fioresi, Rita Fioresi
+  department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/rita.fioresi/en
+  profile_url_type: individual
 - id: alessandra-tolomelli
   name: Alessandra Tolomelli
   institution_id: unibo
@@ -478,6 +545,7 @@
   status: expression-of-interest
   surname: Tolomelli
   sort_name: Tolomelli, Alessandra Tolomelli
+  department: Department of Chemistry "Giacomo Ciamician"
 - id: alessandra-bolotta
   name: Alessandra Bolotta
   institution_id: aoubo
@@ -490,6 +558,7 @@
   status: expression-of-interest
   surname: Bolotta
   sort_name: Bolotta, Alessandra Bolotta
+  department: IRCCS Azienda Ospedaliero-Universitaria di Bologna
 - id: alessandra-stancari
   name: Alessandra Stancari
   institution_id: aoubo
@@ -502,6 +571,7 @@
   status: expression-of-interest
   surname: Stancari
   sort_name: Stancari, Alessandra Stancari
+  department: Clinical Pharmacy, Production and Research Unit · IRCCS Azienda Ospedaliero-Universitaria di Bologna
 - id: maria-trapanese
   name: Maria Trapanese
   institution_id: aoubo
@@ -514,6 +584,7 @@
   status: expression-of-interest
   surname: Trapanese
   sort_name: Trapanese, Maria Trapanese
+  department: Clinical Pharmacy, Production and Research Unit · IRCCS Azienda Ospedaliero-Universitaria di Bologna
 - id: marco-montevecchi
   name: Marco Montevecchi
   institution_id: unibo
@@ -530,6 +601,7 @@
   status: expression-of-interest
   surname: Montevecchi
   sort_name: Montevecchi, Marco Montevecchi
+  department: Department of Biomedical and Neuromotor Sciences · University Dental Clinic, Periodontology Unit
 - id: luisa-sambati
   name: Luisa Sambati
   institution_id: isnb
@@ -542,6 +614,7 @@
   status: expression-of-interest
   surname: Sambati
   sort_name: Sambati, Luisa Sambati
+  department: U.O.C. Neurology Clinic · Metropolitan Neurological Network (NEUROMET)
 - id: gian-luca-pirazzoli
   name: Gian Luca Pirazzoli
   institution_id: isnb
@@ -554,6 +627,7 @@
   status: expression-of-interest
   surname: Pirazzoli
   sort_name: Pirazzoli, Gian Luca Pirazzoli
+  department: IRCCS Istituto delle Scienze Neurologiche di Bologna
 - id: silvia-cetrullo
   name: Silvia Cetrullo
   institution_id: unibo
@@ -566,6 +640,7 @@
   status: expression-of-interest
   surname: Cetrullo
   sort_name: Cetrullo, Silvia Cetrullo
+  department: Department of Biomedical and Neuromotor Sciences
 - id: simone-rampelli
   name: Simone Rampelli
   institution_id: unibo
@@ -578,6 +653,7 @@
   status: expression-of-interest
   surname: Rampelli
   sort_name: Rampelli, Simone Rampelli
+  department: Department of Pharmacy and Biotechnology
 - id: federica-d-amico
   name: Federica D'Amico
   institution_id: unibo
@@ -590,6 +666,7 @@
   status: expression-of-interest
   surname: D'Amico
   sort_name: D'Amico, Federica D'Amico
+  department: Department of Pharmacy and Biotechnology
 - id: tommaso-salzillo
   name: Tommaso Salzillo
   institution_id: unibo
@@ -602,6 +679,7 @@
   status: expression-of-interest
   surname: Salzillo
   sort_name: Salzillo, Tommaso Salzillo
+  department: Department of Industrial Chemistry "Toso Montanari"
 - id: beatrice-fraboni
   name: Beatrice Fraboni
   institution_id: unibo
@@ -614,6 +692,7 @@
   status: expression-of-interest
   surname: Fraboni
   sort_name: Fraboni, Beatrice Fraboni
+  department: Department of Physics and Astronomy "Augusto Righi"
 - id: francesco-nonino
   name: Francesco Nonino
   institution_id: isnb
@@ -626,6 +705,7 @@
   status: expression-of-interest
   surname: Nonino
   sort_name: Nonino, Francesco Nonino
+  department: Epidemiology and Statistics Unit · IRCCS Istituto delle Scienze Neurologiche di Bologna
 - id: patrizia-brigidi
   name: Patrizia Brigidi
   institution_id: unibo
@@ -638,6 +718,7 @@
   status: expression-of-interest
   surname: Brigidi
   sort_name: Brigidi, Patrizia Brigidi
+  department: Department of Pharmacy and Biotechnology
 - id: silvia-turroni
   name: Silvia Turroni
   institution_id: unibo
@@ -650,6 +731,7 @@
   status: expression-of-interest
   surname: Turroni
   sort_name: Turroni, Silvia Turroni
+  department: Department of Pharmacy and Biotechnology
 - id: alessandra-bendini
   name: Alessandra Bendini
   institution_id: unibo
@@ -662,6 +744,7 @@
   status: expression-of-interest
   surname: Bendini
   sort_name: Bendini, Alessandra Bendini
+  department: Department of Agricultural and Food Sciences
 - id: matilde-tura
   name: Matilde Tura
   institution_id: unibo
@@ -674,6 +757,7 @@
   status: expression-of-interest
   surname: Tura
   sort_name: Tura, Matilde Tura
+  department: Department of Agricultural and Food Sciences
 - id: carmela-fimognari
   name: Carmela Fimognari
   institution_id: unibo
@@ -686,6 +770,7 @@
   status: expression-of-interest
   surname: Fimognari
   sort_name: Fimognari, Carmela Fimognari
+  department: Department for Life Quality Studies
 - id: cristina-angeloni
   name: Cristina Angeloni
   institution_id: unibo
@@ -698,6 +783,7 @@
   status: expression-of-interest
   surname: Angeloni
   sort_name: Angeloni, Cristina Angeloni
+  department: Department for Life Quality Studies
 - id: francesca-fornari
   name: Francesca Fornari
   institution_id: unibo
@@ -710,6 +796,7 @@
   status: expression-of-interest
   surname: Fornari
   sort_name: Fornari, Francesca Fornari
+  department: Department for Life Quality Studies
 - id: elisabetta-lalumera
   name: Elisabetta Lalumera
   institution_id: unibo
@@ -722,6 +809,7 @@
   status: expression-of-interest
   surname: Lalumera
   sort_name: Lalumera, Elisabetta Lalumera
+  department: Department for Life Quality Studies
 - id: marco-malaguti
   name: Marco Malaguti
   institution_id: unibo
@@ -734,6 +822,7 @@
   status: expression-of-interest
   surname: Malaguti
   sort_name: Malaguti, Marco Malaguti
+  department: Department for Life Quality Studies
 - id: anna-vittoria-mattioli
   name: Anna Vittoria Mattioli
   institution_id: unibo
@@ -746,6 +835,7 @@
   status: expression-of-interest
   surname: Mattioli
   sort_name: Mattioli, Anna Vittoria Mattioli
+  department: Department for Life Quality Studies
 - id: valeria-righi
   name: Valeria Righi
   institution_id: unibo
@@ -758,6 +848,7 @@
   status: expression-of-interest
   surname: Righi
   sort_name: Righi, Valeria Righi
+  department: Department for Life Quality Studies
 - id: eleonora-turrini
   name: Eleonora Turrini
   institution_id: unibo
@@ -770,6 +861,7 @@
   status: expression-of-interest
   surname: Turrini
   sort_name: Turrini, Eleonora Turrini
+  department: Department for Life Quality Studies
 - id: barbara-monti
   name: Barbara Monti
   institution_id: unibo
@@ -782,6 +874,7 @@
   status: expression-of-interest
   surname: Monti
   sort_name: Monti, Barbara Monti
+  department: Department of Pharmacy and Biotechnology
 - id: francesca-massenzio
   name: Francesca Massenzio
   institution_id: unibo
@@ -794,6 +887,7 @@
   status: expression-of-interest
   surname: Massenzio
   sort_name: Massenzio, Francesca Massenzio
+  department: Department of Pharmacy and Biotechnology
 - id: laura-anderlucci
   name: Laura Anderlucci
   institution_id: unibo
@@ -806,6 +900,7 @@
   status: expression-of-interest
   surname: Anderlucci
   sort_name: Anderlucci, Laura Anderlucci
+  department: Department of Statistical Sciences "Paolo Fortunati"
 - id: giuliano-galimberti
   name: Giuliano Galimberti
   institution_id: unibo
@@ -818,6 +913,7 @@
   status: expression-of-interest
   surname: Galimberti
   sort_name: Galimberti, Giuliano Galimberti
+  department: Department of Statistical Sciences "Paolo Fortunati"
 - id: saverio-ranciati
   name: Saverio Ranciati
   institution_id: unibo
@@ -830,6 +926,7 @@
   status: expression-of-interest
   surname: Ranciati
   sort_name: Ranciati, Saverio Ranciati
+  department: Department of Statistical Sciences "Paolo Fortunati"
 - id: edoardo-redivo
   name: Edoardo Redivo
   institution_id: unibo
@@ -842,6 +939,7 @@
   status: expression-of-interest
   surname: Redivo
   sort_name: Redivo, Edoardo Redivo
+  department: Department of Statistical Sciences "Paolo Fortunati"
 - id: silvia-bordoni
   name: Silvia Bordoni
   institution_id: unibo
@@ -854,6 +952,7 @@
   status: expression-of-interest
   surname: Bordoni
   sort_name: Bordoni, Silvia Bordoni
+  department: Department of Industrial Chemistry "Toso Montanari"
 - id: cecilia-garofalo
   name: Cecilia Garofalo
   institution_id: isnb
@@ -866,6 +965,7 @@
   status: expression-of-interest
   surname: Garofalo
   sort_name: Garofalo, Cecilia Garofalo
+  department: Bologna Neuroscience Biobank (BNB) · IRCCS Istituto delle Scienze Neurologiche di Bologna
 - id: alessandro-perin
   name: Alessandro Perin
   institution_id: isnb
@@ -878,6 +978,7 @@
   status: expression-of-interest
   surname: Perin
   sort_name: Perin, Alessandro Perin
+  department: Neurosurgery Unit · IRCCS Istituto delle Scienze Neurologiche di Bologna
 - id: isacco-gualandi
   name: Isacco Gualandi
   institution_id: unibo
@@ -890,6 +991,7 @@
   status: expression-of-interest
   surname: Gualandi
   sort_name: Gualandi, Isacco Gualandi
+  department: Department of Industrial Chemistry "Toso Montanari"
 - id: erika-scavetta
   name: Erika Scavetta
   institution_id: unibo
@@ -902,3 +1004,4 @@
   status: expression-of-interest
   surname: Scavetta
   sort_name: Scavetta, Erika Scavetta
+  department: Department of Industrial Chemistry "Toso Montanari"
