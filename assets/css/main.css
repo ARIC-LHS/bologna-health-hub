@@ -463,3 +463,55 @@ textarea:focus-visible {
   border-color: #c4ccd3;
   background: #f3f5f7;
 }
+/* TOPIC RESEARCHER CARDS */
+
+.re*evant-profiles {
+  margin-top: 2*5rem;
+}
+
+.topic-researcher-card*h3 {
+  margin-bottom: .35rem*
+}
+
+.researcher-institution {
+  ma*gin: 0 0*.75rem;
+  color: #5f*f5f;
+  font-size: .*rem;
+  font-weight: 700;
+*
+
+.section-meta {
+  margin-top: -.*rem;
+  margin-bottom: 1.25*em;
+  color: #5f5f*f;
+}
+
+.contribution-preview {
+  ma*gin-top: 1rem;
+  line-height: 1.55*
+}
+
+.contribution-details {
+  marg*n-top: .9rem;
+  padding-top: .75re*;
+  border-top: 1px solid var(--li*e);
+}
+
+.contribution-details summa*y {
+  cursor: pointer;
+  color: va*(--unibo-red);
+  font*weight: 700;
+}
+
+.contribution-deta*ls summary:hover {
+  text-decorati*n: underline;
+}
+
+.contribution-det*ils[open] summary {
+  margin-botto*: .75rem;
+}
+
+.contribution-full {
+* line-height: 1.6;
+}
+*

@@ -1,0 +1,74 @@
+{% assign r = include.researcher %}
+{% assign c = include.contribution %}
+
+{% assign institution = site.data.institutions
+  | where: "id", r.institution_id
+  | first %}
+
+
+<article class="card researcher-card topic-researcher-card">
+
+  <h3>
+
+    <a href="{{ '/researchers/' | append: r.id | append: '/' | relative_url }}">
+      {{ r.name }}
+    </a>
+
+  </h3>
+
+
+  {% if institution %}
+
+    <p class="researcher-institution">
+      {{ institution.short_name }}
+    </p>
+
+  {% endif %}
+
+
+  {% if c.capability_ids and c.capability_ids.size > 0 %}
+
+    <ul class="tag-list capability-tags">
+
+      {% for capability_id in c.capability_ids %}
+
+        {% assign capability = site.data.capabilities
+          | where: "id", capability_id
+          | first %}
+
+        {% if capability %}
+
+          <li class="capability-tag capability-tag--{{ capability.id }}">
+            {{ capability.name }}
+          </li>
+
+        {% endif %}
+
+      {% endfor %}
+
+    </ul>
+
+  {% endif %}
+
+
+  {% if c.contribution %}
+
+    <p class="contribution-preview">
+      {{ c.contribution | truncate: 500 }}
+    </p>
+
+    <details class="contribution-details">
+
+      <summary>
+        Read full contribution
+      </summary>
+
+      <div class="contribution-full">
+        {{ c.contribution | newline_to_br }}
+      </div>
+
+    </details>
+
+  {% endif %}
+
+</article>

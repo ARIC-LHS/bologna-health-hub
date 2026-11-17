@@ -6,51 +6,107 @@ layout: default
   | where: "id", page.topic_id
   | first %}
 
+{% assign matches = site.data.contributions
+  | where: "topic_id", topic.id %}
+
+{% assign sorted_researchers = site.data.researchers
+  | sort: "sort_name" %}
+
+
 <article class="container">
 
   <header class="topic-header">
-    <p class="eyebrow">Destination {{ topic.destination }} · {{ topic.action_type }}</p>
+
+    <p class="eyebrow">
+      Destination {{ topic.destination }} · {{ topic.action_type }}
+    </p>
+
     <h1>{{ topic.code }}</h1>
-    <p class="lede">{{ topic.title }}</p>
+
+    <p class="lede">
+      {{ topic.title }}
+    </p>
+
   </header>
 
+
   {% assign focus = topic.focus | default: "" | strip %}
+
   {% if focus != empty %}
-  <section>
-    <h2>Matchmaking focus</h2>
-    <p>{{ focus }}</p>
-  </section>
+
+    <section>
+
+      <h2>Matchmaking focus</h2>
+
+      <p>
+        {{ focus }}
+      </p>
+
+    </section>
+
   {% endif %}
 
-  {% if topic.contribution_at_glance and topic.contribution_at_glance.size > 0 %}
-  <section class="at-a-glance">
-    <h2>Bologna contribution at a glance</h2>
-    <ul class="tag-list">
-      {% for item in topic.contribution_at_glance %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-  </section>
+
+  {% if topic.contribution_at_glance
+    and topic.contribution_at_glance.size > 0 %}
+
+    <section class="at-a-glance">
+
+      <h2>Bologna contribution at a glance</h2>
+
+      <ul class="tag-list">
+
+        {% for item in topic.contribution_at_glance %}
+
+          <li>
+            {{ item }}
+          </li>
+
+        {% endfor %}
+
+      </ul>
+
+    </section>
+
   {% endif %}
 
-  <section>
+
+  <section class="relevant-profiles">
+
     <h2>Relevant profiles</h2>
 
-    {% assign matches = site.data.contributions
-      | where: "topic_id", topic.id %}
-    {% assign sorted_researchers = site.data.researchers | sort: "name" %}
+    <p class="section-meta">
+      <strong>{{ matches.size }}</strong>
+      {% if matches.size == 1 %}
+        Bologna research profile
+      {% else %}
+        Bologna research profiles
+      {% endif %}
+    </p>
+
 
     <div class="card-grid">
+
       {% for researcher in sorted_researchers %}
+
         {% assign contribution = matches
           | where: "researcher_id", researcher.id
           | first %}
+
         {% if contribution %}
-          {% include researcher-card.html researcher=researcher contribution=contribution %}
+
+          {% include topic-researcher-card.html
+            researcher=researcher
+            contribution=contribution %}
+
         {% endif %}
+
       {% endfor %}
+
     </div>
+
   </section>
+
 
   {% include caveat.html text=site.disclaimer %}
 

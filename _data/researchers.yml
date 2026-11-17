@@ -8,6 +8,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Raffi
+  sort_name: Raffi, Milena Raffi
 - id: laura-mercolini
   name: Laura Mercolini
   institution_id: unibo
@@ -18,6 +20,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mercolini
+  sort_name: Mercolini, Laura Mercolini
 - id: maria-giulia-bacalini
   name: Maria Giulia Bacalini
   institution_id: unibo
@@ -28,6 +32,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bacalini
+  sort_name: Bacalini, Maria Giulia Bacalini
 - id: maria-chiara-pelleri
   name: Maria Chiara Pelleri
   institution_id: unibo
@@ -38,6 +44,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Pelleri
+  sort_name: Pelleri, Maria Chiara Pelleri
 - id: angela-montanari
   name: Angela Montanari
   institution_id: unibo
@@ -48,6 +56,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Montanari
+  sort_name: Montanari, Angela Montanari
 - id: monica-baiula
   name: Monica Baiula
   institution_id: unibo
@@ -58,6 +68,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Baiula
+  sort_name: Baiula, Monica Baiula
 - id: andrea-bedini
   name: Andrea Bedini
   institution_id: unibo
@@ -68,6 +80,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bedini
+  sort_name: Bedini, Andrea Bedini
 - id: sabrina-valente
   name: Sabrina Valente
   institution_id: unibo
@@ -78,6 +92,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Valente
+  sort_name: Valente, Sabrina Valente
 - id: claudia-zanna
   name: Claudia Zanna
   institution_id: unibo
@@ -88,6 +104,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Zanna
+  sort_name: Zanna, Claudia Zanna
 - id: marco-candela
   name: Marco Candela
   institution_id: unibo
@@ -98,6 +116,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Candela
+  sort_name: Candela, Marco Candela
 - id: francesca-maffei
   name: Francesca Maffei
   institution_id: unibo
@@ -108,6 +128,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Maffei
+  sort_name: Maffei, Francesca Maffei
 - id: monica-forni
   name: Monica Forni
   institution_id: unibo
@@ -118,6 +140,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Forni
+  sort_name: Forni, Monica Forni
 - id: stefano-mattioli
   name: Stefano Mattioli
   institution_id: unibo
@@ -128,6 +152,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mattioli
+  sort_name: Mattioli, Stefano Mattioli
 - id: tullia-gallina-toschi
   name: Tullia Gallina Toschi
   institution_id: unibo
@@ -138,6 +164,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Gallina Toschi
+  sort_name: Gallina Toschi, Tullia Gallina Toschi
 - id: roberta-spadoni
   name: Roberta Spadoni
   institution_id: unibo
@@ -148,6 +176,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Spadoni
+  sort_name: Spadoni, Roberta Spadoni
 - id: cristiana-caliceti
   name: Cristiana Caliceti
   institution_id: unibo
@@ -158,6 +188,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Caliceti
+  sort_name: Caliceti, Cristiana Caliceti
 - id: antonello-lorenzini
   name: Antonello Lorenzini
   institution_id: unibo
@@ -168,6 +200,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Lorenzini
+  sort_name: Lorenzini, Antonello Lorenzini
 - id: enrico-valli
   name: Enrico Valli
   institution_id: unibo
@@ -178,6 +212,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Valli
+  sort_name: Valli, Enrico Valli
 - id: luca-mulazzani
   name: Luca Mulazzani
   institution_id: unibo
@@ -188,6 +224,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mulazzani
+  sort_name: Mulazzani, Luca Mulazzani
 - id: francesco-decataldo
   name: Francesco Decataldo
   institution_id: unibo
@@ -198,6 +236,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Decataldo
+  sort_name: Decataldo, Francesco Decataldo
 - id: giulia-maesano
   name: Giulia Maesano
   institution_id: unibo
@@ -208,6 +248,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Maesano
+  sort_name: Maesano, Giulia Maesano
 - id: ohad-zivan
   name: Ohad Zivan
   institution_id: unibo
@@ -218,6 +260,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Zivan
+  sort_name: Zivan, Ohad Zivan
 - id: barbara-zambelli
   name: Barbara Zambelli
   institution_id: unibo
@@ -228,6 +272,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Zambelli
+  sort_name: Zambelli, Barbara Zambelli
 - id: luca-mazzei
   name: Luca Mazzei
   institution_id: unibo
@@ -238,6 +284,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mazzei
+  sort_name: Mazzei, Luca Mazzei
 - id: maddalena-giannella
   name: Maddalena Giannella
   institution_id: unibo
@@ -248,6 +296,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Giannella
+  sort_name: Giannella, Maddalena Giannella
 - id: arrigo-francesco-giuseppe-cicero
   name: Arrigo Francesco Giuseppe Cicero
   institution_id: unibo
@@ -258,6 +308,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Cicero
+  sort_name: Cicero, Arrigo Francesco Giuseppe Cicero
 - id: roberto-mandrioli
   name: Roberto Mandrioli
   institution_id: unibo
@@ -268,6 +320,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mandrioli
+  sort_name: Mandrioli, Roberto Mandrioli
 - id: rita-stagni
   name: Rita Stagni
   institution_id: unibo
@@ -278,6 +332,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Stagni
+  sort_name: Stagni, Rita Stagni
 - id: maria-cristina-bisi
   name: Maria Cristina Bisi
   institution_id: unibo
@@ -288,6 +344,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bisi
+  sort_name: Bisi, Maria Cristina Bisi
 - id: igor-diemberger
   name: Igor Diemberger
   institution_id: unibo
@@ -298,6 +356,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Diemberger
+  sort_name: Diemberger, Igor Diemberger
 - id: olivia-manfrini
   name: Olivia Manfrini
   institution_id: unibo
@@ -308,6 +368,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Manfrini
+  sort_name: Manfrini, Olivia Manfrini
 - id: federico-ravaioli
   name: Federico Ravaioli
   institution_id: unibo
@@ -318,6 +380,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Ravaioli
+  sort_name: Ravaioli, Federico Ravaioli
 - id: sara-borgomaneri
   name: Sara Borgomaneri
   institution_id: unibo
@@ -328,6 +392,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Borgomaneri
+  sort_name: Borgomaneri, Sara Borgomaneri
 - id: luca-palmerini
   name: Luca Palmerini
   institution_id: unibo
@@ -338,6 +404,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Palmerini
+  sort_name: Palmerini, Luca Palmerini
 - id: luciano-potena
   name: Luciano Potena
   institution_id: unibo
@@ -348,6 +416,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Potena
+  sort_name: Potena, Luciano Potena
 - id: giorgia-comai
   name: Giorgia Comai
   institution_id: unibo
@@ -358,6 +428,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Comai
+  sort_name: Comai, Giorgia Comai
 - id: marina-tadolini
   name: Marina Tadolini
   institution_id: unibo
@@ -368,6 +440,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Tadolini
+  sort_name: Tadolini, Marina Tadolini
 - id: michele-protti
   name: Michele Protti
   institution_id: unibo
@@ -378,6 +452,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Protti
+  sort_name: Protti, Michele Protti
 - id: rita-fioresi
   name: Rita Fioresi
   institution_id: unibo
@@ -388,6 +464,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Fioresi
+  sort_name: Fioresi, Rita Fioresi
 - id: alessandra-tolomelli
   name: Alessandra Tolomelli
   institution_id: unibo
@@ -398,6 +476,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Tolomelli
+  sort_name: Tolomelli, Alessandra Tolomelli
 - id: alessandra-bolotta
   name: Alessandra Bolotta
   institution_id: aoubo
@@ -408,6 +488,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bolotta
+  sort_name: Bolotta, Alessandra Bolotta
 - id: alessandra-stancari
   name: Alessandra Stancari
   institution_id: aoubo
@@ -418,6 +500,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Stancari
+  sort_name: Stancari, Alessandra Stancari
 - id: maria-trapanese
   name: Maria Trapanese
   institution_id: aoubo
@@ -428,6 +512,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Trapanese
+  sort_name: Trapanese, Maria Trapanese
 - id: marco-montevecchi
   name: Marco Montevecchi
   institution_id: unibo
@@ -442,6 +528,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Montevecchi
+  sort_name: Montevecchi, Marco Montevecchi
 - id: luisa-sambati
   name: Luisa Sambati
   institution_id: isnb
@@ -452,6 +540,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Sambati
+  sort_name: Sambati, Luisa Sambati
 - id: gian-luca-pirazzoli
   name: Gian Luca Pirazzoli
   institution_id: isnb
@@ -462,6 +552,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Pirazzoli
+  sort_name: Pirazzoli, Gian Luca Pirazzoli
 - id: silvia-cetrullo
   name: Silvia Cetrullo
   institution_id: unibo
@@ -472,6 +564,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Cetrullo
+  sort_name: Cetrullo, Silvia Cetrullo
 - id: simone-rampelli
   name: Simone Rampelli
   institution_id: unibo
@@ -482,6 +576,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Rampelli
+  sort_name: Rampelli, Simone Rampelli
 - id: federica-d-amico
   name: Federica D'Amico
   institution_id: unibo
@@ -492,6 +588,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: D'Amico
+  sort_name: D'Amico, Federica D'Amico
 - id: tommaso-salzillo
   name: Tommaso Salzillo
   institution_id: unibo
@@ -502,6 +600,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Salzillo
+  sort_name: Salzillo, Tommaso Salzillo
 - id: beatrice-fraboni
   name: Beatrice Fraboni
   institution_id: unibo
@@ -512,6 +612,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Fraboni
+  sort_name: Fraboni, Beatrice Fraboni
 - id: francesco-nonino
   name: Francesco Nonino
   institution_id: isnb
@@ -522,6 +624,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Nonino
+  sort_name: Nonino, Francesco Nonino
 - id: patrizia-brigidi
   name: Patrizia Brigidi
   institution_id: unibo
@@ -532,6 +636,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Brigidi
+  sort_name: Brigidi, Patrizia Brigidi
 - id: silvia-turroni
   name: Silvia Turroni
   institution_id: unibo
@@ -542,6 +648,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Turroni
+  sort_name: Turroni, Silvia Turroni
 - id: alessandra-bendini
   name: Alessandra Bendini
   institution_id: unibo
@@ -552,6 +660,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bendini
+  sort_name: Bendini, Alessandra Bendini
 - id: matilde-tura
   name: Matilde Tura
   institution_id: unibo
@@ -562,6 +672,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Tura
+  sort_name: Tura, Matilde Tura
 - id: carmela-fimognari
   name: Carmela Fimognari
   institution_id: unibo
@@ -572,6 +684,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Fimognari
+  sort_name: Fimognari, Carmela Fimognari
 - id: cristina-angeloni
   name: Cristina Angeloni
   institution_id: unibo
@@ -582,6 +696,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Angeloni
+  sort_name: Angeloni, Cristina Angeloni
 - id: francesca-fornari
   name: Francesca Fornari
   institution_id: unibo
@@ -592,6 +708,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Fornari
+  sort_name: Fornari, Francesca Fornari
 - id: elisabetta-lalumera
   name: Elisabetta Lalumera
   institution_id: unibo
@@ -602,6 +720,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Lalumera
+  sort_name: Lalumera, Elisabetta Lalumera
 - id: marco-malaguti
   name: Marco Malaguti
   institution_id: unibo
@@ -612,6 +732,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Malaguti
+  sort_name: Malaguti, Marco Malaguti
 - id: anna-vittoria-mattioli
   name: Anna Vittoria Mattioli
   institution_id: unibo
@@ -622,6 +744,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Mattioli
+  sort_name: Mattioli, Anna Vittoria Mattioli
 - id: valeria-righi
   name: Valeria Righi
   institution_id: unibo
@@ -632,6 +756,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Righi
+  sort_name: Righi, Valeria Righi
 - id: eleonora-turrini
   name: Eleonora Turrini
   institution_id: unibo
@@ -642,6 +768,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Turrini
+  sort_name: Turrini, Eleonora Turrini
 - id: barbara-monti
   name: Barbara Monti
   institution_id: unibo
@@ -652,6 +780,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Monti
+  sort_name: Monti, Barbara Monti
 - id: francesca-massenzio
   name: Francesca Massenzio
   institution_id: unibo
@@ -662,6 +792,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Massenzio
+  sort_name: Massenzio, Francesca Massenzio
 - id: laura-anderlucci
   name: Laura Anderlucci
   institution_id: unibo
@@ -672,6 +804,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Anderlucci
+  sort_name: Anderlucci, Laura Anderlucci
 - id: giuliano-galimberti
   name: Giuliano Galimberti
   institution_id: unibo
@@ -682,6 +816,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Galimberti
+  sort_name: Galimberti, Giuliano Galimberti
 - id: saverio-ranciati
   name: Saverio Ranciati
   institution_id: unibo
@@ -692,6 +828,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Ranciati
+  sort_name: Ranciati, Saverio Ranciati
 - id: edoardo-redivo
   name: Edoardo Redivo
   institution_id: unibo
@@ -702,6 +840,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Redivo
+  sort_name: Redivo, Edoardo Redivo
 - id: silvia-bordoni
   name: Silvia Bordoni
   institution_id: unibo
@@ -712,6 +852,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Bordoni
+  sort_name: Bordoni, Silvia Bordoni
 - id: cecilia-garofalo
   name: Cecilia Garofalo
   institution_id: isnb
@@ -722,6 +864,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Garofalo
+  sort_name: Garofalo, Cecilia Garofalo
 - id: alessandro-perin
   name: Alessandro Perin
   institution_id: isnb
@@ -732,6 +876,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Perin
+  sort_name: Perin, Alessandro Perin
 - id: isacco-gualandi
   name: Isacco Gualandi
   institution_id: unibo
@@ -742,6 +888,8 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Gualandi
+  sort_name: Gualandi, Isacco Gualandi
 - id: erika-scavetta
   name: Erika Scavetta
   institution_id: unibo
@@ -752,3 +900,5 @@
   contact_model: aric-first
   public_email: ''
   status: expression-of-interest
+  surname: Scavetta
+  sort_name: Scavetta, Erika Scavetta
