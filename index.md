@@ -14,16 +14,17 @@ permalink: /
     <h1>Bologna Metropolitan Health Research Hub</h1>
 
     <p class="lede">
-      Pilot matchmaking portal for selected Horizon Europe Cluster 1 Health 2027 topics.
+      Matchmaking portal for Horizon Europe Cluster 1 Health 2027.
     </p>
 
     <p>
-      Explore research expertise, scientific capabilities, research infrastructures
-      and potential contributions from the Bologna metropolitan research ecosystem.
+      Explore Bologna's research expertise and collaboration potential
+      by topic, researcher and scientific capability.
     </p>
 
   </div>
 </section>
+
 
 <section class="container section">
 
@@ -32,81 +33,128 @@ permalink: /
   <div class="card-grid">
 
     <article class="card">
+
       <h3>Topics</h3>
+
       <p>
-        Browse selected Horizon Europe Cluster 1 Health 2027 topics and identify
-        relevant research contributions from the Bologna ecosystem.
+        Explore 13 Horizon Europe Cluster 1 Health 2027 topics and
+        identify relevant research contributions from the Bologna
+        metropolitan research ecosystem.
       </p>
+
       <p>
-        <a href="{{ '/topics/' | relative_url }}">Browse Topics</a>
+        <a href="{{ '/topics/' | relative_url }}">
+          Explore Topics
+        </a>
       </p>
+
     </article>
 
-    <article class="card">
-      <h3>Capabilities</h3>
-      <p>
-        Explore scientific capabilities, associated researchers and the Horizon
-        Europe topics to which they may contribute.
-      </p>
-      <p>
-        <a href="{{ '/capabilities/' | relative_url }}">Browse Capabilities</a>
-      </p>
-    </article>
 
     <article class="card">
+
       <h3>Researchers</h3>
-      <p>
-        Discover researcher profiles, institutional affiliations and potential
-        contributions to selected Horizon Europe Cluster 1 Health topics.
-      </p>
-      <p>
-        <a href="{{ '/researchers/' | relative_url }}">Browse Researchers</a>
-      </p>
-    </article>
 
-    <article class="card">
-      <h3>Infrastructures</h3>
       <p>
-        Explore research infrastructures and technology platforms supporting
-        collaborative health research and consortium development.
+        Discover 75 researcher and clinical expert profiles,
+        their institutional affiliations and their potential
+        contributions to collaborative Health proposals.
       </p>
+
       <p>
-        <a href="{{ '/infrastructures/' | relative_url }}">Browse Infrastructures</a>
+        <a href="{{ '/researchers/' | relative_url }}">
+          Explore Researchers
+        </a>
       </p>
-    </article>
-
-    <article class="card">
-      <h3>Patents</h3>
-<p>
-  Access the official University of Bologna patent catalogue.
-</p>
-
-<p>
-  <a href="{{ '/patents/' | relative_url }}">
-    Explore Patents
-  </a>
-</p>
 
     </article>
 
+
     <article class="card">
-      <h3>Spin-offs</h3>
+
+      <h3>Capabilities</h3>
+
       <p>
-        Discover the official University of Bologna catalogues of accredited
-        and participated spin-offs.
+        Explore 20 scientific, clinical, methodological and
+        technological capabilities available across the Bologna
+        research ecosystem.
       </p>
-<p>
-  <a href="{{ '/spinoffs/' | relative_url }}">
-    Explore Spin-offs
-  </a>
-</p>
-   
+
+      <p>
+        <a href="{{ '/capabilities/' | relative_url }}">
+          Explore Capabilities
+        </a>
+      </p>
+
     </article>
 
   </div>
 
 </section>
 
+
 <section class="container section">
+
+  <p class="eyebrow">
+    Cluster 1 Health 2027
+  </p>
+
+  <h2>Explore the complete 2027 booklet</h2>
+
+  <p>
+    Prefer the full overview? Download the Bologna Metropolitan
+    Research Hub booklet covering the four institutions, research
+    infrastructures, European networks and the complete collection
+    of topic-specific expertise and research assets.
+  </p>
+
+  <p>
+    <a
+      href="{{ '/assets/files/BOOKLET_Cluster_1_2027.pdf' | relative_url }}"
+      download
+    >
+      <strong>Download the full booklet (PDF)</strong>
+    </a>
+  </p>
+
+  <p>
+    <small>Cluster 1 Health 2027 · 123 pages · PDF</small>
+  </p>
+
+</section>
+
+
+<section class="container section">
+
+  <p class="eyebrow">
+    Bologna research ecosystem
+  </p>
+
+  <h2>One metropolitan research ecosystem</h2>
+
+  <p>
+    <strong>
+      UNIBO · IRCCS AOUBO · IRCCS IOR · IRCCS ISN
+    </strong>
+  </p>
+
+  <p>
+    A comprehensive multidisciplinary university and three research
+    hospitals combining basic, translational and clinical research
+    across the Bologna metropolitan area.
+  </p>
+
+  <p>
+    <a href="{{ '/about/' | relative_url }}">
+      Learn more about the Bologna ecosystem
+    </a>
+  </p>
+
+</section>
+
+
+<section class="container section">
+
   {% include caveat.html text=site.disclaimer %}
+
 </section>
