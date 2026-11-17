@@ -1,0 +1,384 @@
+version: CAPABILITY_MATRIX_V1
+
+rules:
+  primary_required: true
+  max_capabilities_per_group: 3
+  propagation: all-researchers-in-research-group
+
+capabilities:
+
+  ai-data:
+    name: AI and data science
+
+  digital-biomarkers:
+    name: Digital biomarkers
+
+  interoperability:
+    name: FAIR data and interoperability
+
+  clinical-cohorts:
+    name: Clinical cohorts
+
+  clinical-trials:
+    name: Clinical trials
+
+  omics:
+    name: Omics technologies
+
+  biobanking:
+    name: Biobanking
+
+  implementation-science:
+    name: Implementation science
+
+  ssh:
+    name: Social sciences and humanities
+
+  ethics-regulation:
+    name: Ethics and regulation
+
+  bioanalysis-microsampling:
+    name: Bioanalysis and microsampling
+
+  cellular-disease-models:
+    name: Cellular and advanced disease models
+
+  structural-protein-science:
+    name: Structural biology and protein science
+
+  sensors-point-of-care:
+    name: Sensors and point-of-care technologies
+
+  exposure-environmental-analysis:
+    name: Exposure and environmental analysis
+
+  food-nutrition-analytics:
+    name: Food, nutrition and lifestyle research
+
+  microbiome-research:
+    name: Microbiome research
+
+  medicinal-pharmaceutical-chemistry:
+    name: Medicinal and pharmaceutical chemistry
+
+  clinical-pharmacology-medication-safety:
+    name: Clinical pharmacology and medication safety
+
+  neuroscience-neurotechnology:
+    name: Neuroscience and neurotechnologies
+
+
+groups:
+
+  6:
+    primary: omics
+    secondary:
+      - clinical-cohorts
+
+  7:
+    primary: neuroscience-neurotechnology
+    secondary:
+      - clinical-cohorts
+
+  8:
+    primary: bioanalysis-microsampling
+    secondary: []
+
+  9:
+    primary: food-nutrition-analytics
+    secondary:
+      - implementation-science
+
+  10:
+    primary: neuroscience-neurotechnology
+    secondary:
+      - clinical-cohorts
+
+  11:
+    primary: omics
+    secondary: []
+
+  12:
+    primary: microbiome-research
+    secondary: []
+
+  13:
+    primary: ssh
+    secondary: []
+
+  14:
+    primary: exposure-environmental-analysis
+    secondary:
+      - ai-data
+
+  15:
+    primary: food-nutrition-analytics
+    secondary: []
+
+  16:
+    primary: sensors-point-of-care
+    secondary: []
+
+  17:
+    primary: ssh
+    secondary: []
+
+  18:
+    primary: exposure-environmental-analysis
+    secondary: []
+
+  19:
+    primary: cellular-disease-models
+    secondary: []
+
+  20:
+    primary: clinical-cohorts
+    secondary:
+      - ai-data
+
+  21:
+    primary: biobanking
+    secondary:
+      - microbiome-research
+      - interoperability
+
+  22:
+    primary: exposure-environmental-analysis
+    secondary: []
+
+  23:
+    primary: food-nutrition-analytics
+    secondary:
+      - exposure-environmental-analysis
+
+  24:
+    primary: omics
+    secondary:
+      - ssh
+      - ethics-regulation
+
+  25:
+    primary: cellular-disease-models
+    secondary: []
+
+  26:
+    primary: cellular-disease-models
+    secondary: []
+
+  27:
+    primary: ai-data
+    secondary: []
+
+  28:
+    primary: clinical-trials
+    secondary:
+      - ai-data
+
+  29:
+    primary: bioanalysis-microsampling
+    secondary:
+      - clinical-trials
+
+  30:
+    primary: clinical-trials
+    secondary:
+      - clinical-cohorts
+
+  31:
+    primary: clinical-cohorts
+    secondary:
+      - ai-data
+
+  32:
+    primary: cellular-disease-models
+    secondary: []
+
+  33:
+    primary: structural-protein-science
+    secondary: []
+
+  34:
+    primary: cellular-disease-models
+    secondary: []
+
+  35:
+    primary: structural-protein-science
+    secondary: []
+
+  36:
+    primary: cellular-disease-models
+    secondary: []
+
+  37:
+    primary: structural-protein-science
+    secondary: []
+
+  38:
+    primary: biobanking
+    secondary:
+      - clinical-pharmacology-medication-safety
+
+  39:
+    primary: cellular-disease-models
+    secondary: []
+
+  40:
+    primary: structural-protein-science
+    secondary: []
+
+  41:
+    primary: medicinal-pharmaceutical-chemistry
+    secondary: []
+
+  42:
+    primary: clinical-trials
+    secondary:
+      - ai-data
+
+  43:
+    primary: implementation-science
+    secondary:
+      - food-nutrition-analytics
+
+  44:
+    primary: digital-biomarkers
+    secondary: []
+
+  45:
+    primary: ai-data
+    secondary:
+      - sensors-point-of-care
+
+  46:
+    primary: bioanalysis-microsampling
+    secondary:
+      - implementation-science
+
+  47:
+    primary: ai-data
+    secondary:
+      - clinical-cohorts
+
+  48:
+    primary: biobanking
+    secondary:
+      - clinical-cohorts
+
+  49:
+    primary: neuroscience-neurotechnology
+    secondary: []
+
+  50:
+    primary: digital-biomarkers
+    secondary: []
+
+  51:
+    primary: clinical-trials
+    secondary:
+      - neuroscience-neurotechnology
+
+  52:
+    primary: digital-biomarkers
+    secondary:
+      - clinical-trials
+
+  53:
+    primary: clinical-pharmacology-medication-safety
+    secondary:
+      - clinical-cohorts
+
+  54:
+    primary: bioanalysis-microsampling
+    secondary:
+      - omics
+
+  55:
+    primary: cellular-disease-models
+    secondary: []
+
+  56:
+    primary: clinical-pharmacology-medication-safety
+    secondary: []
+
+  57:
+    primary: clinical-pharmacology-medication-safety
+    secondary: []
+
+  58:
+    primary: clinical-pharmacology-medication-safety
+    secondary:
+      - clinical-cohorts
+
+  59:
+    primary: clinical-trials
+    secondary: []
+
+  60:
+    primary: biobanking
+    secondary:
+      - clinical-cohorts
+
+  61:
+    primary: ai-data
+    secondary:
+      - clinical-cohorts
+
+  62:
+    primary: ai-data
+    secondary:
+      - sensors-point-of-care
+
+  63:
+    primary: bioanalysis-microsampling
+    secondary:
+      - omics
+
+  64:
+    primary: digital-biomarkers
+    secondary: []
+
+  65:
+    primary: cellular-disease-models
+    secondary: []
+
+  66:
+    primary: ai-data
+    secondary: []
+
+  67:
+    primary: digital-biomarkers
+    secondary:
+      - clinical-trials
+
+  68:
+    primary: clinical-cohorts
+    secondary:
+      - clinical-trials
+      - digital-biomarkers
+
+  69:
+    primary: digital-biomarkers
+    secondary:
+      - clinical-trials
+
+  70:
+    primary: medicinal-pharmaceutical-chemistry
+    secondary: []
+
+  71:
+    primary: cellular-disease-models
+    secondary: []
+
+  72:
+    primary: sensors-point-of-care
+    secondary:
+      - digital-biomarkers
+
+  73:
+    primary: cellular-disease-models
+    secondary: []
+
+  74:
+    primary: bioanalysis-microsampling
+    secondary:
+      - sensors-point-of-care
