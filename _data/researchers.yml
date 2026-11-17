@@ -6,20 +6,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: sabato-mellone
-  name: Sabato Mellone
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: laura-mercolini
   name: Laura Mercolini
   institution_id: unibo
@@ -28,9 +16,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: maria-giulia-bacalini
   name: Maria Giulia Bacalini
   institution_id: unibo
@@ -39,20 +26,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: francesca-ingravallo
-  name: Francesca Ingravallo
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: maria-chiara-pelleri
   name: Maria Chiara Pelleri
   institution_id: unibo
@@ -61,31 +36,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: giulia-balboni
-  name: Giulia Balboni
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: marco-luppi
-  name: Marco Luppi
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: angela-montanari
   name: Angela Montanari
   institution_id: unibo
@@ -94,9 +46,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: monica-baiula
   name: Monica Baiula
   institution_id: unibo
@@ -105,9 +56,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: andrea-bedini
   name: Andrea Bedini
   institution_id: unibo
@@ -116,9 +66,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: sabrina-valente
   name: Sabrina Valente
   institution_id: unibo
@@ -127,9 +76,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: claudia-zanna
   name: Claudia Zanna
   institution_id: unibo
@@ -138,9 +86,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: marco-candela
   name: Marco Candela
   institution_id: unibo
@@ -149,9 +96,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: francesca-maffei
   name: Francesca Maffei
   institution_id: unibo
@@ -160,9 +106,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: monica-forni
   name: Monica Forni
   institution_id: unibo
@@ -171,9 +116,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: stefano-mattioli
   name: Stefano Mattioli
   institution_id: unibo
@@ -182,9 +126,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: tullia-gallina-toschi
   name: Tullia Gallina Toschi
   institution_id: unibo
@@ -193,9 +136,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: roberta-spadoni
   name: Roberta Spadoni
   institution_id: unibo
@@ -204,9 +146,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: cristiana-caliceti
   name: Cristiana Caliceti
   institution_id: unibo
@@ -215,9 +156,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: antonello-lorenzini
   name: Antonello Lorenzini
   institution_id: unibo
@@ -226,9 +166,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: enrico-valli
   name: Enrico Valli
   institution_id: unibo
@@ -237,9 +176,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: luca-mulazzani
   name: Luca Mulazzani
   institution_id: unibo
@@ -248,9 +186,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: francesco-decataldo
   name: Francesco Decataldo
   institution_id: unibo
@@ -259,9 +196,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: giulia-maesano
   name: Giulia Maesano
   institution_id: unibo
@@ -270,9 +206,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: ohad-zivan
   name: Ohad Zivan
   institution_id: unibo
@@ -281,9 +216,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: barbara-zambelli
   name: Barbara Zambelli
   institution_id: unibo
@@ -292,9 +226,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: luca-mazzei
   name: Luca Mazzei
   institution_id: unibo
@@ -303,20 +236,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: marco-rinaldo-oggioni
-  name: Marco Rinaldo Oggioni
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: maddalena-giannella
   name: Maddalena Giannella
   institution_id: unibo
@@ -325,9 +246,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: arrigo-francesco-giuseppe-cicero
   name: Arrigo Francesco Giuseppe Cicero
   institution_id: unibo
@@ -336,9 +256,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: roberto-mandrioli
   name: Roberto Mandrioli
   institution_id: unibo
@@ -347,9 +266,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: rita-stagni
   name: Rita Stagni
   institution_id: unibo
@@ -358,9 +276,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: maria-cristina-bisi
   name: Maria Cristina Bisi
   institution_id: unibo
@@ -369,9 +286,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: igor-diemberger
   name: Igor Diemberger
   institution_id: unibo
@@ -380,31 +296,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: gaetano-la-manna
-  name: Gaetano La Manna
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: paolo-boffetta
-  name: Paolo Boffetta
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: olivia-manfrini
   name: Olivia Manfrini
   institution_id: unibo
@@ -413,31 +306,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: katia-mattarozzi
-  name: Katia Mattarozzi
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: antonella-carbonaro
-  name: Antonella Carbonaro
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: federico-ravaioli
   name: Federico Ravaioli
   institution_id: unibo
@@ -446,9 +316,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: sara-borgomaneri
   name: Sara Borgomaneri
   institution_id: unibo
@@ -457,9 +326,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: luca-palmerini
   name: Luca Palmerini
   institution_id: unibo
@@ -468,20 +336,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: caterina-garone
-  name: Caterina Garone
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: luciano-potena
   name: Luciano Potena
   institution_id: unibo
@@ -490,9 +346,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: giorgia-comai
   name: Giorgia Comai
   institution_id: unibo
@@ -501,9 +356,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: marina-tadolini
   name: Marina Tadolini
   institution_id: unibo
@@ -512,20 +366,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: emanuel-raschi
-  name: Emanuel Raschi
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: michele-protti
   name: Michele Protti
   institution_id: unibo
@@ -534,9 +376,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: rita-fioresi
   name: Rita Fioresi
   institution_id: unibo
@@ -545,9 +386,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: alessandra-tolomelli
   name: Alessandra Tolomelli
   institution_id: unibo
@@ -556,20 +396,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: mauro-comes-franchini
-  name: Mauro Comes Franchini
-  institution_id: unibo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: alessandra-bolotta
   name: Alessandra Bolotta
   institution_id: aoubo
@@ -578,42 +406,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: elena-biagini
-  name: Elena Biagini
-  institution_id: aoubo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: lidia-strigari
-  name: Lidia Strigari
-  institution_id: aoubo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: cristian-martignani
-  name: Cristian Martignani
-  institution_id: aoubo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: alessandra-stancari
   name: Alessandra Stancari
   institution_id: aoubo
@@ -622,9 +416,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
 - id: maria-trapanese
   name: Maria Trapanese
   institution_id: aoubo
@@ -633,31 +426,8 @@
   network_ids: []
   tags: []
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
   status: expression-of-interest
-
-- id: giulia-fiorini
-  name: Giulia Fiorini
-  institution_id: aoubo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
-- id: valeria-corradetti
-  name: Valeria Corradetti
-  institution_id: aoubo
-  capability_ids: []
-  infrastructure_ids: []
-  network_ids: []
-  tags: []
-  contact_model: aric-first
-  public_email: ""
-  status: expression-of-interest
-
 - id: marco-montevecchi
   name: Marco Montevecchi
   institution_id: unibo
@@ -665,10 +435,320 @@
   infrastructure_ids: []
   network_ids: []
   tags:
-    - oral-disease
-    - biomarkers
-    - peri-implant-disease
-    - clinical-phenotyping
+  - oral-disease
+  - biomarkers
+  - peri-implant-disease
+  - clinical-phenotyping
   contact_model: aric-first
-  public_email: ""
+  public_email: ''
+  status: expression-of-interest
+- id: luisa-sambati
+  name: Luisa Sambati
+  institution_id: isnb
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: gian-luca-pirazzoli
+  name: Gian Luca Pirazzoli
+  institution_id: isnb
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: silvia-cetrullo
+  name: Silvia Cetrullo
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: simone-rampelli
+  name: Simone Rampelli
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: federica-d-amico
+  name: Federica D'Amico
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: tommaso-salzillo
+  name: Tommaso Salzillo
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: beatrice-fraboni
+  name: Beatrice Fraboni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: francesco-nonino
+  name: Francesco Nonino
+  institution_id: isnb
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: patrizia-brigidi
+  name: Patrizia Brigidi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: silvia-turroni
+  name: Silvia Turroni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: alessandra-bendini
+  name: Alessandra Bendini
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: matilde-tura
+  name: Matilde Tura
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: carmela-fimognari
+  name: Carmela Fimognari
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: cristina-angeloni
+  name: Cristina Angeloni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: francesca-fornari
+  name: Francesca Fornari
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: elisabetta-lalumera
+  name: Elisabetta Lalumera
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: marco-malaguti
+  name: Marco Malaguti
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: anna-vittoria-mattioli
+  name: Anna Vittoria Mattioli
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: valeria-righi
+  name: Valeria Righi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: eleonora-turrini
+  name: Eleonora Turrini
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: barbara-monti
+  name: Barbara Monti
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: francesca-massenzio
+  name: Francesca Massenzio
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: laura-anderlucci
+  name: Laura Anderlucci
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: giuliano-galimberti
+  name: Giuliano Galimberti
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: saverio-ranciati
+  name: Saverio Ranciati
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: edoardo-redivo
+  name: Edoardo Redivo
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: silvia-bordoni
+  name: Silvia Bordoni
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: cecilia-garofalo
+  name: Cecilia Garofalo
+  institution_id: isnb
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: alessandro-perin
+  name: Alessandro Perin
+  institution_id: isnb
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: isacco-gualandi
+  name: Isacco Gualandi
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
+  status: expression-of-interest
+- id: erika-scavetta
+  name: Erika Scavetta
+  institution_id: unibo
+  capability_ids: []
+  infrastructure_ids: []
+  network_ids: []
+  tags: []
+  contact_model: aric-first
+  public_email: ''
   status: expression-of-interest
