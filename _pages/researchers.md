@@ -6,10 +6,22 @@ permalink: /researchers/
 
 <section class="container section">
 
-  <p class="eyebrow">Scientific profiles</p>
+  <p class="eyebrow">
+    Scientific profiles
+  </p>
+
   <h1>Researchers</h1>
 
-  {% assign researchers = site.data.researchers | sort: "name" %}
+  <p class="lede">
+    Explore 75 researchers and clinical experts from the Bologna
+    metropolitan research ecosystem contributing to Horizon Europe
+    Cluster 1 Health 2027 topics.
+  </p>
+
+
+  {% assign researchers = site.data.researchers
+    | sort: "sort_name" %}
+
 
   <div class="card-grid">
 
@@ -22,59 +34,127 @@ permalink: /researchers/
       {% assign contributions = site.data.contributions
         | where: "researcher_id", researcher.id %}
 
-      <article class="card researcher-card">
+
+      <article class="card researcher-card researcher-index-card">
 
         <h2>
+
           <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
             {{ researcher.name }}
           </a>
+
         </h2>
 
+
         {% if institution %}
-        <p>
-          <strong>{{ institution.short_name }}</strong>
-        </p>
+
+          <p class="researcher-institution">
+            {{ institution.short_name }}
+          </p>
+
         {% endif %}
 
-        {% assign topic_codes = "" | split: "" %}
 
-        {% for contribution in contributions %}
-          {% assign topic = site.data.topics
-            | where: "id", contribution.topic_id
-            | first %}
+        <p class="researcher-topic-count">
 
-          {% if topic %}
-            {% assign topic_codes = topic_codes | push: topic.code %}
+          <strong>{{ contributions.size }}</strong>
+
+          {% if contributions.size == 1 %}
+            topic contribution
+          {% else %}
+            topic contributions
           {% endif %}
-        {% endfor %}
 
-        {% if topic_codes.size > 0 %}
-        <p>
-          <strong>Topics:</strong><br>
-          {{ topic_codes | uniq | join: ", " }}
         </p>
+
+
+        {% if contributions.size > 0 %}
+
+          <ul class="tag-list researcher-topic-tags">
+
+            {% for contribution in contributions %}
+
+              {% assign topic = site.data.topics
+                | where: "id", contribution.topic_id
+                | first %}
+
+              {% if topic %}
+
+                <li>
+                  <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+                    {{ topic.code }}
+                  </a>
+                </li>
+
+              {% endif %}
+
+            {% endfor %}
+
+          </ul>
+
         {% endif %}
 
-        {% assign capability_names = "" | split: "" %}
+
+        {% assign capability_string = "|" %}
 
         {% for contribution in contributions %}
-          {% for capability_id in contribution.capability_ids %}
-            {% assign capability = site.data.capabilities
-              | where: "id", capability_id
-              | first %}
 
-            {% if capability %}
-              {% assign capability_names = capability_names | push: capability.name %}
-            {% endif %}
+          {% for capability_id in contribution.capability_ids %}
+
+            {% capture capability_token %}|{{ capability_id }}|{% endcapture %}
+
+            {% unless capability_string contains capability_token %}
+
+              {% capture capability_string %}{{ capability_string }}{{ capability_id }}|{% endcapture %}
+
+            {% endunless %}
+
           {% endfor %}
+
         {% endfor %}
 
-        {% if capability_names.size > 0 %}
-        <p>
-          <strong>Capabilities:</strong><br>
-          {{ capability_names | uniq | join: ", " }}
-        </p>
+        {% assign researcher_capabilities = capability_string
+          | split: "|" %}
+
+
+        {% if researcher_capabilities.size > 1 %}
+
+          <ul class="tag-list capability-tags">
+
+            {% for capability_id in researcher_capabilities %}
+
+              {% assign capability_id = capability_id | strip %}
+
+              {% if capability_id != empty %}
+
+                {% assign capability = site.data.capabilities
+                  | where: "id", capability_id
+                  | first %}
+
+                {% if capability %}
+
+                  <li class="capability-tag capability-tag--{{ capability.id }}">
+                    {{ capability.name }}
+                  </li>
+
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+
+          </ul>
+
         {% endif %}
+
+
+        <p class="researcher-profile-link">
+
+          <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
+            View profile →
+          </a>
+
+        </p>
 
       </article>
 

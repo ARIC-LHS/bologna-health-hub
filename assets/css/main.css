@@ -357,7 +357,7 @@ textarea:focus-visible {
 .profile-header h1 {
   margin-bottom: 0.5rem;
 }
-``
+
 /* TOPIC INDEX */
 
 .topic-destination {
@@ -465,53 +465,87 @@ textarea:focus-visible {
 }
 /* TOPIC RESEARCHER CARDS */
 
-.re*evant-profiles {
-  margin-top: 2*5rem;
+.relevant-profiles {
+  margin-top: 2.5rem;
 }
 
-.topic-researcher-card*h3 {
-  margin-bottom: .35rem*
+.topic-researcher-card h3 {
+  margin-bottom: .35rem;
 }
 
 .researcher-institution {
-  ma*gin: 0 0*.75rem;
-  color: #5f*f5f;
-  font-size: .*rem;
+  margin: 0 0 .75rem;
+  color: #5f5f5f;
+  font-size: .9rem;
   font-weight: 700;
-*
+}
 
 .section-meta {
-  margin-top: -.*rem;
-  margin-bottom: 1.25*em;
-  color: #5f5f*f;
+  margin-top: -.5rem;
+  margin-bottom: 1.25rem;
+  color: #5f5f5f;
 }
 
 .contribution-preview {
-  ma*gin-top: 1rem;
-  line-height: 1.55*
+  margin-top: 1rem;
+  line-height: 1.55;
 }
 
 .contribution-details {
-  marg*n-top: .9rem;
-  padding-top: .75re*;
-  border-top: 1px solid var(--li*e);
+  margin-top: .9rem;
+  padding-top: .75rem;
+  border-top: 1px solid var(--line);
 }
 
-.contribution-details summa*y {
+.contribution-details summary {
   cursor: pointer;
-  color: va*(--unibo-red);
-  font*weight: 700;
+  color: var(--unibo-red);
+  font-weight: 700;
 }
 
-.contribution-deta*ls summary:hover {
-  text-decorati*n: underline;
+.contribution-details summary:hover {
+  text-decoration: underline;
 }
 
-.contribution-det*ils[open] summary {
-  margin-botto*: .75rem;
+.contribution-details[open] summary {
+  margin-bottom: .75rem;
 }
 
 .contribution-full {
-* line-height: 1.6;
+  line-height: 1.6;
 }
-*
+
+
+/* RESEARCHERS INDEX */
+
+.researcher-index-card h2 {
+  margin-top: 0;
+  margin-bottom: .35rem;
+  font-size: 1.3rem;
+}
+
+.researcher-topic-count {
+  margin: .75rem 0 .5rem;
+  color: #5f5f5f;
+  font-size: .9rem;
+}
+
+.researcher-topic-tags {
+  margin-top: .5rem;
+  margin-bottom: .75rem;
+}
+
+.researcher-topic-tags li {
+  background: white;
+}
+
+.researcher-topic-tags a {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.researcher-profile-link {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
