@@ -2,38 +2,106 @@
   name: Biobanks, biospecimens and registries
   description: Cohort discovery, retrospective studies, biomarker development and FAIR sample/data workflows.
   availability: UNIBO, AOUBO, IOR, ISNB
+  facilities:
+    - name: AlmaMICROBIOME Biobank
+      institution_id: unibo
+    - name: Biobank of Research
+      institution_id: aoubo
+    - name: Biological Resource Centre (CRB/CBR-IOR)
+      institution_id: ior
+    - name: Bologna Neuroscience Biobank (BNB)
+      institution_id: isnb
 
 - id: clinical-cohorts-trials
   name: Clinical cohorts and trial settings
   description: Recruitment, prospective validation, pragmatic trials, complex-care pathways and real-world implementation.
   availability: UNIBO, AOUBO, IOR, ISNB
+  facilities: []
 
 - id: omics-platforms
   name: Omics and molecular platforms
   description: Discovery-to-validation pipelines, multimodal biomarkers, mechanisms and personalised medicine.
   availability: UNIBO, AOUBO, ISNB
+  facilities:
+    - name: Centre for Applied Biomedical Research (CRBA)
+      institution_id: unibo
+    - name: Computational Genomics Platform
+      institution_id: aoubo
+    - name: Biology and Molecular Medicine Platform
+      institution_id: aoubo
+    - name: Immunobiology of Transplantation Platform
+      institution_id: aoubo
+    - name: Neurogenetics Laboratory
+      institution_id: isnb
+    - name: Proteomics and Metabolomics Laboratory
+      institution_id: isnb
+    - name: Proteomics, Metabolomics and Bioanalytical Chemistry Laboratory
+      institution_id: isnb
 
 - id: advanced-imaging
   name: Advanced imaging
   description: Imaging biomarkers, AI model development, stratification, treatment planning and multicentre validation.
   availability: AOUBO, IOR, ISNB
+  facilities:
+    - name: Advanced Imaging Platform
+      institution_id: aoubo
+    - name: Electron Microscopy Platform
+      institution_id: ior
+    - name: Neuroimaging Laboratory
+      institution_id: isnb
 
 - id: ai-data-digital-health
   name: AI, data and digital health
   description: FAIR data architecture, predictive models, digital biomarkers, remote monitoring and clinical decision support.
   availability: UNIBO, AOUBO, IOR, ISNB
+  facilities:
+    - name: HPC and Storage Platform for Precision Medicine
+      institution_id: unibo
+    - name: Computational Genomics Platform
+      institution_id: aoubo
+    - name: Laboratory of Data Science and Bioinformatics
+      institution_id: isnb
 
 - id: regeneration-models
   name: Organ perfusion, regeneration and advanced models
   description: Mechanistic research, intervention testing, translational de-risking and validation before clinical studies.
   availability: UNIBO, AOUBO, IOR, ISNB
+  facilities:
+    - name: Centre for Applied Biomedical Research (CRBA)
+      institution_id: unibo
+    - name: RESTORE - Organ Perfusion and Regeneration
+      institution_id: aoubo
+    - name: Preclinical and Translational Research in Oncology (PRO)
+      institution_id: aoubo
+    - name: Applied and Translational Research Center (ATRc)
+      institution_id: ior
+    - name: Preclinical Studies for Regenerative Medicine of the Musculoskeletal System
+      institution_id: ior
+    - name: Molecular and Cell Biology Laboratory
+      institution_id: isnb
 
 - id: rehabilitation-tech
   name: Rehabilitation, biomechanics and assistive technology
   description: Functional outcomes, inclusive technologies, real-world monitoring and independent-living interventions.
   availability: UNIBO, IOR, ISNB
+  facilities:
+    - name: Bionic Limbs Center
+      institution_id: ior
+    - name: 3D Lab Rizzoli su Misura
+      institution_id: ior
+    - name: Movement Analysis and Functional Evaluation of Prosthetics Laboratory
+      institution_id: ior
+    - name: Computational Bioengineering Laboratory
+      institution_id: ior
+    - name: Medical Technology Laboratory
+      institution_id: ior
+    - name: Laboratory for Bioengineering of Rehabilitation
+      institution_id: isnb
 
 - id: clinical-pharmacology
   name: Clinical pharmacology and medication safety
   description: Dose optimisation, ADR prevention, PK/PD, adherence, safety monitoring and trial bioanalysis.
-  availability: UNIBO, AOUBO
+  availability: AOUBO
+  facilities:
+    - name: Clinical Pharmacology Platform
+      institution_id: aoubo

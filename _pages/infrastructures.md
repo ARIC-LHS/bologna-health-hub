@@ -13,7 +13,8 @@ permalink: /infrastructures/
   <h1>Research Infrastructures</h1>
 
   <p>
-    Research infrastructures and technology platforms that can support collaborative Horizon Europe Cluster 1 Health projects.
+    Research infrastructures and technology platforms that can support
+    collaborative Horizon Europe Cluster 1 Health projects.
   </p>
 
   <div class="card-grid">
@@ -33,10 +34,35 @@ permalink: /infrastructures/
         {{ infrastructure.description }}
       </p>
 
+      {% if infrastructure.facilities and infrastructure.facilities.size > 0 %}
+
+        <h3>Key facilities and platforms</h3>
+
+        <ul>
+          {% for facility in infrastructure.facilities %}
+
+            {% assign institution = site.data.institutions
+              | where: "id", facility.institution_id
+              | first %}
+
+            <li>
+              <strong>{{ facility.name }}</strong>
+              {% if institution %}
+                — {{ institution.short_name }}
+              {% endif %}
+            </li>
+
+          {% endfor %}
+        </ul>
+
+      {% endif %}
+
     </article>
 
     {% endfor %}
 
   </div>
+
+  {% include caveat.html text=site.disclaimer %}
 
 </section>
