@@ -50,7 +50,9 @@
 
     Accelerated epigenetic aging in Down syndrome. Horvath S, Garagnani P, Bacalini MG, Pirazzini C, Salvioli S, Gentilini D, Di Blasio AM, Giuliani C, Tung S, Vinters HV, Franceschi C. Aging Cell. 2015 Jun;14(3):491-5. doi: 10.1111/acel.12325'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id001
+  - omics
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -110,7 +112,7 @@
 
     Accelerated epigenetic aging in Down syndrome. Horvath S, Garagnani P, Bacalini MG, Pirazzini C, Salvioli S, Gentilini D, Di Blasio AM, Giuliani C, Tung S, Vinters HV, Franceschi C. Aging Cell. 2015 Jun;14(3):491-5. doi: 10.1111/acel.12325'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id001
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -174,7 +176,9 @@
 
     Quality of life and disability in pure autonomic failure: More than a prodromal synucleinopathy. Cani I, Carrozzo G, Baccari F, Schettino M, Zenesini C, Giannini G, Sambati L, Baldelli L, Greco MC, Cortelli P, Guaraldi P, Vignatelli L, Calandra-Buonaura G. Parkinsonism Relat Disord. 2026 Jan;142:108112. doi: 10.1016/j.parkreldis.2025.108112'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - neuroscience-neurotechnology
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -238,7 +242,8 @@
 
     Review of automation in microsample bioanalysis: Protti et al. Anal Chim Acta 2025;1359:344018. DOI: 10.1016/j.aca.2025.344018.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -290,7 +295,9 @@
 
     Building on past experience, we can contribute to training sports practitioners and educators, adapting accessible materials, and identifying barriers and facilitators to sustained participation. Our proposed role links functional assessment with inclusive community programmes, helping evaluate how physical activity can support daily autonomy, social participation and the prevention of further functional decline.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - food-nutrition-analytics
+  - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -362,7 +369,9 @@
 
     Grotteschi N et al.,…,Pirazzoli GL, Sambati L. Neurol Sci. 2025;46(8):3639–3649. doi: 10.1007/s10072-025-08195-7.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - neuroscience-neurotechnology
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -418,7 +427,8 @@
 
     Aleo SJ et al. Drug repositioning as a therapeutic strategy for neurodegenerations associated with OPA1 mutations. Human Molecular Genetics (2021) DOI: 10.1093/hmg/ddaa244'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id002
+  - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -474,7 +484,7 @@
 
     Aleo SJ et al. Drug repositioning as a therapeutic strategy for neurodegenerations associated with OPA1 mutations. Human Molecular Genetics (2021) DOI: 10.1093/hmg/ddaa244'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id002
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -508,7 +518,8 @@
 
     UNSEEN – FIS 3 – https://www.unibo.it/it/ricerca/progetti-e-iniziative/fondo-italiano-per-la-scienza-fis/44055/44056/59672'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id003
+  - microbiome-research
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -542,7 +553,7 @@
 
     UNSEEN – FIS 3 – https://www.unibo.it/it/ricerca/progetti-e-iniziative/fondo-italiano-per-la-scienza-fis/44055/44056/59672'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id003
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -576,7 +587,7 @@
 
     UNSEEN – FIS 3 – https://www.unibo.it/it/ricerca/progetti-e-iniziative/fondo-italiano-per-la-scienza-fis/44055/44056/59672'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id003
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -604,7 +615,8 @@
 
     The group has experience in empirical consumer research across different food and sustainability contexts, including healthy and sustainable food choices, innovative and alternative foods, consumer acceptance of new technologies, local and organic products, and the role of information, trust, and credence attributes in individual decision-making. This background enables the group to complement biomedical, environmental, epidemiological, and exposomics expertise by providing the behavioural and socioeconomic perspective required to understand how environmental and climate-related exposures interact with individual behaviours and decision-making.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id004
+  - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -632,7 +644,7 @@
 
     The group has experience in empirical consumer research across different food and sustainability contexts, including healthy and sustainable food choices, innovative and alternative foods, consumer acceptance of new technologies, local and organic products, and the role of information, trust, and credence attributes in individual decision-making. This background enables the group to complement biomedical, environmental, epidemiological, and exposomics expertise by providing the behavioural and socioeconomic perspective required to understand how environmental and climate-related exposures interact with individual behaviours and decision-making.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id004
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -668,7 +680,9 @@
 
     Exposure analysis and epidemiological analysis: current UNIBO RTDa position, publication under review.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - exposure-environmental-analysis
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -720,7 +734,8 @@
 
     TextAlchemy: an NLP tool to accelerate and semi-automate data extraction, validated in the nutritional field. Rooshan Saleem Butt, Matteo Perillo, Michele Visciarelli, Giorgio Pedrazzi, Marco Amato, Andrea Galassi, Rajiv Balakrishna, Anindita Tasnim Onni, Lars Thore Fadnes, Paolo Torroni, Roberta Turra, Antonello Lorenzini; submitted.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - food-nutrition-analytics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -738,7 +753,8 @@
   possible_contribution: The research group led by Prof. Cristiana Caliceti (Associate Professor of Biochemistry, DIBINEM, University of Bologna) has a consolidated track record in designing and validating chemiluminescence- and bioluminescence-based biosensing platforms for sensitive, non-invasive biomarker quantification, directly applicable to tracking climate-related exposures across the human exposome. The group's most recent achievement is a biosensor that detects gut microbiota imbalance (dysbiosis) directly from human stool samples, offering a fast and non-invasive way to assess gut health (Punzo, Silla, Porru et al., Roda, Caliceti C., ACS Sensors 2026, 11(9):8553–8563). In parallel, the group developed a biosensor able to measure, from a simple urine sample, how much dietary polyphenols a person has consumed — a more objective alternative to food diaries — validated in human volunteers. This builds on the group's broader experience in cell-based light-emitting tests for oxidative
     stress (Caliceti et al., Anal Bioanal Chem 2016), portable smartphone- and paper-based sensors for on-site analysis (Calabria et al., Biosens Bioelectron 2017; Roda et al., Sens Actuators B Chem 2019), and an engineered glowing protein sensor for early cancer biomarker screening (Punzo, Silla et al., Biofactors 2025). The group also takes part in an Italian Space Agency-funded project developing a biosensor to monitor astronauts' cardiac health via saliva during spaceflight (2023–2026), demonstrating its ability to adapt these tools to extreme and changing environments. Altogether, this expertise in developing easy-to-use, cell- and protein-based biosensors validated directly on human samples makes the group well positioned to design and test new tools for detecting biomarkers of climate-related exposures within this Topic
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - sensors-point-of-care
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -786,7 +802,8 @@
 
     Verza, Marta, Camanzi, Luca, Rota, Cosimo, Mulazzani, Luca, Malorgio, Giulio, Mattas, Konstadinos (2025). From farm to shelf: managing agrobiodiversity and product diversity in agri-food supply chains. BRITISH FOOD JOURNAL, vol. 127, p. 322-337, ISSN: 0007-070X, doi: 10.1108/bfj-11-2024-1168'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - ssh
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -868,7 +885,8 @@
 
     DIFA recently won a grant from the “Centro Alma Mater Institute on Healthy Planet (AHP)” for a PhD position entitled “Tracking and Toxicological Assessment of Microplastics in Human Tissues: An Exposome-Oriented Transdisciplinary Approach” in collaboration with the other two Departments and the Department of Chemistry “Giacomo Ciamician”.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id005
+  - exposure-environmental-analysis
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -950,7 +968,7 @@
 
     DIFA recently won a grant from the “Centro Alma Mater Institute on Healthy Planet (AHP)” for a PhD position entitled “Tracking and Toxicological Assessment of Microplastics in Human Tissues: An Exposome-Oriented Transdisciplinary Approach” in collaboration with the other two Departments and the Department of Chemistry “Giacomo Ciamician”.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id005
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1032,7 +1050,7 @@
 
     DIFA recently won a grant from the “Centro Alma Mater Institute on Healthy Planet (AHP)” for a PhD position entitled “Tracking and Toxicological Assessment of Microplastics in Human Tissues: An Exposome-Oriented Transdisciplinary Approach” in collaboration with the other two Departments and the Department of Chemistry “Giacomo Ciamician”.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id005
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1120,7 +1138,8 @@
 
     Valente S, et al. Exploring the human mesenchymal stem cell tubule communication network through electron microscopy. Ultrastruct Pathol. 2015 Apr;39(2):88-94. doi: 10.3109/01913123.2014.960545.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1204,7 +1223,9 @@
 
     Zenesini C, Belotti LMB, Baccari F, et al. Validation of Administrative Health Data Algorithms for Identifying Persons with Parkinson''s Disease and the 10-Year Prevalence Trend in Bologna, Italy. Neuroepidemiology. 2023;57(5):336-344. Doi:10.1159/000533362.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-cohorts
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1276,7 +1297,10 @@
 
     Masetti et al., Gut microbiota diversity before allogeneic hematopoietic stem cell transplantation as a predictor of mortality in children. Blood. 2023;142(16):1387-1398. This work involved 16S rRNA amplicon sequencing of stool samples from a multicentre cohort of 90 paediatric allo-HSCT recipients, including a global-to-local networking approach.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id006
+  - biobanking
+  - microbiome-research
+  - interoperability
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1348,7 +1372,7 @@
 
     Masetti et al., Gut microbiota diversity before allogeneic hematopoietic stem cell transplantation as a predictor of mortality in children. Blood. 2023;142(16):1387-1398. This work involved 16S rRNA amplicon sequencing of stool samples from a multicentre cohort of 90 paediatric allo-HSCT recipients, including a global-to-local networking approach.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id006
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1420,7 +1444,7 @@
 
     Masetti et al., Gut microbiota diversity before allogeneic hematopoietic stem cell transplantation as a predictor of mortality in children. Blood. 2023;142(16):1387-1398. This work involved 16S rRNA amplicon sequencing of stool samples from a multicentre cohort of 90 paediatric allo-HSCT recipients, including a global-to-local networking approach.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id006
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1476,7 +1500,8 @@
 
     Piras A, Persiani M, Damiani N, Perazzolo M, Raffi M (2015). Peripheral heart action (PHA) training as a valid substitute to high intensity interval training to improve resting cardiovascular changes and autonomic adaptation. European Journal of Applied Physiology, 115, 763–773.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - exposure-environmental-analysis
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1548,7 +1573,9 @@
 
     Lazzarini, C., Casadei, E., Valli, E., Tura, M., Ragni, L., Bendini, A., & Gallina Toschi, T. (2022). Sustainable drying and green deep eutectic extraction of carotenoids from tomato pomace. Foods, 11(3), 405.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id007
+  - food-nutrition-analytics
+  - exposure-environmental-analysis
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1620,7 +1647,7 @@
 
     Lazzarini, C., Casadei, E., Valli, E., Tura, M., Ragni, L., Bendini, A., & Gallina Toschi, T. (2022). Sustainable drying and green deep eutectic extraction of carotenoids from tomato pomace. Foods, 11(3), 405.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id007
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1692,7 +1719,7 @@
 
     Lazzarini, C., Casadei, E., Valli, E., Tura, M., Ragni, L., Bendini, A., & Gallina Toschi, T. (2022). Sustainable drying and green deep eutectic extraction of carotenoids from tomato pomace. Foods, 11(3), 405.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id007
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1764,7 +1791,7 @@
 
     Lazzarini, C., Casadei, E., Valli, E., Tura, M., Ragni, L., Bendini, A., & Gallina Toschi, T. (2022). Sustainable drying and green deep eutectic extraction of carotenoids from tomato pomace. Foods, 11(3), 405.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id007
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1824,7 +1851,10 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id008
+  - omics
+  - ssh
+  - ethics-regulation
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1884,7 +1914,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -1944,7 +1974,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2004,7 +2034,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2064,7 +2094,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2124,7 +2154,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2184,7 +2214,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2244,7 +2274,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2304,7 +2334,7 @@
 
     Elisabetta Lalumera, Associate Director CPEMPH (Centre for Philosophy of Epidemiology, Medicine and Public Health, Durham & Johannesburg).'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id008
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2374,7 +2404,8 @@
 
     Bedini A, Di Cesare Mannelli L, Micheli L, Baiula M, Vaca G, De Marco R, Gentilucci L, Ghelardini C, Spampinato S. Functional Selectivity and Antinociceptive Effects of a Novel KOPr Agonist. Front Pharmacol. 2020 Mar 5;11:188. doi: 10.3389/fphar.2020.00188.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id009
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2444,7 +2475,7 @@
 
     Bedini A, Di Cesare Mannelli L, Micheli L, Baiula M, Vaca G, De Marco R, Gentilucci L, Ghelardini C, Spampinato S. Functional Selectivity and Antinociceptive Effects of a Novel KOPr Agonist. Front Pharmacol. 2020 Mar 5;11:188. doi: 10.3389/fphar.2020.00188.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id009
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2496,7 +2527,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id010
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2548,7 +2580,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id010
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2620,7 +2652,8 @@
 
     [6] Ranciati S., Roverato A. (2024). Statistics and Computing, 34, 209. DOI: 10.1007/s11222-024-10513-6'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id011
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2692,7 +2725,7 @@
 
     [6] Ranciati S., Roverato A. (2024). Statistics and Computing, 34, 209. DOI: 10.1007/s11222-024-10513-6'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id011
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2764,7 +2797,7 @@
 
     [6] Ranciati S., Roverato A. (2024). Statistics and Computing, 34, 209. DOI: 10.1007/s11222-024-10513-6'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id011
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2836,7 +2869,7 @@
 
     [6] Ranciati S., Roverato A. (2024). Statistics and Computing, 34, 209. DOI: 10.1007/s11222-024-10513-6'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id011
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2908,7 +2941,7 @@
 
     [6] Ranciati S., Roverato A. (2024). Statistics and Computing, 34, 209. DOI: 10.1007/s11222-024-10513-6'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id011
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -2952,7 +2985,9 @@
 
     Call readiness / patents: Critical prerequisites: completed safety/efficacy proof-of-concept, completed preclinical work, draft clinical trial protocol and evidence of preliminary ethics/regulatory consultations. These are NOT yet evidenced for the proposed integrated intervention; seek a proof-of-concept-ready partner. No relevant patents asserted.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-trials
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3016,7 +3051,9 @@
 
     Mercolini L., Protti M., Mandrioli R. “Dispositivo per il micro-campionamento, la conservazione ed il trasporto di una matrice biologica” — device for microsampling, storage and transport of a biological matrix; Italian patent record no. 102025000025819 (2025).'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
+  - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3096,7 +3133,9 @@
 
     Task Force member, 2026 ESC Guidelines for the management of cardiovascular disease and chronic kidney disease.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-trials
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3152,7 +3191,9 @@
 
     Dajti E, Ravaioli F, et al. Accuracy of spleen stiffness measurement for the diagnosis of CSPH in cACLD: systematic review and IPD meta-analysis. Lancet Gastroenterol Hepatol 2023. doi:10.1016/S2468-1253(23)00150-4'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-cohorts
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3204,7 +3245,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id012
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3256,7 +3298,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id012
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3300,7 +3342,8 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id013
+  - structural-protein-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3344,7 +3387,7 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id013
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3396,7 +3439,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id014
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3448,7 +3492,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id014
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3496,7 +3540,8 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id015
+  - structural-protein-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3544,7 +3589,7 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id015
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3596,7 +3641,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id016
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3648,7 +3694,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id016
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3696,7 +3742,8 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id017
+  - structural-protein-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3744,7 +3791,7 @@
 
     L. Mazzei; S. Ranieri; D. Silvestri; R. Greene-Cramer; C. Cioffi; G. T. Montelione; S. Ciurli. An isothermal calorimetry assay for determining steady state kinetic and Ensitrelvir inhibition parameters for SARS-CoV-2 3CL-protease. Nature Sci. Rep. 2024, 14, 32175. https://doi.org/10.1038/s41598-024-81990-y'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id017
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3824,7 +3871,9 @@
 
     Funded by the Carisbo Foundation (Fondazione Cassa di Risparmio in Bologna) – Grant for Scientific Research and High Technology.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - biobanking
+  - clinical-pharmacology-medication-safety
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3876,7 +3925,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id018
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3928,7 +3978,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id018
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -3980,7 +4030,8 @@
 
     L. Mazzei; M. N. Wenzel; M. Cianci; M. Palombo; A. Casini; S. Ciurli. Inhibition mechanism of urease by Au(III) compounds unveiled by X-ray diffraction analysis. ACS Med. Chem. Lett. 2019, 10, 564-570. https://doi.org/10.1021/acsmedchemlett.8b00585'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id019
+  - structural-protein-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4032,7 +4083,7 @@
 
     L. Mazzei; M. N. Wenzel; M. Cianci; M. Palombo; A. Casini; S. Ciurli. Inhibition mechanism of urease by Au(III) compounds unveiled by X-ray diffraction analysis. ACS Med. Chem. Lett. 2019, 10, 564-570. https://doi.org/10.1021/acsmedchemlett.8b00585'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id019
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4066,7 +4117,8 @@
 
     New perspectives, given by metal coordination of old drugs, represent an attractive strategy for the development of novel therapeutic formulations, offering enhanced bioactivity. In this context, five well-known non-steroidal anti-inflammatory drugs (NSAIDs) were employed to the same metal skeleton, thereby selectively affording neutral k2-(O,O)–chelate complexes via molecular hydrogen release. Two complexes coordinating diclofenac and aspirin were investigated by single-crystal X-ray diffraction (SCXRD), whereas preliminary biological studies were conducted on the Ru–salicylic acid species and ibuprofen. The former showed promising antiproliferative activity against HeLa cancer cells. Bordoni, Silvia; Monari, Magda; Boga, Carla; Moro, Federico; Drius, Giacomo, Ru-Based NSAIDs as Potential Anticancer Therapeutics, «MOLECULES», 2026, 31, Article number: 589, pp. 1-13 .'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - medicinal-pharmaceutical-chemistry
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4126,7 +4178,9 @@
 
     EU-funded Horizon 2020 ORCHESTRA project – Connecting European Cohorts to Increase Common and Effective Response to SARS-CoV-2 Pandemic (2020-2024)'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-trials
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4174,7 +4228,9 @@
 
     The DUSE network includes partners in Bulgaria, Ukraine and Romania with experience involving disadvantaged populations and refugees. These connections offer opportunities to explore context-sensitive adaptation, community engagement and equitable access to prevention. Our contribution would focus on school-age children and adolescents, linking physiological expertise and practical educational experience to the implementation and scale-up of interventions with established supporting evidence.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - implementation-science
+  - food-nutrition-analytics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4302,7 +4358,8 @@
 
     I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants. PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE – Bando 2022, 20222X4M4T- CUP J53C24002660006'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id020
+  - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4430,7 +4487,7 @@
 
     I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants. PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE – Bando 2022, 20222X4M4T- CUP J53C24002660006'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id020
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4490,7 +4547,9 @@
 
     Lighting Up Gut Dysbiosis: Red-Shifted Whole-Cell Bioluminescence Enables Functional Sensing of Bile Salt Hydrolase Activity in Human Feces. Punzo A, et a., ACS Sens. 2026 Aug 31. doi: 10.1021/acssensors.6c02592. Online ahead of print.PMID: 42687409'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id021
+  - ai-data
+  - sensors-point-of-care
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4550,7 +4609,7 @@
 
     Lighting Up Gut Dysbiosis: Red-Shifted Whole-Cell Bioluminescence Enables Functional Sensing of Bile Salt Hydrolase Activity in Human Feces. Punzo A, et a., ACS Sens. 2026 Aug 31. doi: 10.1021/acssensors.6c02592. Online ahead of print.PMID: 42687409'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id021
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4626,7 +4685,9 @@
 
     Mercolini L., Protti M., Mandrioli R. “Dispositivo per il micro-campionamento, la conservazione ed il trasporto di una matrice biologica” — Device for microsampling, storage and transport of a biological matrix; Italian patent record no. 102025000025819 (2025).'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
+  - implementation-science
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4666,7 +4727,9 @@
 
     Selected publications: Ruscica et al., J Am Heart Assoc 2017, PCSK9 and arterial stiffness, doi:10.1161/JAHA.117.005764; Cicero et al., Int J Cardiol 2019, diet and children with heterozygous FH, doi:10.1016/j.ijcard.2019.05.069; Cicero et al., BioFactors 2022, non-invasive endothelial reactivity in young volunteers, doi:10.1002/biof.1839; Silla et al., Antioxidants 2023, evolocumab and arterial stiffness, doi:10.3390/antiox12030578; Lu et al./Global PWV Study Group, EBioMedicine 2023, doi:10.1016/j.ebiom.2023.104619.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - ai-data
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4698,7 +4761,9 @@
 
     The BNB can contribute to clinical trials by providing well-characterised biospecimens and longitudinal clinical data, supporting participant stratification and enrichment through molecular and fluid biomarkers.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - biobanking
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4738,7 +4803,8 @@
 
     Overall, my expertise combines a strong publication record in non-invasive brain stimulation, methodological proficiency in TMS and electrophysiological techniques, and a research programme focused on neural plasticity and cognitive-affective function. These competencies provide a solid foundation for contributing to collaborative European initiatives aimed at advancing innovative neuromodulation approaches and supporting their translation towards clinical trials in neurodegenerative diseases.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - neuroscience-neurotechnology
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4826,7 +4892,8 @@
 
     PRIN 2022 - I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants (2 Partners, funding 172.000,00 euros, Duration 24 months)'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id022
+  - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4914,7 +4981,7 @@
 
     PRIN 2022 - I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants (2 Partners, funding 172.000,00 euros, Duration 24 months)'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id022
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -4990,7 +5057,9 @@
 
     Efficacy of cholinesterase inhibitors and memantine on symptoms not responsive to levodopa in patients affected by Parkinson''s disease without dementia: a systematic review. Cani I, Grotteschi N, Calandra-Buonaura G, Guarino M, Guaraldi P, Giannini G, Baldelli L, Donati M, Cortelli P, Camerlingo MD, Nonino F, Sambati L. BMJ Neurol Open. 2025 Aug 3;7(2):e001079. doi: 10.1136/bmjno-2025-001079'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-trials
+  - neuroscience-neurotechnology
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5054,7 +5123,9 @@
 
     Cani, I., D’Ascanio, I., Baldelli, L., Lopane, G., Ranciati, S., Mantovani, P., Conti, A., Cortelli, P., Calandra-Buonaura, G., Chiari, L., Palmerini, L., & Giannini, G. (2025). Evaluating gait and postural responses to subthalamic stimulation and levodopa: A prospective study using wearable technology. European Journal of Neurology, 32(1). https://doi.org/10.1111/ene.16580 [IF: 4.5, Quartile: Q1 Neurology]'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - digital-biomarkers
+  - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5150,7 +5221,9 @@
 
     4. Bellavia A, et al.; Global Tuberculosis Network and FAST-TB End-User Survey Group. Prioritising research topics identified by end-users for a successful and rapid uptake of new tuberculosis treatment regimens. Eur Respir J. 2026 Sep 8;68(3):2600989. doi: 10.1183/13993003.00989-2026. PMID: 42532544.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-pharmacology-medication-safety
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5218,7 +5291,9 @@
 
     Marasca C et al. Volumetric Absorptive Microsampling of Blood for Untargeted Lipidomics. Molecules. 2021;26(2):262. DOI: 10.3390/molecules26020262.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
+  - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5270,7 +5345,8 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id023
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5322,7 +5398,7 @@
 
     Balboni N., Babini G., Poeta E., et al. (2024). Transcriptional and metabolic effects of aspartate-glutamate carrier isoform 1 (AGC1) downregulation in mouse oligodendrocyte precursor cells (OPCs). Cellular & Molecular Biology Letters, 29, 44. https://doi.org/10.1186/s11658-024-00563-z'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id023
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5418,7 +5494,8 @@
 
     Fiorini G., Trapanese M., Traficante M., Potena L., Stancari A., et al. “Polypharmacy in Chronic Heart Failure: The Impact of Medication Review and the Role of the Multidisciplinary Team”. Oral comunication at 43° SIF Congress in Torino, November 25-28, 2026.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id024
+  - clinical-pharmacology-medication-safety
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5514,7 +5591,7 @@
 
     Fiorini G., Trapanese M., Traficante M., Potena L., Stancari A., et al. “Polypharmacy in Chronic Heart Failure: The Impact of Medication Review and the Role of the Multidisciplinary Team”. Oral comunication at 43° SIF Congress in Torino, November 25-28, 2026.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id024
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5582,7 +5659,8 @@
 
     Heart-failure diuretic optimisation and outcomes research'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-pharmacology-medication-safety
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5668,7 +5746,9 @@
     Industry-Sponsored Clinical Trials 1) ACT17012 – BIVV020 (Sanofi): A multicohort, randomised Phase II study investigating the efficacy, safety and pharmacokinetics of BIVV020 for the prevention and treatment of antibody-mediated rejection in kidney transplant recipients. 2)ALXN1210-DGF-321 – Ravulizumab (Alexion): A Phase III randomised, placebo-controlled study evaluating ravulizumab in kidney transplant recipients at high risk of delayed graft function. 3) EFC18554 – Frexalimab (Sanofi): A Phase II/III study investigating the efficacy and safety of frexalimab compared with tacrolimus in adult kidney transplant recipients. 4) VDX 20-1001 – Verici Dx: A study validating genomic immune-phenotyping profiles and peripheral blood gene signatures to predict kidney transplant rejection, supporting biomarker-based risk stratification and personalised clinical decision-making. 5) ARGX-113-9-AMR-3001 – Efgartigimod (argenx): A Phase II study evaluating the safety, tolerability and efficacy of
     efgartigimod in kidney transplant recipients with antibody-mediated rejection. 6) BAXDUO-ARCTIC / BAXDUO-PACIFIC and ZENITH (AstraZeneca): Phase III clinical trials investigating combination therapies and targeted treatment strategies in chronic kidney disease, with particular relevance to patients with hypertension, complex comorbidities and multiple concomitant medications. Investigator-Initiated and Non-Profit Research Projects:We concluded and have ongoing projects that demonstrate complementary expertise in clinical phenotyping, biomarker research, personalised medicine and the longitudinal assessment of complex kidney disease populations'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-pharmacology-medication-safety
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5752,7 +5832,8 @@
 
     Montevecchi M, Valeriani L. Interleukin-1 Polymorphisms in Caucasian Adults with Down Syndrome and Advanced Periodontitis: A Cross-Sectional Study. Dent J (Basel). 2026;14(5):246. doi:10.3390/dj14050246.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5784,7 +5865,9 @@
 
     The BNB can contribute to clinical trials by providing well-characterised biospecimens and longitudinal clinical data, supporting participant stratification and enrichment through molecular and fluid biomarkers.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - biobanking
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5840,7 +5923,9 @@
 
     Dajti E, Ravaioli F, et al. Accuracy of spleen stiffness measurement for the diagnosis of CSPH in cACLD: systematic review and IPD meta-analysis. Lancet Gastroenterol Hepatol 2023. doi:10.1016/S2468-1253(23)00150-4'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - ai-data
+  - clinical-cohorts
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5900,7 +5985,9 @@
 
     TextAlchemy: an NLP tool to accelerate and semi-automate data extraction, validated in the nutritional field. Rooshan Saleem Butt, et al.; submitted. Preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5807878'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id025
+  - ai-data
+  - sensors-point-of-care
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -5960,7 +6047,7 @@
 
     TextAlchemy: an NLP tool to accelerate and semi-automate data extraction, validated in the nutritional field. Rooshan Saleem Butt, et al.; submitted. Preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5807878'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id025
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6028,7 +6115,9 @@
 
     Protti M et al. Targeted quantitative metabolic profiling of brain-derived cell cultures by semi-automated MEPS and LC-MS/MS. Journal of Pharmaceutical and Biomedical Analysis. 2023;236:115757. DOI: 10.1016/j.jpba.2023.115757.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
+  - omics
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6112,7 +6201,8 @@
 
     PRIN 2022 - I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants (2 Partners, funding 172.000,00 euros, Duration 24 months)'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id026
+  - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6196,7 +6286,7 @@
 
     PRIN 2022 - I-DASY: Instrument-based holistic DigitAl twinS for monitoring neuro-motor developmental trajectorY in preterm infants (2 Partners, funding 172.000,00 euros, Duration 24 months)'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id026
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6288,7 +6378,8 @@
 
     - Lionetti V, Cantoni S, Cavallini C, Bianchi F, Valente S, Frascari I, Olivi E, Aquaro GD, Bonavita F, Scarlata I, Maioli M, Vaccari V, Tassinari R, Bartoli A, Recchia FA, Pasquinelli G, Ventura C. Hyaluronan mixed esters of butyric and retinoic acid affording myocardial survival and repair without stem cell transplantation. J Biol Chem. 2010 Mar 26;285(13):9949-9961. doi: 10.1074/jbc.M109.087254.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6340,7 +6431,8 @@
 
     The group is particularly interested in developing geometry-aware, multimodal and interpretable AI methodologies capable of combining molecular, imaging, physiological and clinical information to identify candidate biomarkers and support personalised predictions of disease evolution and therapeutic response.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - ai-data
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6400,7 +6492,9 @@
 
     REMEDY and MySIGN: leadership in multiparametric remote monitoring, integrating sensor devices and digital platforms for chronic disease management.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - digital-biomarkers
+  - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6512,7 +6606,10 @@
 
     Projects: Bologna PRO-Hydro (ISN, since 2015); STOP-iNPH (Uppsala-coordinated, since 2024); STARS and PASSION (A. Perin); Mobilise-D (IMI2, 2019–2024, UNIBO DEI).'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - clinical-cohorts
+  - clinical-trials
+  - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6576,7 +6673,9 @@
 
     Cani, I., D’Ascanio, I., Baldelli, L., Lopane, G., Ranciati, S., Mantovani, P., Conti, A., Cortelli, P., Calandra-Buonaura, G., Chiari, L., Palmerini, L., & Giannini, G. (2025). Evaluating gait and postural responses to subthalamic stimulation and levodopa: A prospective study using wearable technology. European Journal of Neurology, 32(1). https://doi.org/10.1111/ene.16580 [IF: 4.5, Quartile: Q1 Neurology]'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - digital-biomarkers
+  - clinical-trials
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6646,7 +6745,8 @@
 
     “Sustainability in peptide chemistry: current synthesis and purification technologies and future challenges", Ferrazzano, L.; Catani, M.; Cavazzini, A.; Martelli, G.; Corbisiero, D.; Cantelmi, P.; Fantoni, T.; Mattellone, A.; De Luca, C.; Felletti, S.; Cabri, W. Tolomelli, A. Green Chem. 2022, 24, 975-1020, 10.1039/D1GC04387K.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - medicinal-pharmaceutical-chemistry
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6734,7 +6834,8 @@
 
     Valente S, et al. Exploring the human mesenchymal stem cell tubule communication network through electron microscopy. Ultrastruct Pathol. 2015 Apr;39(2):88-94. doi: 10.3109/01913123.2014.960545.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6764,7 +6865,9 @@
 
     The team’s translational background includes the PON TEX-STYLE project on intelligent and sustainable textiles, industrial collaborations for smart dressings and textile ECG electrodes, and a university Proof-of-Concept action supporting exploitation of an OECT-based chemical-sensor patent. The related invention, “Electrochemical organic transistor based on conducting polymer and nanoparticles of Ag halide, AgX (X = Cl, I, Br) as chemical sensor”, was filed as PCT/IT2018/050069, published as WO 2018/207220 and granted as EP 3622282 B1.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: &id027
+  - sensors-point-of-care
+  - digital-biomarkers
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6794,7 +6897,7 @@
 
     The team’s translational background includes the PON TEX-STYLE project on intelligent and sustainable textiles, industrial collaborations for smart dressings and textile ECG electrodes, and a university Proof-of-Concept action supporting exploitation of an OECT-based chemical-sensor patent. The related invention, “Electrochemical organic transistor based on conducting polymer and nanoparticles of Ag halide, AgX (X = Cl, I, Br) as chemical sensor”, was filed as PCT/IT2018/050069, published as WO 2018/207220 and granted as EP 3622282 B1.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id027
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6824,7 +6927,7 @@
 
     The team’s translational background includes the PON TEX-STYLE project on intelligent and sustainable textiles, industrial collaborations for smart dressings and textile ECG electrodes, and a university Proof-of-Concept action supporting exploitation of an OECT-based chemical-sensor patent. The related invention, “Electrochemical organic transistor based on conducting polymer and nanoparticles of Ag halide, AgX (X = Cl, I, Br) as chemical sensor”, was filed as PCT/IT2018/050069, published as WO 2018/207220 and granted as EP 3622282 B1.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id027
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6854,7 +6957,7 @@
 
     The team’s translational background includes the PON TEX-STYLE project on intelligent and sustainable textiles, industrial collaborations for smart dressings and textile ECG electrodes, and a university Proof-of-Concept action supporting exploitation of an OECT-based chemical-sensor patent. The related invention, “Electrochemical organic transistor based on conducting polymer and nanoparticles of Ag halide, AgX (X = Cl, I, Br) as chemical sensor”, was filed as PCT/IT2018/050069, published as WO 2018/207220 and granted as EP 3622282 B1.'
   contribution_types: []
-  capability_ids: []
+  capability_ids: *id027
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -6942,7 +7045,8 @@
 
     Valente S, et al. Exploring the human mesenchymal stem cell tubule communication network through electron microscopy. Ultrastruct Pathol. 2015 Apr;39(2):88-94. doi: 10.3109/01913123.2014.960545.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - cellular-disease-models
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source
@@ -7010,7 +7114,9 @@
 
     3. Protti M, Mercolini L, Mandrioli R. Review: the role of automation in improving the performance and throughput of microsample bioanalysis. Analytica Chimica Acta. 2025;1359:344018. DOI: 10.1016/j.aca.2025.344018.'
   contribution_types: []
-  capability_ids: []
+  capability_ids:
+  - bioanalysis-microsampling
+  - sensors-point-of-care
   infrastructure_ids: []
   network_ids: []
   evidence_basis: direct-source

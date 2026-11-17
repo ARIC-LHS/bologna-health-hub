@@ -1,29 +1,40 @@
 - id: ai-data
   name: AI and data science
-
 - id: digital-biomarkers
   name: Digital biomarkers
-
 - id: interoperability
   name: FAIR data and interoperability
-
 - id: clinical-cohorts
   name: Clinical cohorts
-
 - id: clinical-trials
   name: Clinical trials
-
 - id: omics
   name: Omics technologies
-
 - id: biobanking
   name: Biobanking
-
 - id: implementation-science
   name: Implementation science
-
 - id: ssh
   name: Social sciences and humanities
-
 - id: ethics-regulation
   name: Ethics and regulation
+- id: bioanalysis-microsampling
+  name: Bioanalysis and microsampling
+- id: cellular-disease-models
+  name: Cellular and advanced disease models
+- id: structural-protein-science
+  name: Structural biology and protein science
+- id: sensors-point-of-care
+  name: Sensors and point-of-care technologies
+- id: exposure-environmental-analysis
+  name: Exposure and environmental analysis
+- id: food-nutrition-analytics
+  name: Food, nutrition and lifestyle research
+- id: microbiome-research
+  name: Microbiome research
+- id: medicinal-pharmaceutical-chemistry
+  name: Medicinal and pharmaceutical chemistry
+- id: clinical-pharmacology-medication-safety
+  name: Clinical pharmacology and medication safety
+- id: neuroscience-neurotechnology
+  name: Neuroscience and neurotechnologies
