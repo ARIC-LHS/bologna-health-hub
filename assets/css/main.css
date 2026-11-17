@@ -358,3 +358,108 @@ textarea:focus-visible {
   margin-bottom: 0.5rem;
 }
 ``
+/* TOPIC INDEX */
+
+.topic-destination {
+  margin-top: 3rem;
+}
+
+.topic-destination + .topic-destination {
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.topic-meta {
+  margin-bottom: .65rem;
+  font-size: .9rem;
+  color: #5f5f5f;
+}
+
+
+/* CAPABILITY TAGS */
+
+.capability-tags {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.capability-tags .capability-tag {
+  border-width: 1px;
+  border-style: solid;
+  font-weight: 500;
+}
+
+
+/* Data, AI and digital */
+
+.capability-tag--ai-data,
+.capability-tag--digital-biomarkers,
+.capability-tag--interoperability {
+  color: #174f78;
+  border-color: #9cc8e5;
+  background: #edf7fd;
+}
+
+
+/* Biological and molecular */
+
+.capability-tag--omics,
+.capability-tag--microbiome-research,
+.capability-tag--cellular-disease-models,
+.capability-tag--structural-protein-science {
+  color: #28633d;
+  border-color: #a8d5b5;
+  background: #eef8f1;
+}
+
+
+/* Clinical */
+
+.capability-tag--clinical-cohorts,
+.capability-tag--clinical-trials,
+.capability-tag--clinical-pharmacology-medication-safety {
+  color: #604392;
+  border-color: #c8b7e8;
+  background: #f5f0fc;
+}
+
+
+/* Technologies and analytical methods */
+
+.capability-tag--sensors-point-of-care,
+.capability-tag--bioanalysis-microsampling,
+.capability-tag--medicinal-pharmaceutical-chemistry {
+  color: #98501b;
+  border-color: #e5bd9f;
+  background: #fdf3ec;
+}
+
+
+/* Environment, exposure, food and lifestyle */
+
+.capability-tag--exposure-environmental-analysis,
+.capability-tag--food-nutrition-analytics {
+  color: #176568;
+  border-color: #9fd1d0;
+  background: #edf8f7;
+}
+
+
+/* SSH, ethics and implementation */
+
+.capability-tag--ssh,
+.capability-tag--ethics-regulation,
+.capability-tag--implementation-science {
+  color: #8b3c62;
+  border-color: #dfb0c5;
+  background: #fcf0f5;
+}
+
+
+/* Biobanking */
+
+.capability-tag--biobanking {
+  color: #52606d;
+  border-color: #c4ccd3;
+  background: #f3f5f7;
+}
