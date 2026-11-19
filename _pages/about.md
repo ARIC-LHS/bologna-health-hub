@@ -56,6 +56,14 @@ permalink: /about/
 
     <h2>Alma Mater Studiorum – University of Bologna</h2>
 
+<p class="institution-website">
+  <a href="https://www.unibo.it/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Visit the University of Bologna website →
+  </a>
+</p>
+
     <p>
       The University of Bologna, the oldest university in the Western
       world, combines a long academic tradition with cutting-edge
@@ -220,6 +228,14 @@ permalink: /about/
 
     <h2>IRCCS Azienda Ospedaliero-Universitaria di Bologna</h2>
 
+<p class="institution-website">
+  <a href="https://www.aosp.bo.it/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Visit the IRCCS AOUBO website →
+  </a>
+</p>
+
     <p>
       IRCCS AOUBO is Bologna's principal university hospital, with more
       than 400 years of history. It is the main clinical venue of the
@@ -336,6 +352,14 @@ permalink: /about/
 
     <h2>IRCCS Istituto Ortopedico Rizzoli</h2>
 
+<p class="institution-website">
+  <a href="https://www.ior.it/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Visit the IRCCS IOR website →
+  </a>
+</p>
+
     <p>
       Founded in 1896, the Istituto Ortopedico Rizzoli is an
       international reference centre for orthopaedics and
@@ -442,6 +466,14 @@ permalink: /about/
     <p class="eyebrow">IRCCS ISN</p>
 
     <h2>IRCCS Istituto delle Scienze Neurologiche di Bologna</h2>
+
+<p class="institution-website">
+  <a href="https://www.isnb.it/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Visit the IRCCS ISN website →
+  </a>
+</p>
 
     <p>
       The Istituto delle Scienze Neurologiche di Bologna is a centre of

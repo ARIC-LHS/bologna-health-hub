@@ -804,3 +804,14 @@ textarea:focus-visible {
 .infrastructure-contact {
   margin-top: 3rem;
 }
+/* INSTITUTIONAL WEBSITE LINKS */
+
+.institution-website {
+  margin-top: -.35rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.institution-website a {
+  color: var(--unibo-red);
+}

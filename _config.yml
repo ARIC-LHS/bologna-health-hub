@@ -30,3 +30,6 @@ disclaimer: >-
   Participation, availability, access to data or infrastructures,
   and consortium responsibilities require direct verification
   and project-specific agreement.
+
+exclude:
+  - scripts

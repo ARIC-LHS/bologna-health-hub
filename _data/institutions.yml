@@ -1,15 +1,19 @@
 - id: unibo
   short_name: UNIBO
   name: Alma Mater Studiorum - University of Bologna
+  website: https://www.unibo.it/
 
 - id: aoubo
   short_name: AOUBO
   name: IRCCS Azienda Ospedaliero-Universitaria di Bologna
+  website: https://www.aosp.bo.it/
 
 - id: ior
   short_name: IOR
   name: IRCCS Istituto Ortopedico Rizzoli
+  website: https://www.ior.it/
 
 - id: isnb
-  short_name: ISNB
+  short_name: ISN
   name: Istituto Scienze Neurologiche di Bologna
+  website: https://www.isnb.it/
