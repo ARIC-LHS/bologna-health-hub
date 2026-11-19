@@ -133,4 +133,6 @@ permalink: /topics/
 
   {% endfor %}
 
+{% include contact-gate.html %}
+
 </section>

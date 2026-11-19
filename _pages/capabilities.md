@@ -118,8 +118,10 @@ permalink: /capabilities/
 
       </article>
 
-    {% endfor %}
+       {% endfor %}
 
   </div>
+
+  {% include contact-gate.html %}
 
 </section>

@@ -545,6 +545,8 @@ permalink: /about/
 
   </section>
 
-  {% include caveat.html text=site.disclaimer %}
+{% include contact-gate.html %}
+
+{% include caveat.html text=site.disclaimer %}
 
 </section>

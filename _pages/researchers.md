@@ -162,4 +162,6 @@ permalink: /researchers/
 
   </div>
 
+  {% include contact-gate.html %}
+
 </section>
