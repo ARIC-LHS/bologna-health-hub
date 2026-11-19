@@ -6,7 +6,20 @@ layout: default
   | where: "id", page.capability_id
   | first %}
 
-{% assign contributions = site.data.contributions %}
+{% assign matches = site.data.contributions
+  | where_exp: "c", "c.capability_ids contains capability.id" %}
+
+{% assign researcher_ids = matches
+  | map: "researcher_id"
+  | uniq %}
+
+{% assign topic_ids = matches
+  | map: "topic_id"
+  | uniq %}
+
+{% assign sorted_researchers = site.data.researchers
+  | sort: "sort_name" %}
+
 
 <article class="container">
 
@@ -16,27 +29,158 @@ layout: default
     <span aria-current="page">{{ capability.name }}</span>
   </nav>
 
-  <header>
+
+  <header class="profile-header">
+
+    <p class="eyebrow">
+      Scientific capability
+    </p>
+
     <h1>{{ capability.name }}</h1>
+
+    <p class="profile-summary">
+      <strong>{{ researcher_ids.size }}</strong>
+      {% if researcher_ids.size == 1 %}
+        Bologna research profile
+      {% else %}
+        Bologna research profiles
+      {% endif %}
+
+      <span aria-hidden="true"> · </span>
+
+      <strong>{{ topic_ids.size }}</strong>
+      {% if topic_ids.size == 1 %}
+        2027 topic
+      {% else %}
+        2027 topics
+      {% endif %}
+    </p>
+
+    {% if capability.description %}
+      <p class="lede">
+        {{ capability.description }}
+      </p>
+    {% endif %}
+
   </header>
 
-  <section>
 
-    <h2>Relevant contributions</h2>
+  {% if topic_ids.size > 0 %}
 
-    <div class="contribution-grid">
+    <section class="capability-related-topics">
 
-      {% for contribution in contributions %}
+      <h2>Related 2027 topics</h2>
 
-        {% if contribution.capability_ids contains capability.id %}
+      <ul class="tag-list capability-topic-tags">
 
-          {% assign researcher = site.data.researchers
-            | where: "id", contribution.researcher_id
+        {% for topic_id in topic_ids %}
+
+          {% assign topic = site.data.topics
+            | where: "id", topic_id
             | first %}
 
-          {% include researcher-card.html
-            researcher=researcher
-            contribution=contribution %}
+          {% if topic %}
+
+            <li>
+              <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+                {{ topic.code }}
+              </a>
+            </li>
+
+          {% endif %}
+
+        {% endfor %}
+
+      </ul>
+
+    </section>
+
+  {% endif %}
+
+
+  <section class="capability-researchers">
+
+    <h2>Relevant profiles</h2>
+
+    <div class="card-grid">
+
+      {% for researcher in sorted_researchers %}
+
+        {% assign researcher_matches = matches
+          | where: "researcher_id", researcher.id %}
+
+        {% if researcher_matches.size > 0 %}
+
+          {% assign institution = site.data.institutions
+            | where: "id", researcher.institution_id
+            | first %}
+
+
+          <article class="card capability-researcher-card">
+
+            <h3>
+
+              <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
+                {{ researcher.name }}
+              </a>
+
+            </h3>
+
+
+            {% if institution %}
+
+              <p class="researcher-institution">
+                {{ institution.short_name }}
+              </p>
+
+            {% endif %}
+
+
+            <p class="capability-researcher-meta">
+
+              <strong>{{ researcher_matches.size }}</strong>
+
+              {% if researcher_matches.size == 1 %}
+                relevant topic
+              {% else %}
+                relevant topics
+              {% endif %}
+
+            </p>
+
+
+            <ul class="tag-list capability-topic-tags">
+
+              {% for contribution in researcher_matches %}
+
+                {% assign topic = site.data.topics
+                  | where: "id", contribution.topic_id
+                  | first %}
+
+                {% if topic %}
+
+                  <li>
+                    <a href="{{ '/topics/' | append: topic.id | append: '/' | relative_url }}">
+                      {{ topic.code }}
+                    </a>
+                  </li>
+
+                {% endif %}
+
+              {% endfor %}
+
+            </ul>
+
+
+            <p class="researcher-profile-link">
+
+              <a href="{{ '/researchers/' | append: researcher.id | append: '/' | relative_url }}">
+                View profile →
+              </a>
+
+            </p>
+
+          </article>
 
         {% endif %}
 
@@ -45,6 +189,7 @@ layout: default
     </div>
 
   </section>
+
 
   {% include caveat.html text=site.disclaimer %}
 
