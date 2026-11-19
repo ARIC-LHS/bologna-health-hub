@@ -605,3 +605,27 @@ textarea:focus-visible {
   margin-top: 1rem;
   line-height: 1.65;
 }
+/* CONTACT GATE */
+
+.contact-gate {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--unibo-red);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.contact-gate h2 {
+  margin-top: 0;
+}
+
+.contact-gate .lede {
+  max-width: 850px;
+}
+
+.contact-email {
+  margin-bottom: 0;
+  font-weight: 700;
+}

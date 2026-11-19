@@ -92,6 +92,60 @@ permalink: /
 
 </section>
 
+<section class="container section">
+
+  <p class="eyebrow">
+    Bologna research ecosystem
+  </p>
+
+  <h2>One metropolitan research ecosystem</h2>
+
+  <p>
+    <strong>
+      UNIBO · IRCCS AOUBO · IRCCS IOR · IRCCS ISN
+    </strong>
+  </p>
+
+  <p>
+    A comprehensive multidisciplinary university and three research
+    hospitals combining basic, translational and clinical research
+    across the Bologna metropolitan area.
+  </p>
+
+  <p>
+    <a href="{{ '/about/' | relative_url }}">
+      Learn more about the Bologna ecosystem
+    </a>
+  </p>
+
+</section>
+
+<section class="container section contact-gate">
+
+  <p class="eyebrow">
+    Partner with Bologna
+  </p>
+
+  <h2>Looking for a Bologna partner?</h2>
+
+  <p class="lede">
+    Planning a Horizon Europe Cluster 1 Health proposal?
+    The ARIC Life &amp; Health Sciences team can help identify
+    relevant researchers, capabilities and research assets across
+    the Bologna metropolitan research ecosystem.
+  </p>
+
+  <p class="button-row">
+    <a class="button" href="mailto:lhs@unibo.it">
+      Contact the Life &amp; Health Sciences team
+    </a>
+  </p>
+
+  <p class="contact-email">
+    <a href="mailto:lhs@unibo.it">lhs@unibo.it</a>
+  </p>
+
+</section>
 
 <section class="container section">
 
@@ -122,36 +176,6 @@ permalink: /
   </p>
 
 </section>
-
-
-<section class="container section">
-
-  <p class="eyebrow">
-    Bologna research ecosystem
-  </p>
-
-  <h2>One metropolitan research ecosystem</h2>
-
-  <p>
-    <strong>
-      UNIBO · IRCCS AOUBO · IRCCS IOR · IRCCS ISN
-    </strong>
-  </p>
-
-  <p>
-    A comprehensive multidisciplinary university and three research
-    hospitals combining basic, translational and clinical research
-    across the Bologna metropolitan area.
-  </p>
-
-  <p>
-    <a href="{{ '/about/' | relative_url }}">
-      Learn more about the Bologna ecosystem
-    </a>
-  </p>
-
-</section>
-
 
 <section class="container section">
 
