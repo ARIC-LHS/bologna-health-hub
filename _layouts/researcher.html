@@ -164,6 +164,38 @@ layout: default
 
   {% endif %}
 
+{% if contributions.size > 1 %}
+
+  <section class="profile-topic-index">
+
+    <h2>Contributions by topic</h2>
+
+    <ul>
+
+      {% for contribution in contributions %}
+
+        {% assign topic = site.data.topics
+          | where: "id", contribution.topic_id
+          | first %}
+
+        {% if topic %}
+
+          <li>
+            <a href="#contribution-{{ contribution.topic_id }}">
+              <strong>{{ topic.code }}</strong>
+              <span>{{ topic.title }}</span>
+            </a>
+          </li>
+
+        {% endif %}
+
+      {% endfor %}
+
+    </ul>
+
+  </section>
+
+{% endif %}
 
   <section class="profile-contributions">
 
@@ -181,7 +213,10 @@ layout: default
           | first %}
 
 
-        <article class="card contribution-card">
+<article
+  class="card contribution-card"
+  id="contribution-{{ contribution.topic_id }}"
+>
 
           {% if topic %}
 

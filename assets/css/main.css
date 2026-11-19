@@ -629,3 +629,77 @@ textarea:focus-visible {
   margin-bottom: 0;
   font-weight: 700;
 }
+
+/* RESEARCHER CONTRIBUTION NAVIGATION */
+
+.profile-topic-index {
+  margin: 2rem 0 2.5rem;
+}
+
+.profile-topic-index ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.profile-topic-index li {
+  margin-bottom: .65rem;
+}
+
+.profile-topic-index a {
+  display: flex;
+  gap: .6rem;
+  align-items: baseline;
+}
+
+.profile-topic-index a span {
+  color: var(--ink);
+  font-size: .9rem;
+}
+
+.contribution-section-title {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* RESEARCHER CONTRIBUTION NAVIGATION */
+
+.profile-topic-index {
+  margin: 2rem 0 2.5rem;
+}
+
+.profile-topic-index ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.profile-topic-index li {
+  margin-bottom: .65rem;
+}
+
+.profile-topic-index a {
+  display: flex;
+  gap: .6rem;
+  align-items: baseline;
+}
+
+.profile-topic-index a span {
+  color: var(--ink);
+  font-size: .9rem;
+}
+
+.contribution-section-title {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.contribution-card {
+  scroll-margin-top: 2rem;
+}
