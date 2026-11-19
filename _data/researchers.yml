@@ -705,6 +705,8 @@
   surname: Cetrullo
   sort_name: Cetrullo, Silvia Cetrullo
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/silvia.cetrullo/en
+  profile_url_type: individual
 - id: simone-rampelli
   name: Simone Rampelli
   institution_id: unibo
@@ -718,6 +720,8 @@
   surname: Rampelli
   sort_name: Rampelli, Simone Rampelli
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/simone.rampelli/en
+  profile_url_type: individual
 - id: federica-d-amico
   name: Federica D'Amico
   institution_id: unibo
@@ -731,6 +735,8 @@
   surname: D'Amico
   sort_name: D'Amico, Federica D'Amico
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/federica.damico8/en
+  profile_url_type: individual
 - id: tommaso-salzillo
   name: Tommaso Salzillo
   institution_id: unibo
@@ -744,6 +750,8 @@
   surname: Salzillo
   sort_name: Salzillo, Tommaso Salzillo
   department: Department of Industrial Chemistry "Toso Montanari"
+  official_profile_url: https://www.unibo.it/sitoweb/tommaso.salzillo/en
+  profile_url_type: individual
 - id: beatrice-fraboni
   name: Beatrice Fraboni
   institution_id: unibo
@@ -757,6 +765,8 @@
   surname: Fraboni
   sort_name: Fraboni, Beatrice Fraboni
   department: Department of Physics and Astronomy "Augusto Righi"
+  official_profile_url: https://www.unibo.it/sitoweb/beatrice.fraboni/en
+  profile_url_type: individual
 - id: francesco-nonino
   name: Francesco Nonino
   institution_id: isnb
@@ -785,6 +795,8 @@
   surname: Brigidi
   sort_name: Brigidi, Patrizia Brigidi
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/patrizia.brigidi/en
+  profile_url_type: individual
 - id: silvia-turroni
   name: Silvia Turroni
   institution_id: unibo
@@ -798,6 +810,8 @@
   surname: Turroni
   sort_name: Turroni, Silvia Turroni
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/silvia.turroni/en
+  profile_url_type: individual
 - id: alessandra-bendini
   name: Alessandra Bendini
   institution_id: unibo
@@ -811,6 +825,8 @@
   surname: Bendini
   sort_name: Bendini, Alessandra Bendini
   department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/alessandra.bendini/en
+  profile_url_type: individual
 - id: matilde-tura
   name: Matilde Tura
   institution_id: unibo
@@ -824,6 +840,8 @@
   surname: Tura
   sort_name: Tura, Matilde Tura
   department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/matilde.tura2/en
+  profile_url_type: individual
 - id: carmela-fimognari
   name: Carmela Fimognari
   institution_id: unibo
@@ -837,6 +855,8 @@
   surname: Fimognari
   sort_name: Fimognari, Carmela Fimognari
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/carmela.fimognari/en
+  profile_url_type: individual
 - id: cristina-angeloni
   name: Cristina Angeloni
   institution_id: unibo
@@ -850,6 +870,8 @@
   surname: Angeloni
   sort_name: Angeloni, Cristina Angeloni
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/cristina.angeloni/en
+  profile_url_type: individual
 - id: francesca-fornari
   name: Francesca Fornari
   institution_id: unibo
@@ -863,6 +885,8 @@
   surname: Fornari
   sort_name: Fornari, Francesca Fornari
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/francesca.fornari2/en
+  profile_url_type: individual
 - id: elisabetta-lalumera
   name: Elisabetta Lalumera
   institution_id: unibo
@@ -876,6 +900,8 @@
   surname: Lalumera
   sort_name: Lalumera, Elisabetta Lalumera
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/elisabetta.lalumera/en
+  profile_url_type: individual
 - id: marco-malaguti
   name: Marco Malaguti
   institution_id: unibo
@@ -889,6 +915,8 @@
   surname: Malaguti
   sort_name: Malaguti, Marco Malaguti
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/marco.malaguti/en
+  profile_url_type: individual
 - id: anna-vittoria-mattioli
   name: Anna Vittoria Mattioli
   institution_id: unibo
@@ -902,6 +930,8 @@
   surname: Mattioli
   sort_name: Mattioli, Anna Vittoria Mattioli
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/annavittoria.mattioli/en
+  profile_url_type: individual
 - id: valeria-righi
   name: Valeria Righi
   institution_id: unibo
@@ -915,6 +945,8 @@
   surname: Righi
   sort_name: Righi, Valeria Righi
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/valeria.righi2/en
+  profile_url_type: individual
 - id: eleonora-turrini
   name: Eleonora Turrini
   institution_id: unibo
@@ -928,6 +960,8 @@
   surname: Turrini
   sort_name: Turrini, Eleonora Turrini
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/eleonora.turrini/en
+  profile_url_type: individual
 - id: barbara-monti
   name: Barbara Monti
   institution_id: unibo
@@ -971,6 +1005,8 @@
   surname: Anderlucci
   sort_name: Anderlucci, Laura Anderlucci
   department: Department of Statistical Sciences "Paolo Fortunati"
+  official_profile_url: https://www.unibo.it/sitoweb/laura.anderlucci/en
+  profile_url_type: individual
 - id: giuliano-galimberti
   name: Giuliano Galimberti
   institution_id: unibo
@@ -984,6 +1020,8 @@
   surname: Galimberti
   sort_name: Galimberti, Giuliano Galimberti
   department: Department of Statistical Sciences "Paolo Fortunati"
+  official_profile_url: https://www.unibo.it/sitoweb/giuliano.galimberti/en
+  profile_url_type: individual
 - id: saverio-ranciati
   name: Saverio Ranciati
   institution_id: unibo
@@ -997,6 +1035,8 @@
   surname: Ranciati
   sort_name: Ranciati, Saverio Ranciati
   department: Department of Statistical Sciences "Paolo Fortunati"
+  official_profile_url: https://www.unibo.it/sitoweb/saverio.ranciati2/en
+  profile_url_type: individual
 - id: edoardo-redivo
   name: Edoardo Redivo
   institution_id: unibo
@@ -1010,6 +1050,8 @@
   surname: Redivo
   sort_name: Redivo, Edoardo Redivo
   department: Department of Statistical Sciences "Paolo Fortunati"
+  official_profile_url: https://www.unibo.it/sitoweb/edoardo.redivo/en
+  profile_url_type: individual
 - id: silvia-bordoni
   name: Silvia Bordoni
   institution_id: unibo
@@ -1023,6 +1065,8 @@
   surname: Bordoni
   sort_name: Bordoni, Silvia Bordoni
   department: Department of Industrial Chemistry "Toso Montanari"
+  official_profile_url: https://www.unibo.it/sitoweb/silvia.bordoni/en
+  profile_url_type: individual
 - id: cecilia-garofalo
   name: Cecilia Garofalo
   institution_id: isnb
@@ -1066,6 +1110,8 @@
   surname: Gualandi
   sort_name: Gualandi, Isacco Gualandi
   department: Department of Industrial Chemistry "Toso Montanari"
+  official_profile_url: https://www.unibo.it/sitoweb/isacco.gualandi2/en
+  profile_url_type: individual
 - id: erika-scavetta
   name: Erika Scavetta
   institution_id: unibo
@@ -1079,3 +1125,5 @@
   surname: Scavetta
   sort_name: Scavetta, Erika Scavetta
   department: Department of Industrial Chemistry "Toso Montanari"
+  official_profile_url: https://www.unibo.it/sitoweb/erika.scavetta2/en
+  profile_url_type: individual
