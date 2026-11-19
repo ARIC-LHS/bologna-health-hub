@@ -26,6 +26,8 @@
   surname: Mercolini
   sort_name: Mercolini, Laura Mercolini
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/laura.mercolini/en
+  profile_url_type: individual
 - id: maria-giulia-bacalini
   name: Maria Giulia Bacalini
   institution_id: unibo
@@ -39,6 +41,8 @@
   surname: Bacalini
   sort_name: Bacalini, Maria Giulia Bacalini
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/mariagiuli.bacalini2/en
+  profile_url_type: individual
 - id: maria-chiara-pelleri
   name: Maria Chiara Pelleri
   institution_id: unibo
@@ -52,6 +56,8 @@
   surname: Pelleri
   sort_name: Pelleri, Maria Chiara Pelleri
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/mariachiara.pelleri2/en
+  profile_url_type: individual
 - id: angela-montanari
   name: Angela Montanari
   institution_id: unibo
@@ -65,6 +71,8 @@
   surname: Montanari
   sort_name: Montanari, Angela Montanari
   department: Department of Statistical Sciences "Paolo Fortunati"
+  official_profile_url: https://www.unibo.it/sitoweb/angela.montanari/en
+  profile_url_type: individual
 - id: monica-baiula
   name: Monica Baiula
   institution_id: unibo
@@ -93,6 +101,8 @@
   surname: Bedini
   sort_name: Bedini, Andrea Bedini
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/andrea.bedini/en
+  profile_url_type: individual
 - id: sabrina-valente
   name: Sabrina Valente
   institution_id: unibo
@@ -121,6 +131,8 @@
   surname: Zanna
   sort_name: Zanna, Claudia Zanna
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/claudia.zanna/en
+  profile_url_type: individual
 - id: marco-candela
   name: Marco Candela
   institution_id: unibo
@@ -134,6 +146,8 @@
   surname: Candela
   sort_name: Candela, Marco Candela
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/marco.candela/en
+  profile_url_type: individual
 - id: francesca-maffei
   name: Francesca Maffei
   institution_id: unibo
@@ -147,6 +161,8 @@
   surname: Maffei
   sort_name: Maffei, Francesca Maffei
   department: Department for Life Quality Studies
+  official_profile_url: https://www.unibo.it/sitoweb/francesca.maffei/en
+  profile_url_type: individual
 - id: monica-forni
   name: Monica Forni
   institution_id: unibo
@@ -220,6 +236,8 @@
   surname: Caliceti
   sort_name: Caliceti, Cristiana Caliceti
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/cristiana.caliceti/en
+  profile_url_type: individual
 - id: antonello-lorenzini
   name: Antonello Lorenzini
   institution_id: unibo
@@ -233,6 +251,8 @@
   surname: Lorenzini
   sort_name: Lorenzini, Antonello Lorenzini
   department: Department of Biomedical and Neuromotor Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/antonello.lorenzini/en
+  profile_url_type: individual
 - id: enrico-valli
   name: Enrico Valli
   institution_id: unibo
@@ -246,6 +266,8 @@
   surname: Valli
   sort_name: Valli, Enrico Valli
   department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/enrico.valli4/en
+  profile_url_type: individual
 - id: luca-mulazzani
   name: Luca Mulazzani
   institution_id: unibo
@@ -259,6 +281,8 @@
   surname: Mulazzani
   sort_name: Mulazzani, Luca Mulazzani
   department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/luca.mulazzani/en
+  profile_url_type: individual
 - id: francesco-decataldo
   name: Francesco Decataldo
   institution_id: unibo
@@ -272,6 +296,8 @@
   surname: Decataldo
   sort_name: Decataldo, Francesco Decataldo
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/francesco.decataldo2/en
+  profile_url_type: individual
 - id: giulia-maesano
   name: Giulia Maesano
   institution_id: unibo
@@ -285,6 +311,8 @@
   surname: Maesano
   sort_name: Maesano, Giulia Maesano
   department: Department of Agricultural and Food Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/giulia.maesano2/en
+  profile_url_type: individual
 - id: ohad-zivan
   name: Ohad Zivan
   institution_id: unibo
@@ -313,6 +341,8 @@
   surname: Zambelli
   sort_name: Zambelli, Barbara Zambelli
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/barbara.zambelli/en
+  profile_url_type: individual
 - id: luca-mazzei
   name: Luca Mazzei
   institution_id: unibo
@@ -326,6 +356,8 @@
   surname: Mazzei
   sort_name: Mazzei, Luca Mazzei
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/luca.mazzei2/en
+  profile_url_type: individual
 - id: maddalena-giannella
   name: Maddalena Giannella
   institution_id: unibo
@@ -339,6 +371,8 @@
   surname: Giannella
   sort_name: Giannella, Maddalena Giannella
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/maddalena.giannella/en
+  profile_url_type: individual
 - id: arrigo-francesco-giuseppe-cicero
   name: Arrigo Francesco Giuseppe Cicero
   institution_id: unibo
@@ -352,6 +386,8 @@
   surname: Cicero
   sort_name: Cicero, Arrigo Francesco Giuseppe Cicero
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/arrigo.cicero/en
+  profile_url_type: individual
 - id: roberto-mandrioli
   name: Roberto Mandrioli
   institution_id: unibo
@@ -395,6 +431,8 @@
   surname: Bisi
   sort_name: Bisi, Maria Cristina Bisi
   department: Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi"
+  official_profile_url: https://www.unibo.it/sitoweb/mariacristina.bisi/en
+  profile_url_type: individual
 - id: igor-diemberger
   name: Igor Diemberger
   institution_id: unibo
@@ -408,6 +446,8 @@
   surname: Diemberger
   sort_name: Diemberger, Igor Diemberger
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/igor.diemberger/en
+  profile_url_type: individual
 - id: olivia-manfrini
   name: Olivia Manfrini
   institution_id: unibo
@@ -436,6 +476,8 @@
   surname: Ravaioli
   sort_name: Ravaioli, Federico Ravaioli
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/f.ravaioli/en
+  profile_url_type: individual
 - id: sara-borgomaneri
   name: Sara Borgomaneri
   institution_id: unibo
@@ -464,6 +506,8 @@
   surname: Palmerini
   sort_name: Palmerini, Luca Palmerini
   department: Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi"
+  official_profile_url: https://www.unibo.it/sitoweb/luca.palmerini/en
+  profile_url_type: individual
 - id: luciano-potena
   name: Luciano Potena
   institution_id: unibo
@@ -477,6 +521,8 @@
   surname: Potena
   sort_name: Potena, Luciano Potena
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/luciano.potena2/en
+  profile_url_type: individual
 - id: giorgia-comai
   name: Giorgia Comai
   institution_id: unibo
@@ -490,6 +536,8 @@
   surname: Comai
   sort_name: Comai, Giorgia Comai
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/giorgia.comai2/en
+  profile_url_type: individual
 - id: marina-tadolini
   name: Marina Tadolini
   institution_id: unibo
@@ -503,6 +551,8 @@
   surname: Tadolini
   sort_name: Tadolini, Marina Tadolini
   department: Department of Medical and Surgical Sciences
+  official_profile_url: https://www.unibo.it/sitoweb/marina.tadolini/en
+  profile_url_type: individual
 - id: michele-protti
   name: Michele Protti
   institution_id: unibo
@@ -546,6 +596,8 @@
   surname: Tolomelli
   sort_name: Tolomelli, Alessandra Tolomelli
   department: Department of Chemistry "Giacomo Ciamician"
+  official_profile_url: https://www.unibo.it/sitoweb/alessandra.tolomelli/en
+  profile_url_type: individual
 - id: alessandra-bolotta
   name: Alessandra Bolotta
   institution_id: aoubo
@@ -559,6 +611,8 @@
   surname: Bolotta
   sort_name: Bolotta, Alessandra Bolotta
   department: IRCCS Azienda Ospedaliero-Universitaria di Bologna
+  official_profile_url: https://www.aosp.bo.it/
+  profile_url_type: institution
 - id: alessandra-stancari
   name: Alessandra Stancari
   institution_id: aoubo
@@ -572,6 +626,8 @@
   surname: Stancari
   sort_name: Stancari, Alessandra Stancari
   department: Clinical Pharmacy, Production and Research Unit · IRCCS Azienda Ospedaliero-Universitaria di Bologna
+  official_profile_url: https://www.aosp.bo.it/il-policlinico/professionisti/alessandra-stancari
+  profile_url_type: individual
 - id: maria-trapanese
   name: Maria Trapanese
   institution_id: aoubo
@@ -585,6 +641,8 @@
   surname: Trapanese
   sort_name: Trapanese, Maria Trapanese
   department: Clinical Pharmacy, Production and Research Unit · IRCCS Azienda Ospedaliero-Universitaria di Bologna
+  official_profile_url: https://www.aosp.bo.it/il-policlinico/professionisti/maria-trapanese
+  profile_url_type: individual
 - id: marco-montevecchi
   name: Marco Montevecchi
   institution_id: unibo
@@ -602,6 +660,8 @@
   surname: Montevecchi
   sort_name: Montevecchi, Marco Montevecchi
   department: Department of Biomedical and Neuromotor Sciences · University Dental Clinic, Periodontology Unit
+  official_profile_url: https://www.unibo.it/sitoweb/m.montevecchi/en
+  profile_url_type: individual
 - id: luisa-sambati
   name: Luisa Sambati
   institution_id: isnb
@@ -615,6 +675,8 @@
   surname: Sambati
   sort_name: Sambati, Luisa Sambati
   department: U.O.C. Neurology Clinic · Metropolitan Neurological Network (NEUROMET)
+  official_profile_url: https://www.isnb.it/
+  profile_url_type: institution
 - id: gian-luca-pirazzoli
   name: Gian Luca Pirazzoli
   institution_id: isnb
@@ -628,6 +690,8 @@
   surname: Pirazzoli
   sort_name: Pirazzoli, Gian Luca Pirazzoli
   department: IRCCS Istituto delle Scienze Neurologiche di Bologna
+  official_profile_url: https://www.ausl.bologna.it/
+  profile_url_type: institution
 - id: silvia-cetrullo
   name: Silvia Cetrullo
   institution_id: unibo
@@ -706,6 +770,8 @@
   surname: Nonino
   sort_name: Nonino, Francesco Nonino
   department: Epidemiology and Statistics Unit · IRCCS Istituto delle Scienze Neurologiche di Bologna
+  official_profile_url: https://www.ausl.bologna.it/
+  profile_url_type: institution
 - id: patrizia-brigidi
   name: Patrizia Brigidi
   institution_id: unibo
@@ -875,6 +941,8 @@
   surname: Monti
   sort_name: Monti, Barbara Monti
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/b.monti/en
+  profile_url_type: individual
 - id: francesca-massenzio
   name: Francesca Massenzio
   institution_id: unibo
@@ -888,6 +956,8 @@
   surname: Massenzio
   sort_name: Massenzio, Francesca Massenzio
   department: Department of Pharmacy and Biotechnology
+  official_profile_url: https://www.unibo.it/sitoweb/francesca.massenzio2/en
+  profile_url_type: individual
 - id: laura-anderlucci
   name: Laura Anderlucci
   institution_id: unibo
@@ -966,6 +1036,8 @@
   surname: Garofalo
   sort_name: Garofalo, Cecilia Garofalo
   department: Bologna Neuroscience Biobank (BNB) · IRCCS Istituto delle Scienze Neurologiche di Bologna
+  official_profile_url: https://www.isnb.it/
+  profile_url_type: institution
 - id: alessandro-perin
   name: Alessandro Perin
   institution_id: isnb
@@ -979,6 +1051,8 @@
   surname: Perin
   sort_name: Perin, Alessandro Perin
   department: Neurosurgery Unit · IRCCS Istituto delle Scienze Neurologiche di Bologna
+  official_profile_url: https://www.isnb.it/
+  profile_url_type: institution
 - id: isacco-gualandi
   name: Isacco Gualandi
   institution_id: unibo
